@@ -3,7 +3,7 @@ import Container from "../../../components/Container";
 
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 w-full  z-50">
+    <header className="absolute top-0 left-0 w-full  z-50">
       <Container>
         <nav className=" py-3">
           <div className="flex flex-wrap justify-between items-center max-w-screen">
