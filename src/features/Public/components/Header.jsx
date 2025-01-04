@@ -3,14 +3,18 @@ import Container from "../../../components/Container";
 
 const Header = () => {
   return (
-    <header className="absolute top-0 left-0 w-full  z-50">
+
+
+    <header className="absolute pt-5 top-0 left-0 w-full  z-50">
+
+
       <Container>
-        <nav className=" py-3">
+        <nav className="">
           <div className="flex flex-wrap justify-between items-center max-w-screen">
             <Link to="/" className=" hover:opacity-80">
               <img
                 src="/src/assets/Hotel Profile website/Lux 2.svg"
-                className="size-24 lg:size-28 2xl:size-36"
+                className=" h-[69px] "
                 alt="Lux 2 logo"
               />
              

@@ -1,7 +1,7 @@
 import { lazy, Suspense } from "react";
 import PageLoading from "../components/PageLoading";
-
 const LoginPage = lazy(() => import("../features/auth/pages/LoginPage"));
+
 
 const authRoute = [
   {
@@ -11,7 +11,9 @@ const authRoute = [
         <LoginPage />
       </Suspense>
     ),
+
   },
+
 ];
 
 export default authRoute;

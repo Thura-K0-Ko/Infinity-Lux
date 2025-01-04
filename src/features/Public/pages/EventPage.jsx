@@ -1,6 +1,7 @@
 import React from "react";
 
 import HeroSection from "../components/HeroSection";
+
 import Container from "../../../components/Container";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi2";
@@ -49,6 +50,7 @@ const EventPage = () => {
          </div>
       </section>
    );
+
 };
 
 export default EventPage;
