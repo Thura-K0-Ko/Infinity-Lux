@@ -11,7 +11,10 @@ const authRoute = [
         <LoginPage />
       </Suspense>
     ),
-  }
+
+  },
+
+
 ];
 
 export default authRoute;

@@ -8,8 +8,10 @@ export default {
   ],
   theme: {
     fontFamily: {
+
       heading: ["Gilda Display", "serif"], // For headings
       body: ["Urbanist", "sans-serif"], // For body text
+
     },
     extend: {
       colors: {

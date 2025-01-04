@@ -1,4 +1,5 @@
 import { lazy } from "react";
+const Booking = lazy(() => import("../features/Public/pages/BookingPage"))
 const EventPage = lazy(() => import("../features/Public/pages/EventPage"));
 const Rooms = lazy(() => import("../features/Public/pages/RoomsPage"));
 const BlogPage = lazy(() => import("../features/Public/pages/BlogPage"));
@@ -17,6 +18,10 @@ const publicRoute = [
   {
     path: "/rooms",
     element: <Rooms />,
+  },
+  {
+    path: "/booking",
+    element: <Booking />,
   },
   {
     path: "/about-us",
