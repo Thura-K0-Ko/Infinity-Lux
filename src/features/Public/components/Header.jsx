@@ -4,7 +4,9 @@ import Container from "../../../components/Container";
 const Header = () => {
   return (
 
+
     <header className="absolute pt-5 top-0 left-0 w-full  z-50">
+
 
       <Container>
         <nav className="">

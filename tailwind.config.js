@@ -9,13 +9,20 @@ export default {
   theme: {
     fontFamily: {
 
+
       heading: ["Gilda Display", "serif"], // For headings
       body: ["Urbanist", "sans-serif"], // For body text
+
 
     },
     extend: {
       colors: {
         customPurple: "#6A669D", // Add my custom color
+
+        eventBg: "#EFF2F7",
+        eventDisplay: "#6A669D",
+        eventTitle: "#141414",
+
         customGray: {
           100: "#E6E5F2", // Lightest shade
           200: "#CFCDE5",
@@ -27,6 +34,7 @@ export default {
           800: "#383454",
           900: "#252238", // Darkest shade
         },
+
       },
     },
   },
