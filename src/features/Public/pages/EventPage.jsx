@@ -1,6 +1,8 @@
 import React from "react";
 
 import HeroSection from "../components/HeroSection";
+import EventCart from "../components/EventCart";
+import Container from "../../../components/Container";
 
 const EventPage = () => {
   return (
@@ -11,6 +13,9 @@ const EventPage = () => {
         }
         titles={["Events"]}
       />
+      <Container>
+        <EventCart />
+      </Container>
     </section>
   );
 };
