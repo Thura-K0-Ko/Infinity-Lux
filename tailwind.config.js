@@ -8,10 +8,14 @@ export default {
   theme: {
     fontFamily: {
       sans: ["Montserrat", "Padauk", "sans-serif"],
+      heading: ["serif"]
     },
     extend: {
       colors: {
         customPurple: "#6A669D", // Add my custom color
+        eventBg: "#EFF2F7",
+        eventDisplay: "#6A669D",
+        eventTitle: "#141414",
       },
     },
   },
