@@ -8,7 +8,7 @@ export default {
   theme: {
     fontFamily: {
       sans: ["Montserrat", "Padauk", "sans-serif"],
-      serif: ["serif"],
+      heading: ["serif"],
     },
     extend: {
       colors: {

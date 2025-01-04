@@ -8,7 +8,7 @@ const Booking = () => {
          backgroundImage: "url('/src/assets/Hotel Profile website/image-6.png')"
       },
       boxShadow: {
-         boxShadow: "1px 2px 2px 1px #888"
+         boxShadow: "0 2px 1px 2px #888"
       }
    }
    return (
@@ -27,80 +27,80 @@ const Booking = () => {
          <Container>
          <div className="grid grid-cols-3 gap-5 my-20">
             <div className="col-span-2">
-               <form className="grid grid-cols-2 gap-5">
-                  <h3 className="col-span-2 font-serif text-3xl">Billing Details</h3>
+               <h3 className="font-heading text-[40px] mb-9">Billing Details</h3>
+               <form className="grid grid-cols-2 gap-8 mb-[60px]">
                   <div className="col-span-1 flex flex-col">
-                     <label htmlFor="fname" className="font-serif text-2xl">First Name *</label>
+                     <label htmlFor="fname" className="font-heading text-2xl">First Name *</label>
                      <input type="text" id="fname" placeholder="First name ..." className="p-2 rounded" />
                   </div>
                   <div className="col-span-1 flex flex-col">
-                     <label htmlFor="lname" className="font-serif text-2xl">Last Name *</label>
+                     <label htmlFor="lname" className="font-heading text-2xl">Last Name *</label>
                      <input type="text" id="lname" placeholder="Last name ..." className="p-2 rounded" />
                   </div>
                   <div className="col-span-1 flex flex-col">
-                     <label htmlFor="country" className="font-serif text-2xl">Country *</label>
+                     <label htmlFor="country" className="font-heading text-2xl">Country *</label>
                      <input type="text" id="country" placeholder="Country ..." className="p-2 rounded" />
                   </div>
                   <div className="col-span-1 flex flex-col">
-                     <label htmlFor="city" className="font-serif text-2xl">Town/City *</label>
+                     <label htmlFor="city" className="font-heading text-2xl">Town/City *</label>
                      <input type="text" id="city" placeholder="Town/City ..." className="p-2 rounded" />
                   </div>
                   <div className="col-span-1 flex flex-col">
-                     <label htmlFor="email" className="font-serif text-2xl">Email *</label>
+                     <label htmlFor="email" className="font-heading text-2xl">Email *</label>
                      <input type="text" id="email" placeholder="Email ..." className="p-2 rounded" />
                   </div>
                   <div className="col-span-1 flex flex-col">
-                     <label htmlFor="phone" className="font-serif text-2xl">Phone *</label>
+                     <label htmlFor="phone" className="font-heading text-2xl">Phone *</label>
                      <input type="text" id="phone" placeholder="Phone ..." className="p-2 rounded" />
                   </div>
                   <div className="col-span-2 flex flex-col">
-                     <label htmlFor="address" className="font-serif text-2xl">Address *</label>
+                     <label htmlFor="address" className="font-heading text-2xl">Address *</label>
                      <input type="text" id="address" placeholder="Address ..." className="p-2 rounded" />
                   </div>
                   <div className="col-span-2 flex flex-col">
-                     <label htmlFor="request" className="font-serif text-2xl">Requests (Optional) *</label>
+                     <label htmlFor="request" className="font-heading text-2xl">Requests (Optional) *</label>
                      <textarea type="text" id="request" placeholder="Please enter your requests here. (Optional)" className="p-2 rounded h-44" />
                   </div>
-                  <div className="col-span-2 flex flex-col gap-2">
-                     <label className="font-serif text-3xl col-span-2">Select Payment Methods</label>
-                     <label htmlFor="arrival" className="flex items-center gap-2 border rounded p-2">
-                        <input type="radio" id="arrival" name="payment" />
-                        <img className="h-[64px]" src="/src/assets/Hotel Profile website/ic-payments-payment_on_delivery-xs 1.png" alt="payment on delivery" />
-                        Payment On Arrival
-                     </label>
-                     <label htmlFor="paypal" className="flex items-center gap-2 border rounded p-2">
-                        <input type="radio" id="paypal" name="payment" />
-                        <img className="h-[64px]" src="/src/assets/Hotel Profile website/paypal-light-mode 1.png" alt="payment on delivery" />
-                        Pay With PayPal
-                     </label>
-                     <label htmlFor="credit" className="flex items-center gap-2 border rounded p-2">
-                        <input type="radio" id="credit" name="payment" />
-                        <img className="h-[64px]" src="/src/assets/Hotel Profile website/mastercard 1.png" alt="payment on delivery" />
-                        Credit Or Debit Card
-                     </label>
-                  </div>
-                  <div>
-                     <button className="bg-customPurple w-full py-3">Check Out</button>
-                  </div>
                </form>
+               <h3 className="font-heading text-[40px] mb-5">Select Payment Methods</h3>
+               <div className="flex flex-col gap-3 mb-14">
+                     <label htmlFor="arrival" className="flex items-center gap-2 border border-gray-500 rounded p-2">
+                        <input type="radio" id="arrival" name="payment" />
+                        <img className="h-[72px]" src="/src/assets/Hotel Profile website/ic-payments-payment_on_delivery-xs 1.png" alt="payment on delivery" />
+                        <span className="text-xl">Payment On Arrival</span>
+                     </label>
+                     <label htmlFor="paypal" className="flex items-center gap-2 border border-gray-500 rounded p-2">
+                        <input type="radio" id="paypal" name="payment" />
+                        <img className="h-[72px]" src="/src/assets/Hotel Profile website/paypal-light-mode 1.png" alt="payment on delivery" />
+                        <span className="text-xl">Pay With PayPal</span>
+                     </label>
+                     <label htmlFor="credit" className="flex items-center gap-2 border border-gray-500 rounded p-2">
+                        <input type="radio" id="credit" name="payment" />
+                        <img className="h-[72px]" src="/src/assets/Hotel Profile website/mastercard 1.png" alt="payment on delivery" />
+                        <span className="text-xl">Credit Or Debit Card</span>
+                     </label>
+               </div>
+               <div>
+                  <button className="bg-customPurple text-2xl/6 w-1/2 px-10 py-5">Check Out</button>
+               </div>
             </div>
 
             <div className="col-span-1">
                <div className="" style={styles.boxShadow}>
-                  <h3 className="font-serif text-2xl text-white bg-customPurple px-5 py-3">Your Reservation</h3>
-                  <div className="text-white font-serif text-xl h-[230px] bg-cover p-5" style={styles.deluxeRoomBg}>
+                  <h3 className="font-heading text-[32px] text-white bg-customPurple p-5">Your Reservation</h3>
+                  <div className="text-white font-heading text-xl h-[230px] bg-cover p-5" style={styles.deluxeRoomBg}>
                      <p>Deluxe Room</p>
                   </div>
-                  <div className="flex flex-col gap-4 p-8 mb-5">
-                     <p><img className="inline" src="/src/assets/Hotel Profile website/calendar-days.svg" alt="calendar" /> Check-in : 28 Dec 2024, Saturday</p>
-                     <p><img className="inline" src="/src/assets/Hotel Profile website/calendar-days.svg" alt="calendar" /> Check-out : 30 Dec 2024, Monday</p>
-                     <p><img className="inline" src="/src/assets/Hotel Profile website/bed-double.svg" alt="bed-double" /> Room : 1 x Deluxe Room</p>
-                     <p><img className="inline" src="/src/assets/Hotel Profile website/users.svg" alt="bed-double" /> Guests : 2 People</p>
-                     <p><img className="inline" src="/src/assets/Hotel Profile website/calendar-check.svg" alt="bed-double" /> Nights : 2 Nights</p>
+                  <div className="flex flex-col gap-4 p-7 mb-20">
+                     <p className="flex items-center gap-1"><img src="/src/assets/Hotel Profile website/calendar-days.svg" alt="calendar" /> <span className="">Check-in : 28 Dec 2024, Saturday</span></p>
+                     <p className="flex items-center gap-1"><img src="/src/assets/Hotel Profile website/calendar-days.svg" alt="calendar" /> <span className="">Check-out : 30 Dec 2024, Monday</span></p>
+                     <p className="flex items-center gap-1"><img src="/src/assets/Hotel Profile website/bed-double.svg" alt="bed-double" /> <span className="">Room : 1 x Deluxe Room</span></p>
+                     <p className="flex items-center gap-1"><img src="/src/assets/Hotel Profile website/users.svg" alt="bed-double" /> <span className="">Guests : 2 People</span></p>
+                     <p className="flex items-center gap-1"><img src="/src/assets/Hotel Profile website/calendar-check.svg" alt="bed-double" /> <span className="">Nights : 2 Nights</span></p>
                   </div>
                </div>
                <div className="" style={styles.boxShadow}>
-                  <h3 className="font-serif text-2xl text-white bg-customPurple px-5 py-3">Total</h3>
+                  <h3 className="font-heading text-3xl/8 text-white bg-customPurple p-5">Total</h3>
                   <div className="p-4">
                      <div className="flex flex-col gap-3">
                         <div className="flex justify-between items-center">
