@@ -1,5 +1,6 @@
 import AboutInfinityLux from "./AboutInfinityLux";
 import EventCart from "./EventCart";
+import NewYear from "./NewYear";
 
 const HomeCart = () => {
   return (
@@ -15,6 +16,7 @@ const HomeCart = () => {
         secondImg={"/src/assets/Hotel Profile website/image-30.png"}
       />
       <EventCart />
+      <NewYear />
     </div>
   );
 };
