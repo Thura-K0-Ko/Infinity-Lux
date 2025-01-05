@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./index.html",
@@ -7,13 +8,27 @@ export default {
   ],
   theme: {
     fontFamily: {
-      sans: ["Montserrat", "Padauk", "sans-serif"],
-      heading: ["serif"]
+      heading: ["Gilda Display", "serif"], // For headings
+      body: ["Urbanist", "sans-serif"], // For body text
     },
     extend: {
       colors: {
         customPurple: "#6A669D", // Add my custom color
         roomBG: "#EFF2F7",
+        eventBg: "#EFF2F7",
+        eventDisplay: "#6A669D",
+        eventTitle: "#141414",
+        customGray: {
+          100: "#E6E5F2", // Lightest shade
+          200: "#CFCDE5",
+          300: "#B8B5D7",
+          400: "#A29DC9",
+          500: "#6A669D", // Base color
+          600: "#5E5A8C",
+          700: "#4B4770",
+          800: "#383454",
+          900: "#252238", // Darkest shade
+        },
       },
     },
   },
