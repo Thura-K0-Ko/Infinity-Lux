@@ -1,6 +1,7 @@
 import AboutInfinityLux from "./AboutInfinityLux";
 import CustomerReview from "./CustomerReview";
 import EventCart from "./EventCart";
+import HotelArticle from "./HotelArticle";
 import NewYear from "./NewYear";
 
 const HomeCart = () => {
@@ -19,6 +20,7 @@ const HomeCart = () => {
       <EventCart />
       <NewYear />
       <CustomerReview />
+      <HotelArticle />
     </div>
   );
 };
