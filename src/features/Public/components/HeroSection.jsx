@@ -4,7 +4,7 @@ import Header from "./Header";
 const HeroSection = ({ heroImg, subtitle, titles, btnText }) => {
   console.log(titles);
   return (
-    <div className="relative min-h-[754px] flex flex-col items-center justify-center">
+    <div className="relative lg:min-h-[580px] xl:min-h-[680px] 2xl:min-h-[754px] flex flex-col items-center justify-center">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
@@ -27,7 +27,7 @@ const HeroSection = ({ heroImg, subtitle, titles, btnText }) => {
               titles.map((title) => (
                 <h1
                   key={title}
-                  className="text-white text-8xl font-heading font-normal"
+                  className="text-white lg:text-6xl xl:text-7xl 2xl:text-8xl  font-heading font-normal"
                 >
                   {title}
                 </h1>
@@ -35,7 +35,7 @@ const HeroSection = ({ heroImg, subtitle, titles, btnText }) => {
           </div>
 
           {btnText && (
-            <button className="px-8 py-5 border-2  border-white text-white text-2xl font-semibold hover:bg-white hover:text-black transition-colors rounded">
+            <button className=" lg:px-8   2xl:px-10  lg:py-4  2xl:py-5 border-2  border-white text-white text-2xl font-semibold hover:bg-white hover:text-black transition-colors rounded">
               {btnText}
             </button>
           )}
