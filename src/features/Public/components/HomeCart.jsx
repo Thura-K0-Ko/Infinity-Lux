@@ -1,4 +1,5 @@
 import AboutInfinityLux from "./AboutInfinityLux";
+import CustomerReview from "./CustomerReview";
 import EventCart from "./EventCart";
 import NewYear from "./NewYear";
 
@@ -17,6 +18,7 @@ const HomeCart = () => {
       />
       <EventCart />
       <NewYear />
+      <CustomerReview />
     </div>
   );
 };
