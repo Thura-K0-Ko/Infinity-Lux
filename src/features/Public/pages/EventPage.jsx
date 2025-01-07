@@ -38,8 +38,8 @@ const EventPage = () => {
                         <img className="h-[530px] w-auto" src={event.img} alt={event.title} />
                      </div>
                      <div className={`absolute top-16 ${event.id%2 !== 0 && "right-0"} w-[630px] bg-white p-8`}>
-                        <h3 className="text-eventDisplay text-2xl/6 mb-6">{event.display}</h3>
-                        <h2 className="text-eventTitle font-heading text-5xl mb-9">{event.title}</h2>
+                        <h3 className="text-display text-2xl/6 mb-6">{event.display}</h3>
+                        <h2 className="text-title font-heading text-5xl mb-9">{event.title}</h2>
                         <p className="text-gray-500 text-xl/5 mb-9">{event.description}</p>
                         <button className="bg-customPurple text-white px-10 py-5">View Details</button>
                      </div>
