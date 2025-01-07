@@ -3,6 +3,7 @@ import CustomerReview from "./CustomerReview";
 import EventCart from "./EventCart";
 import HotelArticle from "./HotelArticle";
 import NewYear from "./NewYear";
+import SubscribeBox from "./SubscribeBox";
 
 const HomeCart = () => {
   return (
@@ -20,7 +21,11 @@ const HomeCart = () => {
       <EventCart />
       <NewYear />
       <CustomerReview />
+
+      <SubscribeBox />
+
       <HotelArticle />
+
     </div>
   );
 };
