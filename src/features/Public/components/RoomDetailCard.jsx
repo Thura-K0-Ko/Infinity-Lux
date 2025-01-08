@@ -1,10 +1,12 @@
 import React from "react";
 import useRoomStore from "../../stores/useRoomStore";
 import { Link, useParams } from "react-router-dom";
+import useRoomFeatureStore from "../../stores/useRoomFeatureStore";
 
 const RoomDetailCard = () => {
    const { rooms } = useRoomStore();
    const params = useParams();
+   const { features } = useRoomFeatureStore();
    
    const roomDetail = rooms.filter((room) => room.id == params.id)[0];
 
@@ -48,23 +50,27 @@ const RoomDetailCard = () => {
             ))}
          </div>
          <div>
-            <h2 className="font-heading text-title font-normal text-[40px] mb-8">
-               Room Features
-            </h2>
-            <div className="grid grid-cols-4 gap-x-5 gap-y-6">
-               {roomDetail.detailFeatures.map((ele, index) => (
-                  <div
-                     key={index}
-                     className="flex items-center gap-x-5 gap-y-6"
-                  >
-                     <img src={ele.svg} />
-                     <span className="text-title text-center text-xl font-light tracking-[0.1px]">
-                        {ele.content}
-                     </span>
-                  </div>
-               ))}
+         <h2 className="font-heading text-title font-normal text-[40px] mb-8">Room Features</h2>
+         <div className="grid grid-cols-4 gap-x-5 gap-y-6">
+            {features.map((ele, index) => (
+               <div
+                  key={index}
+                  className="flex items-center gap-x-5 gap-y-6"
+               >
+                  <img src={ele.svg} />
+                  <span className="text-title text-center text-xl font-light tracking-[0.1px]">
+                     {ele.content}
+                  </span>
+               </div>
+            ))}
+            <div className="flex items-center gap-x-5 gap-y-6">
+               <img src="/src/assets/Hotel Profile website/axis-3d-detail.svg" />
+               <span className="text-title text-center text-xl font-light tracking-[0.1px]">
+                  {roomDetail.services.area}
+               </span>
             </div>
          </div>
+      </div>
          <div>
             <h2 className="text-title font-heading text-[40px] font-normal mb-8">
                Children

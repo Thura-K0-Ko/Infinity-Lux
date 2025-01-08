@@ -37,11 +37,6 @@ const useRoomFeatureStore = create((set) => ({
          svg: "/src/assets/Hotel Profile website/bed-double-detail.svg",
          content: "Twin Bed",
       },
-      {
-         id: 8,
-         svg: "/src/assets/Hotel Profile website/axis-3d-detail.svg",
-         content: "",
-      }
    ],
 }));
 

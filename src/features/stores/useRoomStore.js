@@ -18,40 +18,6 @@ const useRoomStore = create((set) => ({
          },
          detailImgs: ["/src/assets/Hotel Profile website/image-12.png","/src/assets/Hotel Profile website/image-11.png","/src/assets/Hotel Profile website/image-10.png"],
          detailContents: ["The essence of Yangon has been interpreted through the eyes of renowned Burmese designers to create a synergy of contrasts inspired by nature and the elements. For Cozy, the decor theme includes details of metal, wood and earth.","Features high-quality furniture such as a plush king or queen-sized bed with premium bedding, a stylish armchair or sofa, a work desk, and bedside tables. Modern and luxurious decor creates a welcoming atmosphere."],
-         detailFeatures: [
-            {
-               svg: "/src/assets/Hotel Profile website/tv.svg",
-               content: "Television",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/bath.svg",
-               content: "Bathtub",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/sofa.svg",
-               content: "Sofa",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/users-2-detail.svg",
-               content: "1-2 People",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/wifi-detail.svg",
-               content: "Free Wifi",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/air-vent.svg",
-               content: "Air-Con",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/bed-double-detail.svg",
-               content: "Twin Bed",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/axis-3d-detail.svg",
-               content: "398 Sqft",
-            }
-         ],
       },
       {
          id: 2,
@@ -69,40 +35,6 @@ const useRoomStore = create((set) => ({
          },
          detailImgs: ["/src/assets/Hotel Profile website/image-12.png","/src/assets/Hotel Profile website/image-11.png","/src/assets/Hotel Profile website/image-10.png"],
          detailContents: ["Premier Room is especially spacious and comfort, and overlooking stunning garden view. Each room has a cozy living area, generously sized working desk and marble bathroom with bathtub and separate walk-in shower.","Cutting-edge technology, including a large flat-screen TV with international channels and streaming capabilities, high-speed Wi-Fi, and bedside controls for lighting and climate. Some premier rooms may include a sound system or a smart speaker."],
-         detailFeatures: [
-            {
-               svg: "/src/assets/Hotel Profile website/tv.svg",
-               content: "Television",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/bath.svg",
-               content: "Bathtub",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/sofa.svg",
-               content: "Sofa",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/users-2-detail.svg",
-               content: "1-2 People",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/wifi-detail.svg",
-               content: "Free Wifi",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/air-vent.svg",
-               content: "Air-Con",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/bed-double-detail.svg",
-               content: "Twin Bed",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/axis-3d-detail.svg",
-               content: "452 Sqft",
-            }
-         ],
       },
       {
          id: 3,
@@ -120,40 +52,6 @@ const useRoomStore = create((set) => ({
          },
          detailImgs: ["/src/assets/Hotel Profile website/image-12.png","/src/assets/Hotel Profile website/image-11.png","/src/assets/Hotel Profile website/image-10.png"],
          detailContents: ["Executive room offers spectacular city views and provides fall-to-ceiling window overlooking the hotel greenery and pools. The room are furnished with comfortable bedding, spacious living and working space.","Well-appointed with a walk-in shower or combination shower and tub, luxury toiletries, soft towels, and amenities such as bathrobes and slippers. Access to an executive lounge, offering complimentary breakfast, evening cocktails, and all-day refreshments."],
-         detailFeatures: [
-            {
-               svg: "/src/assets/Hotel Profile website/tv.svg",
-               content: "Television",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/bath.svg",
-               content: "Bathtub",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/sofa.svg",
-               content: "Sofa",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/users-2-detail.svg",
-               content: "1-2 People",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/wifi-detail.svg",
-               content: "Free Wifi",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/air-vent.svg",
-               content: "Air-Con",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/bed-double-detail.svg",
-               content: "Twin Bed",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/axis-3d-detail.svg",
-               content: "484 Sqft",
-            }
-         ],
       },
       {
          id: 4,
@@ -171,40 +69,6 @@ const useRoomStore = create((set) => ({
          },
          detailImgs: ["/src/assets/Hotel Profile website/image-12.png","/src/assets/Hotel Profile website/image-11.png","/src/assets/Hotel Profile website/image-10.png"],
          detailContents: ["Executive suite has a separate living room that includes a spacious working area, a huge bathroom with a bathtub and rain shower enclosure, and there is a powder room for your guests.","Master bedroom with a king-sized bed, premium linens, and plush pillows. Living room with a sofa, armchairs, coffee table, and stylish decor.Multiple flat-screen TVs, often one in the living area and another in the bedroom. Smart room controls for lighting, temperature, and curtains."],
-         detailFeatures: [
-            {
-               svg: "/src/assets/Hotel Profile website/tv.svg",
-               content: "Television",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/bath.svg",
-               content: "Bathtub",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/sofa.svg",
-               content: "Sofa",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/users-2-detail.svg",
-               content: "1-2 People",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/wifi-detail.svg",
-               content: "Free Wifi",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/air-vent.svg",
-               content: "Air-Con",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/bed-double-detail.svg",
-               content: "Twin Bed",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/axis-3d-detail.svg",
-               content: "535 Sqft",
-            }
-         ],
       },
       {
          id: 5,
@@ -222,40 +86,6 @@ const useRoomStore = create((set) => ({
          },
          detailImgs: ["/src/assets/Hotel Profile website/image-12.png","/src/assets/Hotel Profile website/image-11.png","/src/assets/Hotel Profile website/image-10.png"],
          detailContents: ["Family Suite has a luxury apartment-style ambience suitable for families with children. There is a kitchen that is equipped with everything needed for preparing family meals. The living room adjacent to the door leading to the restful bedroom.","Master bedroom with a king-sized or queen-sized bed. Additional beds or bunk beds for children, or a pull-out sofa in the living area. Multiple flat-screen TVs, often one in the main bedroom and another in the living area. High-speed Wi-Fi to keep the family connected."],
-         detailFeatures: [
-            {
-               svg: "/src/assets/Hotel Profile website/tv.svg",
-               content: "Television",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/bath.svg",
-               content: "Bathtub",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/sofa.svg",
-               content: "Sofa",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/users-2-detail.svg",
-               content: "1-2 People",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/wifi-detail.svg",
-               content: "Free Wifi",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/air-vent.svg",
-               content: "Air-Con",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/bed-double-detail.svg",
-               content: "Twin Bed",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/axis-3d-detail.svg",
-               content: "904 Sqft",
-            }
-         ],
       },
       {
          id: 6,
@@ -273,40 +103,6 @@ const useRoomStore = create((set) => ({
          },
          detailImgs: ["/src/assets/Hotel Profile website/image-12.png","/src/assets/Hotel Profile website/image-11.png","/src/assets/Hotel Profile website/image-10.png"],
          detailContents: ["Penthouse suite with the feel of a private luxurious apartment, is ideal for larger groups. There is a welcome foyer with lounge and partitions that can separate each wing for privacy.","Elegant and high-end furniture, including a king-sized master bed with premium bedding, custom-designed sofas, armchairs, and a dining table. Decor reflects opulence, with bespoke artwork, designer lighting, and luxurious finishes like marble, hardwood, or plush carpeting."],
-         detailFeatures: [
-            {
-               svg: "/src/assets/Hotel Profile website/tv.svg",
-               content: "Television",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/bath.svg",
-               content: "Bathtub",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/sofa.svg",
-               content: "Sofa",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/users-2-detail.svg",
-               content: "1-2 People",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/wifi-detail.svg",
-               content: "Free Wifi",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/air-vent.svg",
-               content: "Air-Con",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/bed-double-detail.svg",
-               content: "Twin Bed",
-            },
-            {
-               svg: "/src/assets/Hotel Profile website/axis-3d-detail.svg",
-               content: "753 Sqft",
-            }
-         ],
       },
    ],
 }));
