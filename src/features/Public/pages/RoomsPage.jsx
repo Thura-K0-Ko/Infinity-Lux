@@ -4,8 +4,10 @@ import HeroSection from "../components/HeroSection";
 import Container from "../../../components/Container";
 import { HiArrowRight } from "react-icons/hi2";
 import { Link } from "react-router-dom";
+import useRoomStore from "../../stores/useRoomStore";
 
 const RoomsPage = () => {
+   const { rooms } = useRoomStore();
    const styles = {
       offer1: {
          backgroundImage: "url('/src/assets/Hotel Profile website/Frame 1000006322.png')"
@@ -18,98 +20,6 @@ const RoomsPage = () => {
       },
       contactBg: '/src/assets/Hotel Profile website/image-9.png',
    }
-   const rooms = [
-      {
-         id: 1,
-         img: "/src/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_3 (1).png",
-         price: "85$/Night",
-         category: "Deluxe Room",
-         description: "Spacious, bright guestrooms with tasteful furnishing, wooden floor and panoramic windows from the ceiling to the floor.",
-         services: {
-            people: "1-2 People",
-            bed: "Twin Bed",
-            food: "Breakfast",
-            wifi: "Free Wifi",
-            swimming: "Swimming Pool",
-            area: "398 Sqft"
-         }
-      },
-      {
-         id: 2,
-         img: "/src/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_3.png",
-         price: "95$/Night",
-         category: "Premier Room",
-         description: "Pamper yourself in a luxurious Comfy room, with stylish interiors and a panoramic view of Yangon’s treasured ...",
-         services: {
-            people: "1-2 People",
-            bed: "King Size Bed",
-            food: "Breakfast",
-            wifi: "Free Wifi",
-            swimming: "Swimming Pool",
-            area: "452 Sqft"
-         }
-      },
-      {
-         id: 3,
-         img: "/src/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_2.png",
-         price: "110$/Night",
-         category: "Executive Room",
-         description: "Leading on comfort and refined style, our Club rooms give you special access to Club Signature: our executive room ...",
-         services: {
-            people: "1-2 People",
-            bed: "King Size Bed",
-            food: "Breakfast",
-            wifi: "Free Wifi",
-            swimming: "Swimming Pool",
-            area: "484 Sqft"
-         }
-      },
-      {
-         id: 4,
-         img: "/src/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_0.png",
-         price: "120$/Night",
-         category: "Executive Suite",
-         description: "Elegant and spacious, our Executive Suite features separate living area and panoramic views of Bangkok.",
-         services: {
-            people: "1-2 People",
-            bed: "King Size Bed",
-            food: "Breakfast",
-            wifi: "Free Wifi",
-            swimming: "Swimming Pool",
-            area: "535 Sqft"
-         }
-      },
-      {
-         id: 5,
-         img: "/src/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_1.png",
-         price: "150$/Night",
-         category: "family Suite",
-         description: "Our Family Suites speak to luxury in design and freedom in space in an open, wraparound room design.",
-         services: {
-            people: "1-2 People",
-            bed: "King Size Bed",
-            food: "Breakfast",
-            wifi: "Free Wifi",
-            swimming: "Swimming Pool",
-            area: "904 Sqft"
-         }
-      },
-      {
-         id: 6,
-         img: "/src/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_2 (1).png",
-         price: "165$/Night",
-         category: "Penthouse Suite",
-         description: "Explore the magic of our very best-in-class accommodation, the Penthouse Suite.",
-         services: {
-            people: "1-2 People",
-            bed: "King Size Bed",
-            food: "Breakfast",
-            wifi: "Free Wifi",
-            swimming: "Swimming Pool",
-            area: "753 Sqft"
-         }
-      },
-   ]
    return (
       <section className="bg-roomBG">
          <HeroSection
@@ -136,7 +46,7 @@ const RoomsPage = () => {
                            <div className="flex gap-1 ps-6"><img className="size-6" src="/src/assets/Hotel Profile website/axis-3d.svg" alt="axis-3d" /> <span className="text-xl/5">{room.services.area}</span></div>
                         </div>
                         <div className="flex justify-between items-center">
-                           <Link to={`/rooms/room-details/${room.id}`} className="text-2xl/6 font-bold">Room Details <HiArrowRight className="inline" /></Link>
+                           <Link to={`/rooms/room-detail/${room.id}`} className="text-2xl/6 font-bold">Room Details <HiArrowRight className="inline" /></Link>
                            <Link to={"/booking"} className="bg-customPurple text-2xl/6 text-white px-10 py-5">Book Now</Link>
                         </div>
                      </div>
