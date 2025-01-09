@@ -74,7 +74,7 @@ const useRoomStore = create((set) => ({
          id: 5,
          img: "/src/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_1.png",
          price: "150$/Night",
-         category: "family Suite",
+         category: "Family Suite",
          description: "Our Family Suites speak to luxury in design and freedom in space in an open, wraparound room design.",
          services: {
             people: "1-2 People",
