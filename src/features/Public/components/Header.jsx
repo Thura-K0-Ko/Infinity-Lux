@@ -9,11 +9,10 @@ const Header = () => {
           <div className="flex flex-wrap justify-between items-center max-w-screen">
             <Link to="/" className=" hover:opacity-80">
               <img
-                src="/src/assets/Hotel Profile website/Lux 2.svg"
+                src="/public/assets/Hotel Profile website/Lux 2.svg"
                 className=" h-[50px] lg:h-[60px] 2xl:h-[69px] "
                 alt="Lux 2 logo"
               />
-             
             </Link>
             <div className="flex items-center lg:order-2">
               <>
@@ -77,7 +76,7 @@ const Header = () => {
                     to={`${
                       item === "Home"
                         ? "/"
-                        : `/${item.toLowerCase().replace(" ", "-")}` 
+                        : `/${item.toLowerCase().replace(" ", "-")}`
                     }`}
                     className="text-sm lg:text-lg xl:text-lg 2xl:text-2xl block py-2 pr-4 pl-3 text-gray-300 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-white lg:p-0 dark:text-gray-400  dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                   >

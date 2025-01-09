@@ -12,7 +12,7 @@ const useCustomerReviewStore = create((set) => ({
         "From the moment I walked into their office, I felt welcomed and supported by their friendly team...",
 
       title: "property_consultation",
-      img: "/src/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Ellipse 13.svg",
+      img: "/public/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Ellipse 13.svg",
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ const useCustomerReviewStore = create((set) => ({
       subContent:
         "She was an excellent negotiator, and thanks to her skills. I had throughout  ",
       title: "property_consultation",
-      img: "/src/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Ellipse 13.svg",
+      img: "/public/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Ellipse 13.svg",
     },
     {
       id: 3,
@@ -34,7 +34,7 @@ const useCustomerReviewStore = create((set) => ({
       subContent:
         " I had throughout the process. Her knowledge of the local real estate market was  ",
       title: "property_consultation",
-      img: "/src/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Ellipse 13.svg",
+      img: "/public/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Ellipse 13.svg",
     },
   ],
   setCustomerReview: (data) => set({ customerReview: data }),

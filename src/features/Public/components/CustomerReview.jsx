@@ -22,7 +22,6 @@ const CustomerReview = () => {
               <Link
                 to={"about-us"}
                 className="bg-[#ada1d6]  text-white p-2 rounded-full  hover:bg-[#4A4164] transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "
-
               >
                 <HiArrowSmallLeft className=" size-7" />
               </Link>
@@ -46,7 +45,7 @@ const CustomerReview = () => {
               >
                 <div className="flex items-center justify-between">
                   <img
-                    src="/src/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Black.png"
+                    src="/public/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Black.png"
                     className=" w-10"
                     alt=""
                   />
@@ -82,7 +81,13 @@ const CustomerReview = () => {
                     </div>
                   </div>
                   <div>
-                    <img src={"/src/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Black.svg"} className=" size-6" alt="" />
+                    <img
+                      src={
+                        "/public/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Black.svg"
+                      }
+                      className=" size-6"
+                      alt=""
+                    />
                   </div>
                 </div>
               </div>

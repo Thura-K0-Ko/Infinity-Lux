@@ -9,7 +9,7 @@ const SubscribeBox = () => {
           <div className=" relative h-[298px] border-2 border-[#f5f5f6] bg-[#f5f5f6] flex flex-col items-center gap-9 justify-center">
             <div className="absolute  left-0 top-0">
               <img
-                src="/src/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Group 143.svg"
+                src="/public/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Group 143.svg"
                 className=" w-[135px] h-[135px]"
                 alt=""
               />

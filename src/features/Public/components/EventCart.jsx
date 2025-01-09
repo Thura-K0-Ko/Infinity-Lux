@@ -18,7 +18,7 @@ const EventCart = () => {
             <div className="col-span-1">
               <div className=" flex flex-col items-center relative">
                 <img
-                  src="/src/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Meeting_event_image.png"
+                  src="/public/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Meeting_event_image.png"
                   className="w-full"
                   alt=""
                 />
@@ -36,7 +36,7 @@ const EventCart = () => {
             <div className="col-span-1">
               <div className=" flex flex-col items-center relative">
                 <img
-                  src="/src/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Wedding_event_image.png"
+                  src="/public/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Wedding_event_image.png"
                   className="w-full"
                   alt=""
                 />

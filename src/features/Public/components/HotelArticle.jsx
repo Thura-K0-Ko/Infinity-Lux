@@ -21,7 +21,7 @@ const HotelArticle = () => {
               <div className="col-span-1">
                 <div className="  rounded-lg">
                   <img
-                    src="/src/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Hotel_artical_image.png"
+                    src="/public/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Hotel_artical_image.png"
                     className=" h-[298px] w-full object-cover rounded-t-lg"
                     alt=""
                   />
@@ -53,7 +53,7 @@ const HotelArticle = () => {
                 {" "}
                 <div className="  rounded-lg">
                   <img
-                    src="/src/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Hotel_artical_image.png"
+                    src="/public/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Hotel_artical_image.png"
                     className=" h-[298px] w-full object-cover rounded-t-lg"
                     alt=""
                   />
@@ -85,7 +85,7 @@ const HotelArticle = () => {
                 {" "}
                 <div className="  rounded-lg">
                   <img
-                    src="/src/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Hotel_artical_image.png"
+                    src="/public/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Hotel_artical_image.png"
                     className=" h-[298px] w-full object-cover rounded-t-lg"
                     alt=""
                   />
