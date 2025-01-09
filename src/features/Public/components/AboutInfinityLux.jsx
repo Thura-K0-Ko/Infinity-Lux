@@ -17,11 +17,11 @@ const AboutInfinityLux = ({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-[108px]">
             <div className="  col-span-1 items-start">
               <div className=" flex flex-col gap-8">
-                <p className="text-[#6A669D] text-2xl font-medium ">
+                <p className="text-customPurple-500 text-2xl font-medium ">
                   About Infinity Lux
                 </p>
                 <div className=" flex flex-col gap-11 items-start">
-                  <h1 className="font-heading text-[#141414] text-5xl font-normal dark:text-neutral-900 ">
+                  <h1 className="font-heading text-customGray-500 text-5xl font-normal dark:text-neutral-900 ">
                     {title1}
                     <br /> {title2}
                   </h1>

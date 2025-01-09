@@ -22,7 +22,6 @@ const CustomerReview = () => {
               <Link
                 to={"about-us"}
                 className="bg-[#ada1d6]  text-white p-2 rounded-full  hover:bg-[#4A4164] transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "
-
               >
                 <HiArrowSmallLeft className=" size-7" />
               </Link>
@@ -82,7 +81,13 @@ const CustomerReview = () => {
                     </div>
                   </div>
                   <div>
-                    <img src={"/src/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Black.svg"} className=" size-6" alt="" />
+                    <img
+                      src={
+                        "/src/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Black.svg"
+                      }
+                      className=" size-6"
+                      alt=""
+                    />
                   </div>
                 </div>
               </div>
@@ -104,8 +109,8 @@ const CustomerReview = () => {
     //       </div>
     //       <div className="  relative">
     //         <div className=" left-[67.66px] top-0 absolute">
-    //           <div className="w-[52.34px] h-[52.34px] left-0 top-0 absolute bg-[#6a669d] rounded-full" />
-    //           <div className="w-[14.44px] h-[14.44px] left-[15.34px] top-[26.45px] absolute origin-top-left -rotate-45 bg-[#6a669d] overflow-hidden">
+    //           <div className="w-[52.34px] h-[52.34px] left-0 top-0 absolute bg-customPurple-500 rounded-full" />
+    //           <div className="w-[14.44px] h-[14.44px] left-[15.34px] top-[26.45px] absolute origin-top-left -rotate-45 bg-customPurple-500 overflow-hidden">
     //             <div className="opacity-90 w-[9.55px] h-[9.55px] left-[3.10px] top-[3.10px] absolute"></div>
     //           </div>
     //         </div>

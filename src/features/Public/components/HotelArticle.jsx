@@ -6,11 +6,11 @@ import { HiArrowSmallRight } from "react-icons/hi2";
 const HotelArticle = () => {
   return (
     <section>
-      <div className=" py-40 bg-[#141414] ">
+      <div className=" py-40 bg-customGray-500 ">
         <Container>
           <div className="flex flex-col items-center gap-16">
             <div className=" flex flex-col items-center gap-6">
-              <p className=" text-customPurple text-2xl font-medium">
+              <p className=" text-customPurple-500 text-2xl font-medium">
                 Latests News
               </p>
               <h3 className="text-white text-5xl font-normal font-heading">
@@ -26,7 +26,7 @@ const HotelArticle = () => {
                     alt=""
                   />
                   <div className="p-5 flex flex-col gap-5 bg-white rounded-b-lg">
-                    <h2 className=" font-heading text-[#141414] text-3xl font-normal">
+                    <h2 className=" font-heading text-customGray-500 text-3xl font-normal">
                       What is the meaning of deluxe room?
                     </h2>
                     <p className="text-gray-500 text-xl font-medium">
@@ -34,13 +34,13 @@ const HotelArticle = () => {
                       luxury, making it a ...
                     </p>
                     <div className=" flex items-center justify-between">
-                      <p className="text-[#141414] text-xl font-medium">
+                      <p className="text-customGray-500 text-xl font-medium">
                         {" "}
                         12 Nov 24
                       </p>
                       <Link
                         to={"about-us"}
-                        className=" flex items-center gap-3 text-[#141414] text-xl font-medium p-2   transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "
+                        className=" flex items-center gap-3 text-customGray-500 text-xl font-medium p-2   transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "
                       >
                         <span>Read More</span>
                         <HiArrowSmallRight className=" size-7" />
@@ -58,7 +58,7 @@ const HotelArticle = () => {
                     alt=""
                   />
                   <div className="p-5 flex flex-col gap-5 bg-white rounded-b-lg">
-                    <h2 className=" font-heading text-[#141414] text-3xl font-normal">
+                    <h2 className=" font-heading text-customGray-500 text-3xl font-normal">
                       What is the meaning of deluxe room?
                     </h2>
                     <p className="text-gray-500 text-xl font-medium">
@@ -66,13 +66,13 @@ const HotelArticle = () => {
                       luxury, making it a ...
                     </p>
                     <div className=" flex items-center justify-between">
-                      <p className="text-[#141414] text-xl font-medium">
+                      <p className="text-customGray-500 text-xl font-medium">
                         {" "}
                         12 Nov 24
                       </p>
                       <Link
                         to={"about-us"}
-                        className=" flex items-center gap-3 text-[#141414] text-xl font-medium p-2   transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "
+                        className=" flex items-center gap-3 text-customGray-500 text-xl font-medium p-2   transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "
                       >
                         <span>Read More</span>
                         <HiArrowSmallRight className=" size-7" />
@@ -90,7 +90,7 @@ const HotelArticle = () => {
                     alt=""
                   />
                   <div className="p-5 flex flex-col gap-5 bg-white rounded-b-lg">
-                    <h2 className=" font-heading text-[#141414] text-3xl font-normal">
+                    <h2 className=" font-heading text-customGray-500 text-3xl font-normal">
                       What is the meaning of deluxe room?
                     </h2>
                     <p className="text-gray-500 text-xl font-medium">
@@ -98,13 +98,13 @@ const HotelArticle = () => {
                       luxury, making it a ...
                     </p>
                     <div className=" flex items-center justify-between">
-                      <p className="text-[#141414] text-xl font-medium">
+                      <p className="text-customGray-500 text-xl font-medium">
                         {" "}
                         12 Nov 24
                       </p>
                       <Link
                         to={"about-us"}
-                        className=" flex items-center gap-3 text-[#141414] text-xl font-medium p-2   transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "
+                        className=" flex items-center gap-3 text-customGray-500 text-xl font-medium p-2   transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "
                       >
                         <span>Read More</span>
                         <HiArrowSmallRight className=" size-7" />

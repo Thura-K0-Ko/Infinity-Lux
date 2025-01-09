@@ -7,10 +7,10 @@ const EventCart = () => {
       <Container>
         <div className="py-40  ">
           <div className=" flex flex-col gap-6 items-center mb-[60px]">
-            <p className="text-[#6a669d] text-2xl font-medium">
+            <p className="text-customPurple-500 text-2xl font-medium">
               Curated For You
             </p>
-            <h1 className="text-[#141414] text-5xl font-heading font-normal">
+            <h1 className="text-customGray-500 text-5xl font-heading font-normal">
               Meetings & Events
             </h1>
           </div>
@@ -22,7 +22,7 @@ const EventCart = () => {
                   className="w-full"
                   alt=""
                 />
-                <button className="absolute bottom-0 translate-y-1/2 p-8 bg-[#6a669d] flex flex-col gap-3  justify-center items-center">
+                <button className="absolute bottom-0 translate-y-1/2 p-8 bg-customPurple-500 flex flex-col gap-3  justify-center items-center">
                   <h3 className="text-center text-white text-4xl font-heading font-normal ">
                     {" "}
                     Meeting Events
@@ -40,7 +40,7 @@ const EventCart = () => {
                   className="w-full"
                   alt=""
                 />
-                <button className="absolute bottom-0 translate-y-1/2 p-8 bg-[#6a669d] flex flex-col gap-3  justify-center items-center">
+                <button className="absolute bottom-0 translate-y-1/2 p-8 bg-customPurple-500 flex flex-col gap-3  justify-center items-center">
                   <h3 className="text-center text-white text-4xl font-heading font-normal ">
                     {" "}
                     Meeting Events

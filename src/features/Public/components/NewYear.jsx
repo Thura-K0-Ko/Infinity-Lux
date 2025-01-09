@@ -21,7 +21,7 @@ const NewYear = () => {
             <div className=" col-span-1">
               <div className=" flex flex-col gap-6 items-start justify-center">
                 {/* Special Offer Tag */}
-                <p className=" text-customPurple text-2xl font-medium">
+                <p className=" text-customPurple-500 text-2xl font-medium">
                   Special Offer
                 </p>
 
@@ -43,7 +43,7 @@ const NewYear = () => {
                   {/* CTA Button */}
                   <button
                     to={"about-us"}
-                    className="bg-customPurple text-2xl font-semibold text-white px-10 py-5   hover:bg-[#4A4164] transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "
+                    className="bg-customPurple-500 text-2xl font-semibold text-white px-10 py-5   hover:bg-[#4A4164] transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "
                   >
                     View Rooms
                   </button>
@@ -53,7 +53,7 @@ const NewYear = () => {
               {/* Discount Badge */}
             </div>
             <div className="col-span-1">
-              <div className=" bg-customPurple rounded-full size-[340px] flex flex-col items-center justify-center gap-5">
+              <div className=" bg-customPurple-500 rounded-full size-[340px] flex flex-col items-center justify-center gap-5">
                 <span className="text-white text-xl font-medium">Up To</span>
                 <span className="text-white text-8xl font-medium">35%</span>
                 <span className="text-white text-xl font-medium">
@@ -64,7 +64,6 @@ const NewYear = () => {
           </div>
         </Container>
       </div>
-    
     </div>
     //     <section>
     //   <div className="my-40">
@@ -85,7 +84,7 @@ const NewYear = () => {
     //         </h1>
     //         <div className="grid grid-cols-2 z-10">
     //           <div className="col-span-1">
-    //             <div className="text-[#6a669d] text-2xl font-medium">Special Offer</div>
+    //             <div className="text-customPurple-500 text-2xl font-medium">Special Offer</div>
     //             <div className="text-white text-5xl font-normal">New Year Stay</div>
     //             <div className="text-gray-300 text-xl font-medium">
     //               Celebrate the New Year in Style! Enjoy exclusive New Year discounts at Infinity Lux.
@@ -94,7 +93,7 @@ const NewYear = () => {
     //               Start the year with comfort and savings!
     //             </div>
     //           </div>
-    //           <div className="px-10 py-5 bg-[#6a669d]">
+    //           <div className="px-10 py-5 bg-customPurple-500">
     //             <div className="text-white text-2xl font-semibold">View Rooms</div>
     //           </div>
     //           <div className="col-span-1"></div>
@@ -123,7 +122,7 @@ const NewYear = () => {
     //           </h1>
     //           <div className=" grid grid-cols-2 ">
     //             <div className=" col-span-1">
-    //               <div className=" text-[#6a669d] text-2xl font-medium ">
+    //               <div className=" text-customPurple-500 text-2xl font-medium ">
     //                 Special Offer
     //               </div>
     //               <div className=" text-white text-5xl font-normal ">
@@ -138,7 +137,7 @@ const NewYear = () => {
     //                 festive surprises. Start the year with comfort and savings!
     //               </div>
     //             </div>
-    //             <div className="px-10 py-5 bg-[#6a669d] ">
+    //             <div className="px-10 py-5 bg-customPurple-500 ">
     //               <div className="text-white text-2xl font-semibold ">
     //                 View Rooms
     //               </div>
