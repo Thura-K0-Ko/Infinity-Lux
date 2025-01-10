@@ -67,9 +67,11 @@ const MeetingCard = () => {
                </div>
             </div>
          </Container>
-         <div className="bg-customPurple px-[116px] py-[76px] mb-[194px]">
-            <h3 className="text-gray-50 font-heading text-4xl font-normal tracking-[0.18px] mb-6">Contact Us</h3>
-            <p className="text-gray-300 text-xl font-normal tracking-[0.1px]">For inquiries and bookings, please reach out to us at +959756895143 or eventteam3421@gmail.com. Together, we’ll craft the wedding of your dreams!</p>
+         <div className="bg-customPurple py-[76px] mb-[194px]">
+            <Container>
+               <h3 className="text-gray-50 font-heading text-4xl font-normal tracking-[0.18px] mb-6">Contact Us</h3>
+               <p className="text-gray-300 text-xl font-normal tracking-[0.1px]">For inquiries and bookings, please reach out to us at +959756895143 or eventteam3421@gmail.com. Together, we’ll craft the wedding of your dreams!</p>
+            </Container>
          </div>
       </>
    );
