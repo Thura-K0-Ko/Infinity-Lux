@@ -1,10 +1,13 @@
 import { lazy } from "react";
-import PrivacyPolicy = lazy(() => import( from "../features/Public/pages/PrivacyPolicy"));
+const PrivacyPolicy = lazy(() =>
+  import("../features/Public/pages/PrivacyPolicy")
+);
+const RoomDetailPage = lazy(() =>
+  import("../features/Public/pages/RoomDetailPage")
+);
+const WeddingPage = lazy(() => import("../features/Public/pages/WeddingPage"));
+const MeetingPage = lazy(() => import("../features/Public/pages/MeetingPage"));
 const Booking = lazy(() => import("../features/Public/pages/BookingPage"));
-import RoomDetailPage from "../features/Public/pages/RoomDetailPage";
-import WeddingPage from "../features/Public/pages/WeddingPage";
-import MeetingPage from "../features/Public/pages/MeetingPage";
-const Booking = lazy(() => import("../features/Public/pages/BookingPage"))
 const EventPage = lazy(() => import("../features/Public/pages/EventPage"));
 const Rooms = lazy(() => import("../features/Public/pages/RoomsPage"));
 const BlogPage = lazy(() => import("../features/Public/pages/BlogPage"));
@@ -26,7 +29,7 @@ const publicRoute = [
   },
   {
     path: "/rooms/room-detail/:id",
-    element: <RoomDetailPage />
+    element: <RoomDetailPage />,
   },
   {
     path: "/booking",
@@ -45,13 +48,12 @@ const publicRoute = [
     element: <EventPage />,
   },
   {
-
     path: "/events/wedding",
     element: <WeddingPage />,
-
+  },
+  {
     path: "/events/meeting",
     element: <MeetingPage />,
-
   },
   {
     path: "/blog",
