@@ -9,7 +9,7 @@ const BlogPage = () => {
     <section>
       <HeroSection
         heroImg={
-          "/public/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_2 (2).png"
+          "/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_2 (2).png"
         }
         titles={["Blog"]}
       />

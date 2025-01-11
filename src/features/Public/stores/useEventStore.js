@@ -4,7 +4,7 @@ const useEventStore = create((set) => ({
   events: [
     {
       id: 1,
-      img: "/public/assets/Hotel Profile website/image-14.png",
+      img: "/assets/Hotel Profile website/image-14.png",
       display: "Let’s Meet",
       title: "Meeting Event",
       description:
@@ -13,7 +13,7 @@ const useEventStore = create((set) => ({
     },
     {
       id: 2,
-      img: "/public/assets/Hotel Profile website/image-13.png",
+      img: "/assets/Hotel Profile website/image-13.png",
       display: "Where Your Marriage Journey Begins",
       title: "Wedding Event",
       description:

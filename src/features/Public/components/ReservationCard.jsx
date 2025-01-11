@@ -8,7 +8,7 @@ const ReservationCard = () => {
       </h3>
       <div className="relative w-full">
         <img
-          src="/public/assets/Hotel Profile website/image-6.png"
+          src="/assets/Hotel Profile website/image-6.png"
           alt="Deluxe Room"
         />
         <p className="absolute top-0 text-white font-heading text-xl font-normal p-5">
@@ -19,7 +19,7 @@ const ReservationCard = () => {
         <p className="flex items-center gap-2">
           <img
             className="size-6"
-            src="/public/assets/Hotel Profile website/calendar-days.svg"
+            src="/assets/Hotel Profile website/calendar-days.svg"
             alt="calendar"
           />{" "}
           <span className="text-title text-xl font-normal">
@@ -29,7 +29,7 @@ const ReservationCard = () => {
         <p className="flex items-center gap-2">
           <img
             className="size-6"
-            src="/public/assets/Hotel Profile website/calendar-days.svg"
+            src="/assets/Hotel Profile website/calendar-days.svg"
             alt="calendar"
           />{" "}
           <span className="text-title text-xl font-normal">
@@ -39,7 +39,7 @@ const ReservationCard = () => {
         <p className="flex items-center gap-2">
           <img
             className="size-6"
-            src="/public/assets/Hotel Profile website/bed-double.svg"
+            src="/assets/Hotel Profile website/bed-double.svg"
             alt="bed-double"
           />{" "}
           <span className="text-title text-xl font-normal">
@@ -49,7 +49,7 @@ const ReservationCard = () => {
         <p className="flex items-center gap-2">
           <img
             className="size-6"
-            src="/public/assets/Hotel Profile website/users.svg"
+            src="/assets/Hotel Profile website/users.svg"
             alt="bed-double"
           />{" "}
           <span className="text-title text-xl font-normal">
@@ -59,7 +59,7 @@ const ReservationCard = () => {
         <p className="flex items-center gap-2">
           <img
             className="size-6"
-            src="/public/assets/Hotel Profile website/calendar-check.svg"
+            src="/assets/Hotel Profile website/calendar-check.svg"
             alt="bed-double"
           />{" "}
           <span className="text-title text-xl font-normal">

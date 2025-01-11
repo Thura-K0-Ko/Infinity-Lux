@@ -8,7 +8,8 @@ const useBlogStore = create((set) => ({
       description:
         "Discover the ultimate relaxation at our spa. Indulge in a haven designed to re...",
       date: "12 Nov 2024",
-      image: "/public/assets/Infinity Lux image Assets/10. Blog Page (Infinity Lux )/Blog1.png",
+      image:
+        "/assets/Infinity Lux image Assets/10. Blog Page (Infinity Lux )/Blog1.png",
       link: "/blog/spa-benefits",
       imgAlt: "blog1",
     },
@@ -18,10 +19,10 @@ const useBlogStore = create((set) => ({
       description:
         "A luxury hotel bathroom collection blends elegance and practicality, offering ...",
       date: "7 Dec 2024",
-      image: "/public/assets/Infinity Lux image Assets/10. Blog Page (Infinity Lux )/Blog2.png",
+      image:
+        "/assets/Infinity Lux image Assets/10. Blog Page (Infinity Lux )/Blog2.png",
       link: "/blog/hotel-bathroom",
       imgAlt: "blog2",
-
     },
     {
       id: 3,
@@ -29,7 +30,8 @@ const useBlogStore = create((set) => ({
       description:
         "Both types of restaurants offer unique advantages: hotel restaurants provide ...",
       date: "25 Nov 2024",
-      image: "/public/assets/Infinity Lux image Assets/10. Blog Page (Infinity Lux )/Blog3.png",
+      image:
+        "/assets/Infinity Lux image Assets/10. Blog Page (Infinity Lux )/Blog3.png",
       link: "/blog/hotel-vs-restaurant",
       imgAlt: "blog3",
     },
@@ -39,7 +41,8 @@ const useBlogStore = create((set) => ({
       description:
         "A deluxe room strikes a balance between affordability and luxury, making it a ...",
       date: "12 Nov 2024",
-      image: "/public/assets/Infinity Lux image Assets/10. Blog Page (Infinity Lux )/Blog4.png",
+      image:
+        "/assets/Infinity Lux image Assets/10. Blog Page (Infinity Lux )/Blog4.png",
       link: "/blog/deluxe-room",
       imgAlt: "blog4",
     },
@@ -49,7 +52,8 @@ const useBlogStore = create((set) => ({
       description:
         "This unique feature takes you back to the golden age of hospitality with warm ...",
       date: "7 Dec 2024",
-      image: "/public/assets/Infinity Lux image Assets/10. Blog Page (Infinity Lux )/Blog5.png",
+      image:
+        "/assets/Infinity Lux image Assets/10. Blog Page (Infinity Lux )/Blog5.png",
       link: "/blog/retro-lighting",
       imgAlt: "blog5",
     },
@@ -59,12 +63,12 @@ const useBlogStore = create((set) => ({
       description:
         "Discover how our hotel is evolving to meet the needs of today's modern traveler. W ...",
       date: "25 Nov 2024",
-      image: "/public/assets/Infinity Lux image Assets/10. Blog Page (Infinity Lux )/Blog6.png",
+      image:
+        "/assets/Infinity Lux image Assets/10. Blog Page (Infinity Lux )/Blog6.png",
       link: "/blog/modern-traveler",
       imgAlt: "blog6",
     },
   ],
- 
 }));
 
 export default useBlogStore;

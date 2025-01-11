@@ -22,7 +22,7 @@ const RoomCard = ({ room }) => {
           <div className="flex gap-5">
             <img
               className="size-6"
-              src="/public/assets/Hotel Profile website/users-2.svg"
+              src="/assets/Hotel Profile website/users-2.svg"
               alt="users-2"
             />{" "}
             <span className="text-xl font-light tracking-[0.1px]">
@@ -32,7 +32,7 @@ const RoomCard = ({ room }) => {
           <div className="flex gap-5">
             <img
               className="size-6"
-              src="/public/assets/Hotel Profile website/bed-double.svg"
+              src="/assets/Hotel Profile website/bed-double.svg"
               alt="bed-double"
             />{" "}
             <span className="text-xl font-light tracking-[0.1px]">
@@ -42,7 +42,7 @@ const RoomCard = ({ room }) => {
           <div className="flex gap-5">
             <img
               className="size-6"
-              src="/public/assets/Hotel Profile website/utensils.svg"
+              src="/assets/Hotel Profile website/utensils.svg"
               alt="utensils"
             />{" "}
             <span className="text-xl font-light tracking-[0.1px]">
@@ -52,7 +52,7 @@ const RoomCard = ({ room }) => {
           <div className="flex gap-5">
             <img
               className="size-6"
-              src="/public/assets/Hotel Profile website/wifi.svg"
+              src="/assets/Hotel Profile website/wifi.svg"
               alt="wifi"
             />{" "}
             <span className="text-xl font-light tracking-[0.1px]">
@@ -62,7 +62,7 @@ const RoomCard = ({ room }) => {
           <div className="flex gap-5">
             <img
               className="size-6"
-              src="/public/assets/Hotel Profile website/waves.svg"
+              src="/assets/Hotel Profile website/waves.svg"
               alt="waves"
             />{" "}
             <span className="text-xl font-light tracking-[0.1px]">
@@ -72,7 +72,7 @@ const RoomCard = ({ room }) => {
           <div className="flex gap-5">
             <img
               className="size-6"
-              src="/public/assets/Hotel Profile website/axis-3d.svg"
+              src="/assets/Hotel Profile website/axis-3d.svg"
               alt="axis-3d"
             />{" "}
             <span className="text-xl font-light tracking-[0.1px]">

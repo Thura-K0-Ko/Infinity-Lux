@@ -37,7 +37,7 @@ const WeddingCard = () => {
               <li className="flex items-center gap-5">
                 <img
                   className="size-8"
-                  src="/public/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/badge-check.svg"
+                  src="/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/badge-check.svg"
                   alt=""
                 />
                 <span className="text-black text-2xl/8 font-medium">
@@ -47,7 +47,7 @@ const WeddingCard = () => {
               <li className="flex items-center gap-5">
                 <img
                   className="size-8"
-                  src="/public/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/badge-check.svg"
+                  src="/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/badge-check.svg"
                   alt=""
                 />
                 <span className="text-black text-2xl/8 font-medium">
@@ -57,7 +57,7 @@ const WeddingCard = () => {
               <li className="flex items-center gap-5">
                 <img
                   className="size-8"
-                  src="/public/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/badge-check.svg"
+                  src="/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/badge-check.svg"
                   alt=""
                 />
                 <span className="text-black text-2xl/8 font-medium">
@@ -67,7 +67,7 @@ const WeddingCard = () => {
               <li className="flex items-center gap-5">
                 <img
                   className="size-8"
-                  src="/public/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/badge-check.svg"
+                  src="/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/badge-check.svg"
                   alt=""
                 />
                 <span className="text-black text-2xl/8 font-medium">
@@ -77,7 +77,7 @@ const WeddingCard = () => {
               <li className="flex items-center gap-5">
                 <img
                   className="size-8"
-                  src="/public/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/badge-check.svg"
+                  src="/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/badge-check.svg"
                   alt=""
                 />
                 <span className="text-black text-2xl/8 font-medium">
@@ -87,7 +87,7 @@ const WeddingCard = () => {
               <li className="flex items-center gap-5">
                 <img
                   className="size-8"
-                  src="/public/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/badge-check.svg"
+                  src="/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/badge-check.svg"
                   alt=""
                 />
                 <span className="text-black text-2xl/8 font-medium">
@@ -97,7 +97,7 @@ const WeddingCard = () => {
               <li className="flex items-center gap-5">
                 <img
                   className="size-8"
-                  src="/public/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/badge-check.svg"
+                  src="/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/badge-check.svg"
                   alt=""
                 />
                 <span className="text-black text-2xl/8 font-medium">
@@ -107,7 +107,7 @@ const WeddingCard = () => {
               <li className="flex items-center gap-5">
                 <img
                   className="size-8"
-                  src="/public/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/badge-check.svg"
+                  src="/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/badge-check.svg"
                   alt=""
                 />
                 <span className="text-black text-2xl/8 font-medium">
@@ -118,12 +118,12 @@ const WeddingCard = () => {
             <div className="relative w-[737px] h-[616px]">
               <img
                 className="absolute top-0 right-0 w-[629px] h-[563px]"
-                src="/public/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Event_Package_Image_1.png"
+                src="/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Event_Package_Image_1.png"
                 alt=""
               />
               <img
                 className="absolute bottom-0 left-0 w-[433px] h-[298px]"
-                src="/public/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Event_Package_Image.png"
+                src="/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Event_Package_Image.png"
                 alt=""
               />
             </div>
@@ -142,42 +142,42 @@ const WeddingCard = () => {
             <div className="w-[413px] h-[493px]">
               <img
                 className="w-full h-full"
-                src="/public/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Event_Package_Image_1.png"
+                src="/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Event_Package_Image_1.png"
                 alt=""
               />
             </div>
             <div className="w-[413px] h-[493px]">
               <img
                 className="w-full h-full"
-                src="/public/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Gallery_2.png"
+                src="/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Gallery_2.png"
                 alt=""
               />
             </div>
             <div className="w-[413px] h-[493px]">
               <img
                 className="w-full h-full"
-                src="/public/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Gallery_3.png"
+                src="/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Gallery_3.png"
                 alt=""
               />
             </div>
             <div className="w-[413px] h-[493px]">
               <img
                 className="w-full h-full"
-                src="/public/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Gallery_4.png"
+                src="/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Gallery_4.png"
                 alt=""
               />
             </div>
             <div className="w-[413px] h-[493px]">
               <img
                 className="w-full h-full"
-                src="/public/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Gallery_5.png"
+                src="/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Gallery_5.png"
                 alt=""
               />
             </div>
             <div className="w-[413px] h-[493px]">
               <img
                 className="w-full h-full"
-                src="/public/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Gallery_6.png"
+                src="/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Gallery_6.png"
                 alt=""
               />
             </div>

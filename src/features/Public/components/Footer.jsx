@@ -56,7 +56,7 @@ const Footer = () => {
                       className="transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 hover:bg-opacity-40"
                     >
                       <img
-                        src="/public/assets/Infinity Lux image Assets/Footer Logo/google-play.svg.svg"
+                        src="/assets/Infinity Lux image Assets/Footer Logo/google-play.svg.svg"
                         className=" h-10"
                         alt=""
                       />
@@ -67,7 +67,7 @@ const Footer = () => {
                       className="transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 hover:bg-opacity-40"
                     >
                       <img
-                        src="/public/assets/Infinity Lux image Assets/Footer Logo/app-store.svg.svg"
+                        src="/assets/Infinity Lux image Assets/Footer Logo/app-store.svg.svg"
                         className=" h-10"
                         alt=""
                       />
@@ -88,7 +88,7 @@ const Footer = () => {
                       target="_blank"
                     >
                       <img
-                        src="/public/assets/Infinity Lux image Assets/Footer Logo/ri_facebook-fill.png"
+                        src="/assets/Infinity Lux image Assets/Footer Logo/ri_facebook-fill.png"
                         className=" h-6 "
                         alt=""
                       />
@@ -99,7 +99,7 @@ const Footer = () => {
                       target="_blank"
                     >
                       <img
-                        src="/public/assets/Infinity Lux image Assets/Footer Logo/devicon_twitter.png"
+                        src="/assets/Infinity Lux image Assets/Footer Logo/devicon_twitter.png"
                         className=" h-6"
                         alt=""
                       />
@@ -110,7 +110,7 @@ const Footer = () => {
                       target="_blank"
                     >
                       <img
-                        src="/public/assets/Infinity Lux image Assets/Footer Logo/mdi_instagram.png"
+                        src="/assets/Infinity Lux image Assets/Footer Logo/mdi_instagram.png"
                         className=" h-6"
                         alt=""
                       />
@@ -121,7 +121,7 @@ const Footer = () => {
                       target="_blank"
                     >
                       <img
-                        src="/public/assets/Infinity Lux image Assets/Footer Logo/dashicons_linkedin.svg"
+                        src="/assets/Infinity Lux image Assets/Footer Logo/dashicons_linkedin.svg"
                         className=" h-6"
                         alt=""
                       />

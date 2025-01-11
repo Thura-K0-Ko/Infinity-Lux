@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const ContactCard = () => {
   const styles = {
-    background: "url('/public/assets/Hotel Profile website/image-9.png')",
+    background: "url('/assets/Hotel Profile website/image-9.png')",
   };
   return (
     <div className="bg-white py-40">

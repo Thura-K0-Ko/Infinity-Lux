@@ -10,7 +10,7 @@ const RoomAndSuite = () => {
           <div className="relative">
             <div className="">
               <img
-                src="/public/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Room and Suit image.png"
+                src="/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Room and Suit image.png"
                 className=" h-[530px]"
                 alt=""
               />
