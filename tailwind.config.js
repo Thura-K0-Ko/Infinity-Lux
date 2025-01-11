@@ -30,6 +30,9 @@ export default {
           800: "#35334F",
           900: "#232234",
           950: "#15141F",
+        customWhite: "#E5E7EB",
+        customBlue: {
+          950: "#172554",
         },
         customGray: {
           50: "#D0D0D0",

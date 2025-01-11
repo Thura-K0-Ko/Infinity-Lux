@@ -10,6 +10,7 @@ const useBlogStore = create((set) => ({
       date: "12 Nov 2024",
       image: "/public/assets/Infinity Lux image Assets/10. Blog Page (Infinity Lux )/Blog1.png",
       link: "/blog/spa-benefits",
+      imgAlt: "blog1",
     },
     {
       id: 2,
@@ -19,6 +20,8 @@ const useBlogStore = create((set) => ({
       date: "7 Dec 2024",
       image: "/public/assets/Infinity Lux image Assets/10. Blog Page (Infinity Lux )/Blog2.png",
       link: "/blog/hotel-bathroom",
+      imgAlt: "blog2",
+
     },
     {
       id: 3,
@@ -28,6 +31,7 @@ const useBlogStore = create((set) => ({
       date: "25 Nov 2024",
       image: "/public/assets/Infinity Lux image Assets/10. Blog Page (Infinity Lux )/Blog3.png",
       link: "/blog/hotel-vs-restaurant",
+      imgAlt: "blog3",
     },
     {
       id: 4,
@@ -37,6 +41,7 @@ const useBlogStore = create((set) => ({
       date: "12 Nov 2024",
       image: "/public/assets/Infinity Lux image Assets/10. Blog Page (Infinity Lux )/Blog4.png",
       link: "/blog/deluxe-room",
+      imgAlt: "blog4",
     },
     {
       id: 5,
@@ -46,6 +51,7 @@ const useBlogStore = create((set) => ({
       date: "7 Dec 2024",
       image: "/public/assets/Infinity Lux image Assets/10. Blog Page (Infinity Lux )/Blog5.png",
       link: "/blog/retro-lighting",
+      imgAlt: "blog5",
     },
     {
       id: 6,
@@ -55,6 +61,7 @@ const useBlogStore = create((set) => ({
       date: "25 Nov 2024",
       image: "/public/assets/Infinity Lux image Assets/10. Blog Page (Infinity Lux )/Blog6.png",
       link: "/blog/modern-traveler",
+      imgAlt: "blog6",
     },
   ],
  

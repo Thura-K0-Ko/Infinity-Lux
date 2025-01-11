@@ -2,7 +2,8 @@ import React from "react";
 import { HiArrowSmallRight } from "react-icons/hi2";
 import { Link } from "react-router-dom";
 
-const ArticleCard = ({ blog: { title, description, date, image, imgAlt } }) => {
+const ArticleCard = ({blog:{title,description,date,image,imgAlt}}) => {
+
   return (
     <div className="">
       <div className="  rounded-lg">
@@ -16,6 +17,9 @@ const ArticleCard = ({ blog: { title, description, date, image, imgAlt } }) => {
             {title}
           </h2>
           <p className="text-gray-500 text-xl font-medium">{description}</p>
+          <p className="text-gray-500 text-xl font-medium">
+            {description}
+          </p>
           <div className=" flex items-center justify-between">
             <p className="text-[#141414] text-xl font-medium">{date}</p>
             <Link

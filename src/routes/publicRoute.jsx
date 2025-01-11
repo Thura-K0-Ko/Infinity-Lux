@@ -1,5 +1,9 @@
 import { lazy } from "react";
+import PrivacyPolicy = lazy(() => import( from "../features/Public/pages/PrivacyPolicy"));
+const Booking = lazy(() => import("../features/Public/pages/BookingPage"));
 import RoomDetailPage from "../features/Public/pages/RoomDetailPage";
+import WeddingPage from "../features/Public/pages/WeddingPage";
+import MeetingPage from "../features/Public/pages/MeetingPage";
 const Booking = lazy(() => import("../features/Public/pages/BookingPage"))
 const EventPage = lazy(() => import("../features/Public/pages/EventPage"));
 const Rooms = lazy(() => import("../features/Public/pages/RoomsPage"));
@@ -41,8 +45,21 @@ const publicRoute = [
     element: <EventPage />,
   },
   {
+
+    path: "/events/wedding",
+    element: <WeddingPage />,
+
+    path: "/events/meeting",
+    element: <MeetingPage />,
+
+  },
+  {
     path: "/blog",
     element: <BlogPage />,
+  },
+  {
+    path: "/privacy-policy",
+    element: <PrivacyPolicy />,
   },
 ];
 
