@@ -13,6 +13,12 @@ export default {
     },
     extend: {
       colors: {
+
+        // customPurple: "#6A669D", 
+        roomBG: "#EFF2F7",
+        eventBg: "#EFF2F7",
+        display: "#6A669D",
+        title: "#141414",
         customPurple: {
           50: "#E1E0EB",
           100: "#CDCCDE",
