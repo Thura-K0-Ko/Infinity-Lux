@@ -30,7 +30,7 @@ const MeetingCard = () => {
             <div className="p-8">
               <img
                 className="w-full mb-5"
-                src="/public/assets/Infinity Lux image Assets/Meeting Event/Ballroom.png"
+                src="/assets/Infinity Lux image Assets/Meeting Event/Ballroom.png"
                 alt=""
               />
               <h3 className="text-title font-heading text-4xl font-normal tracking-[0.1px] mb-6">
@@ -62,7 +62,7 @@ const MeetingCard = () => {
             <div className="p-8">
               <img
                 className="w-full mb-5"
-                src="/public/assets/Infinity Lux image Assets/Meeting Event/Crystal_Ballroom.png"
+                src="/assets/Infinity Lux image Assets/Meeting Event/Crystal_Ballroom.png"
                 alt=""
               />
               <h3 className="text-title font-heading text-4xl font-normal tracking-[0.1px] mb-6">
@@ -104,42 +104,42 @@ const MeetingCard = () => {
             <div className="w-[413px] h-[493px]">
               <img
                 className="w-full"
-                src="/public/assets/Infinity Lux image Assets/Meeting Event/gallery-1.png"
+                src="/assets/Infinity Lux image Assets/Meeting Event/gallery-1.png"
                 alt=""
               />
             </div>
             <div className="w-[413px] h-[493px]">
               <img
                 className="w-full"
-                src="/public/assets/Infinity Lux image Assets/Meeting Event/gallery-2.png"
+                src="/assets/Infinity Lux image Assets/Meeting Event/gallery-2.png"
                 alt=""
               />
             </div>
             <div className="w-[413px] h-[493px]">
               <img
                 className="w-full"
-                src="/public/assets/Infinity Lux image Assets/Meeting Event/gallery-3.png"
+                src="/assets/Infinity Lux image Assets/Meeting Event/gallery-3.png"
                 alt=""
               />
             </div>
             <div className="w-[413px] h-[493px]">
               <img
                 className="w-full"
-                src="/public/assets/Infinity Lux image Assets/Meeting Event/gallery-4.png"
+                src="/assets/Infinity Lux image Assets/Meeting Event/gallery-4.png"
                 alt=""
               />
             </div>
             <div className="w-[413px] h-[493px]">
               <img
                 className="w-full"
-                src="/public/assets/Infinity Lux image Assets/Meeting Event/gallery-5.png"
+                src="/assets/Infinity Lux image Assets/Meeting Event/gallery-5.png"
                 alt=""
               />
             </div>
             <div className="w-[413px] h-[493px]">
               <img
                 className="w-full"
-                src="/public/assets/Infinity Lux image Assets/Meeting Event/gallery-6.png"
+                src="/assets/Infinity Lux image Assets/Meeting Event/gallery-6.png"
                 alt=""
               />
             </div>

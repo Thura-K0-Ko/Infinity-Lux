@@ -6,7 +6,7 @@ const ContactUsPage = () => {
     <section>
       <HeroSection
         heroImg={
-          "/public/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_0.png"
+          "/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_0.png"
         }
         titles={["Contact Us"]}
       />

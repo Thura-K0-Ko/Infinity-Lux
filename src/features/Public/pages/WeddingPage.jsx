@@ -7,7 +7,7 @@ const WeddingPage = () => {
     <section>
       <HeroSection
         heroImg={
-          "/public/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Event_Hero_Image.png"
+          "/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Event_Hero_Image.png"
         }
         titles={[""]}
       />

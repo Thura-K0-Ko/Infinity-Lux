@@ -4,7 +4,7 @@ const useRoomStore = create((set) => ({
   rooms: [
     {
       id: 1,
-      img: "/public/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_3 (1).png",
+      img: "/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_3 (1).png",
       price: "85$/Night",
       category: "Deluxe Room",
       description:
@@ -18,9 +18,9 @@ const useRoomStore = create((set) => ({
         area: "398 Sqft",
       },
       detailImgs: [
-        "/public/assets/Hotel Profile website/image-12.png",
-        "/public/assets/Hotel Profile website/image-11.png",
-        "/public/assets/Hotel Profile website/image-10.png",
+        "/assets/Hotel Profile website/image-12.png",
+        "/assets/Hotel Profile website/image-11.png",
+        "/assets/Hotel Profile website/image-10.png",
       ],
       detailContents: [
         "The essence of Yangon has been interpreted through the eyes of renowned Burmese designers to create a synergy of contrasts inspired by nature and the elements. For Cozy, the decor theme includes details of metal, wood and earth.",
@@ -29,7 +29,7 @@ const useRoomStore = create((set) => ({
     },
     {
       id: 2,
-      img: "/public/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_3.png",
+      img: "/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_3.png",
       price: "95$/Night",
       category: "Premier Room",
       description:
@@ -43,9 +43,9 @@ const useRoomStore = create((set) => ({
         area: "452 Sqft",
       },
       detailImgs: [
-        "/public/assets/Hotel Profile website/image-12.png",
-        "/public/assets/Hotel Profile website/image-11.png",
-        "/public/assets/Hotel Profile website/image-10.png",
+        "/assets/Hotel Profile website/image-12.png",
+        "/assets/Hotel Profile website/image-11.png",
+        "/assets/Hotel Profile website/image-10.png",
       ],
       detailContents: [
         "Premier Room is especially spacious and comfort, and overlooking stunning garden view. Each room has a cozy living area, generously sized working desk and marble bathroom with bathtub and separate walk-in shower.",
@@ -54,7 +54,7 @@ const useRoomStore = create((set) => ({
     },
     {
       id: 3,
-      img: "/public/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_2.png",
+      img: "/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_2.png",
       price: "110$/Night",
       category: "Executive Room",
       description:
@@ -68,9 +68,9 @@ const useRoomStore = create((set) => ({
         area: "484 Sqft",
       },
       detailImgs: [
-        "/public/assets/Hotel Profile website/image-12.png",
-        "/public/assets/Hotel Profile website/image-11.png",
-        "/public/assets/Hotel Profile website/image-10.png",
+        "/assets/Hotel Profile website/image-12.png",
+        "/assets/Hotel Profile website/image-11.png",
+        "/assets/Hotel Profile website/image-10.png",
       ],
       detailContents: [
         "Executive room offers spectacular city views and provides fall-to-ceiling window overlooking the hotel greenery and pools. The room are furnished with comfortable bedding, spacious living and working space.",
@@ -79,7 +79,7 @@ const useRoomStore = create((set) => ({
     },
     {
       id: 4,
-      img: "/public/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_0.png",
+      img: "/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_0.png",
       price: "120$/Night",
       category: "Executive Suite",
       description:
@@ -93,9 +93,9 @@ const useRoomStore = create((set) => ({
         area: "535 Sqft",
       },
       detailImgs: [
-        "/public/assets/Hotel Profile website/image-12.png",
-        "/public/assets/Hotel Profile website/image-11.png",
-        "/public/assets/Hotel Profile website/image-10.png",
+        "/assets/Hotel Profile website/image-12.png",
+        "/assets/Hotel Profile website/image-11.png",
+        "/assets/Hotel Profile website/image-10.png",
       ],
       detailContents: [
         "Executive suite has a separate living room that includes a spacious working area, a huge bathroom with a bathtub and rain shower enclosure, and there is a powder room for your guests.",
@@ -104,7 +104,7 @@ const useRoomStore = create((set) => ({
     },
     {
       id: 5,
-      img: "/public/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_1.png",
+      img: "/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_1.png",
       price: "150$/Night",
       category: "Family Suite",
       description:
@@ -118,9 +118,9 @@ const useRoomStore = create((set) => ({
         area: "904 Sqft",
       },
       detailImgs: [
-        "/public/assets/Hotel Profile website/image-12.png",
-        "/public/assets/Hotel Profile website/image-11.png",
-        "/public/assets/Hotel Profile website/image-10.png",
+        "/assets/Hotel Profile website/image-12.png",
+        "/assets/Hotel Profile website/image-11.png",
+        "/assets/Hotel Profile website/image-10.png",
       ],
       detailContents: [
         "Family Suite has a luxury apartment-style ambience suitable for families with children. There is a kitchen that is equipped with everything needed for preparing family meals. The living room adjacent to the door leading to the restful bedroom.",
@@ -129,7 +129,7 @@ const useRoomStore = create((set) => ({
     },
     {
       id: 6,
-      img: "/public/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_2 (1).png",
+      img: "/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_2 (1).png",
       price: "165$/Night",
       category: "Penthouse Suite",
       description:
@@ -143,9 +143,9 @@ const useRoomStore = create((set) => ({
         area: "753 Sqft",
       },
       detailImgs: [
-        "/public/assets/Hotel Profile website/image-12.png",
-        "/public/assets/Hotel Profile website/image-11.png",
-        "/public/assets/Hotel Profile website/image-10.png",
+        "/assets/Hotel Profile website/image-12.png",
+        "/assets/Hotel Profile website/image-11.png",
+        "/assets/Hotel Profile website/image-10.png",
       ],
       detailContents: [
         "Penthouse suite with the feel of a private luxurious apartment, is ideal for larger groups. There is a welcome foyer with lounge and partitions that can separate each wing for privacy.",
