@@ -16,7 +16,7 @@ const EventPage = () => {
             <Container>
                <div className="py-40 flex flex-col gap-40">
                   {events.map((event) => (
-                     <EventCard event={event} />
+                     <EventCard key={event.id} event={event} />
                   ))}
                </div>
             </Container>
