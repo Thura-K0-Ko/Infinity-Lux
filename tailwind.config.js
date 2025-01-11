@@ -18,6 +18,10 @@ export default {
         eventBg: "#EFF2F7",
         display: "#6A669D",
         title: "#141414",
+        customWhite: "#E5E7EB",
+        customBlue: {
+          950: "#172554",
+        },
         customGray: {
           100: "#E6E5F2", // Lightest shade
           200: "#CFCDE5",
