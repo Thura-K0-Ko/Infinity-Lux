@@ -7,7 +7,8 @@ export default {
   ],
   theme: {
     fontFamily: {
-      sans: ["Montserrat", "Padauk", "sans-serif"],
+      sans: ["Urbanist", "Padauk", "sans-serif"],
+      serif: ["Gilda Display", "serif"],
     },
     extend: {
       colors: {

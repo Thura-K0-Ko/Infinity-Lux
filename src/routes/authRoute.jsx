@@ -2,7 +2,7 @@ import { lazy, Suspense } from "react";
 import PageLoading from "../components/PageLoading";
 
 const LoginPage = lazy(() => import("../features/auth/pages/LoginPage"));
-const RegisterPage = lazy(() => import("../features/auth/pages/RegisterPage"));
+// const RegisterPage = lazy(() => import("../features/auth/pages/RegisterPage"));
 
 const authRoute = [
   {
@@ -13,14 +13,14 @@ const authRoute = [
       </Suspense>
     ),
   },
-  {
-    path: "register",
-    element: (
-      <Suspense fallback={<PageLoading />}>
-        <RegisterPage />
-      </Suspense>
-    ),
-  },
+  // {
+  //   path: "register",
+  //   element: (
+  //     <Suspense fallback={<PageLoading />}>
+  //       <RegisterPage />
+  //     </Suspense>
+  //   ),
+  // },
 ];
 
 export default authRoute;
