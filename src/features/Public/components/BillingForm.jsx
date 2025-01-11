@@ -42,17 +42,17 @@ const BillingForm = () => {
          <div className="flex flex-col gap-8 mb-[60px]">
                <label htmlFor="arrival" className="flex items-center gap-3 border border-customWhite-500 rounded px-5 py-[10px]">
                   <input type="radio" id="arrival" name="payment" />
-                  <img className="h-[72px]" src="/src/assets/Hotel Profile website/ic-payments-payment_on_delivery-xs 1.png" alt="payment on delivery" />
+                  <img className="h-[72px]" src="/public/assets/Hotel Profile website/ic-payments-payment_on_delivery-xs 1.png" alt="payment on delivery" />
                   <span className="text-xl font-medium tracking-[0.1px]">Payment On Arrival</span>
                </label>
                <label htmlFor="paypal" className="flex items-center gap-3 border border-customWhite-500 rounded px-5 py-[10px]">
                   <input type="radio" id="paypal" name="payment" />
-                  <img className="h-[72px]" src="/src/assets/Hotel Profile website/paypal-light-mode 1.png" alt="payment on delivery" />
+                  <img className="h-[72px]" src="/public/assets/Hotel Profile website/paypal-light-mode 1.png" alt="payment on delivery" />
                   <span className="text-xl font-medium tracking-[0.1px]">Pay With PayPal</span>
                </label>
                <label htmlFor="credit" className="flex items-center gap-3 border border-customWhite-500 rounded px-5 py-[10px]">
                   <input type="radio" id="credit" name="payment" />
-                  <img className="h-[72px]" src="/src/assets/Hotel Profile website/mastercard 1.png" alt="payment on delivery" />
+                  <img className="h-[72px]" src="/public/assets/Hotel Profile website/mastercard 1.png" alt="payment on delivery" />
                   <span className="text-xl font-medium tracking-[0.1px]">Credit Or Debit Card</span>
                </label>
          </div>

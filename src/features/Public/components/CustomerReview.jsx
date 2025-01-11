@@ -43,7 +43,7 @@ const CustomerReview = () => {
               >
                 <div className="flex items-center justify-between">
                   <img
-                    src="/src/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Black.png"
+                    src="/public/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Black.png"
                     className=" w-10"
                     alt=""
                   />
@@ -81,7 +81,7 @@ const CustomerReview = () => {
                   <div>
                     <img
                       src={
-                        "/src/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Black.svg"
+                        "/public/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Black.svg"
                       }
                       className=" size-6"
                       alt=""

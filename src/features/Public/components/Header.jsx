@@ -9,7 +9,7 @@ const Header = () => {
           <div className="flex flex-wrap justify-between items-center max-w-screen">
             <Link to="/" className=" hover:opacity-80">
               <img
-                src="/src/assets/Hotel Profile website/Lux 2.svg"
+                src="/public/assets/Hotel Profile website/Lux 2.svg"
                 className=" h-[50px] lg:h-[60px] 2xl:h-[69px] "
                 alt="Lux 2 logo"
               />

@@ -9,7 +9,7 @@ const NewYear = () => {
         className="absolute inset-0 bg-cover bg-top"
         style={{
           backgroundImage:
-            "url('/src/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/New_Year_bg_image.png')",
+            "url('/public/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/New_Year_bg_image.png')",
         }}
         aria-hidden="true"
       />
@@ -70,7 +70,7 @@ const NewYear = () => {
     //     <div
     //       className="relative min-h-[768px] flex flex-col items-center justify-center bg-black"
     //       style={{
-    //         backgroundImage: "url('/src/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/New_Year_bg_image.png')",
+    //         backgroundImage: "url('/public/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/New_Year_bg_image.png')",
     //         backgroundSize: "cover",
     //         backgroundPosition: "center",
     //       }}
@@ -109,7 +109,7 @@ const NewYear = () => {
     //       {/* Background Image */}
     //       <div className="absolute inset-0 z-0">
     //         <img
-    //           src="/src/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/New_Year_bg_image.png"
+    //           src="/public/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/New_Year_bg_image.png"
     //           alt="Luxury hotel room"
     //           className="w-full h-full object-cover"
     //         />

@@ -63,7 +63,7 @@ const RoomDetailCard = () => {
             </div>
           ))}
           <div className="flex items-center gap-x-5 gap-y-6">
-            <img src="/src/assets/Hotel Profile website/axis-3d-detail.svg" />
+            <img src="/public/assets/Hotel Profile website/axis-3d-detail.svg" />
             <span className="text-customGray-500 text-center text-xl font-light tracking-[0.1px]">
               {roomDetail.services.area}
             </span>
