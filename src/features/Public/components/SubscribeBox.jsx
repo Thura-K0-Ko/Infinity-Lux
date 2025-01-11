@@ -16,7 +16,7 @@ const SubscribeBox = () => {
             </div>
 
             <div className=" flex flex-col text-center">
-              <h1 className="text-[#141414] text-6xl font-normal font-heading">
+              <h1 className="text-customGray-500 text-6xl font-normal font-heading">
                 Subscribe to updates
               </h1>
               <p className="text-gray-500 text-xl font-light mt-5">
@@ -29,13 +29,13 @@ const SubscribeBox = () => {
                 <input
                   type="email"
                   id="search-dropdown"
-                  className="block p-4 py-3.5 w-full z-20  text-gray-500 text-[15px] font-medium bg-gray-50 rounded-lg rounded-s-gray-100 rounded-s-2 border border-gray-300 focus:ring-customPurple focus:border-customPurple dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-customPurple"
+                  className="block p-4 py-3.5 w-full z-20  text-gray-500 text-[15px] font-medium bg-gray-50 rounded-lg rounded-s-gray-100 rounded-s-2 border border-gray-300 focus:ring-customPurple-500 focus:border-customPurple-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-customPurple-500"
                   placeholder="Enter your email"
                   required
                 />
                 <button
                   type="submit"
-                  className="absolute top-0 end-0 p-2.5 h-full px-4 py-3.5 bg-[#6a669d] text-white text-[15px] font-normal rounded-r-lg border border-customPurple hover:bg-customPurple focus:ring-4 focus:outline-none focus:ring-customPurple dark:bg-customPurple dark:hover:bg-customPurple dark:focus:ring-customPurple"
+                  className="absolute top-0 end-0 p-2.5 h-full px-4 py-3.5 bg-customPurple-500 text-white text-[15px] font-normal rounded-r-lg border border-customPurple-500 hover:bg-customPurple-500 focus:ring-4 focus:outline-none focus:ring-customPurple-500 dark:bg-customPurple-500 dark:hover:bg-customPurple-500 dark:focus:ring-customPurple-500"
                 >
                   Subscribe
                 </button>

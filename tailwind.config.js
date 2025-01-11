@@ -8,12 +8,12 @@ export default {
   ],
   theme: {
     fontFamily: {
-      heading: ["Gilda Display", "serif"], // For headings
-      body: ["Urbanist", "sans-serif"], // For body text
+      heading: ["Gilda Display", "serif"],
+      body: ["Urbanist", "sans-serif"], 
     },
     extend: {
       colors: {
-        // customPurple: "#6A669D",
+        // customPurple: "#6A669D", 
         roomBG: "#EFF2F7",
         eventBg: "#EFF2F7",
         display: "#6A669D",
@@ -73,8 +73,51 @@ export default {
           900: "#505152",
           950: "#303031",
         },
+        customStone   : {
+          50: "#FCFCFB",  
+          100: "#FBFAF9", 
+          200: "#F9F8F6", 
+          300: "#F6F5F3", 
+          400: "#F4F3F0", 
+          500: "#F2F0ED", 
+          600: "#CAC8C6", 
+          700: "#A1A09E", 
+          800: "#797877", 
+          900: "#51504F", 
+          950: "#30302F", 
+         },
+         customSlate : {
+          50: "#FCFCFD",
+          100: "#FAFBFC",
+          200: "#F7F9FB",
+          300: "#F4F6FA",
+          400: "#F2F4F8",
+          500: "#EFF2F7", 
+          600: "#C7CACE",
+          700: "#9FA1A5",
+          800: "#78797C",
+          900: "#505152",
+          950: "#303031",
+         }
       },
     },
   },
   plugins: [require("flowbite/plugin")],
 };
+
+// customPurple: "#6A669D", 
+//         roomBG: "#EFF2F7",
+//         eventBg: "#EFF2F7",
+//         display: "#6A669D",
+//         title: "#141414",
+//         customGray: {
+//           100: "#E6E5F2", 
+//           200: "#CFCDE5",
+//           300: "#B8B5D7",
+//           400: "#A29DC9",
+//           500: "#6A669D", 
+//           600: "#5E5A8C",
+//           700: "#4B4770",
+//           800: "#383454",
+//           900: "#252238", 
+//         },
