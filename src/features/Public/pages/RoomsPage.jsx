@@ -12,7 +12,7 @@ const RoomsPage = () => {
       <section className="bg-roomBG">
          <HeroSection
             heroImg={"/src/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_0 (1).png"}
-            titles={[""]}
+            titles={["Rooms & Suites"]}
          />
          <Container>
             <div className="py-40 flex flex-col gap-40">

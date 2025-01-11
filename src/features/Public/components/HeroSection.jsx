@@ -2,7 +2,6 @@ import Container from "../../../components/Container";
 import Header from "./Header";
 
 const HeroSection = ({ heroImg, subtitle, titles, btnText }) => {
-  console.log(titles);
   return (
     <div className="relative lg:min-h-[580px] xl:min-h-[680px] 2xl:min-h-[754px] flex flex-col items-center justify-center">
       {/* Background Image */}

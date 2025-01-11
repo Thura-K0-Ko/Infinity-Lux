@@ -16,7 +16,8 @@ const Booking = () => {
   };
   return (
     <>
-      <div className="relative min-h-screen flex flex-col items-center justify-center">
+    <HeroSection heroImg={"/src/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_2 (3).png"} titles={["Booking"]}/>
+      {/* <div className="relative min-h-screen flex flex-col items-center justify-center">
         <div className="absolute inset-0 z-0">
           <img
             src="/src/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_2 (3).png"
@@ -26,7 +27,7 @@ const Booking = () => {
           <div className="absolute inset-0 bg-black/30" />
         </div>
         <Header />
-      </div>
+      </div> */}
       <Container>
         <div className="grid grid-cols-3 gap-5 my-20">
           <div className="col-span-2">

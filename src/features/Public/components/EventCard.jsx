@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 const EventCard = ({event}) => {
    return (
+    <div className="relative">
       <div key={event.id} className="relative h-[530px]">
          <div className={`${event.id%2 === 0 ? "absolute right-0" : "relative"}`}>
             <img className="h-[530px] w-auto" src={event.img} alt={event.title} />

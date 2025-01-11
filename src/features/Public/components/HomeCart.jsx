@@ -23,10 +23,8 @@ const HomeCart = () => {
       <EventCart />
       <NewYear />
       <CustomerReview />
-
-      <SubscribeBox />
-
       <HotelArticle />
+      <SubscribeBox />
     </div>
   );
 };
