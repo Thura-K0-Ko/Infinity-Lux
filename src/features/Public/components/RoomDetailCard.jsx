@@ -1,7 +1,7 @@
 import React from "react";
-import useRoomStore from "../../stores/useRoomStore";
+import useRoomStore from "../stores/useRoomStore";
 import { Link, useParams } from "react-router-dom";
-import useRoomFeatureStore from "../../stores/useRoomFeatureStore";
+import useRoomFeatureStore from "../stores/useRoomFeatureStore";
 
 const RoomDetailCard = () => {
   const { rooms } = useRoomStore();

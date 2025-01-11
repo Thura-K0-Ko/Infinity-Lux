@@ -3,6 +3,7 @@ import CustomerReview from "./CustomerReview";
 import EventCart from "./EventCart";
 import HotelArticle from "./HotelArticle";
 import NewYear from "./NewYear";
+import RoomAndSuite from "./RoomAndSuite";
 import SubscribeBox from "./SubscribeBox";
 
 const HomeCart = () => {
@@ -18,6 +19,7 @@ const HomeCart = () => {
         firstImg={"/src/assets/Hotel Profile website/image-31.png"}
         secondImg={"/src/assets/Hotel Profile website/image-30.png"}
       />
+      <RoomAndSuite />
       <EventCart />
       <NewYear />
       <CustomerReview />
@@ -25,7 +27,6 @@ const HomeCart = () => {
       <SubscribeBox />
 
       <HotelArticle />
-
     </div>
   );
 };

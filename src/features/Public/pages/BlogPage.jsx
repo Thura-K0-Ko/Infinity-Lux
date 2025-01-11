@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../../../components/Container";
 import Breadcrumb from "../../../components/Breadcrumb";
 import HeroSection from "../components/HeroSection";
+import BlogCard from "../components/BlogCard";
 
 const BlogPage = () => {
   return (
@@ -12,6 +13,7 @@ const BlogPage = () => {
         }
         titles={["Blog"]}
       />
+      <BlogCard />
     </section>
   );
 };

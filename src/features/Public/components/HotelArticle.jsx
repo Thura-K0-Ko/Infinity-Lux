@@ -1,9 +1,10 @@
-import React from "react";
 import Container from "../../../components/Container";
-import { Link } from "react-router-dom";
-import { HiArrowSmallRight } from "react-icons/hi2";
+import ArticleCard from "./ArticleCard";
+import useBlogStore from "../../../stores/useBlogStore";
 
 const HotelArticle = () => {
+  const { blogs } = useBlogStore();
+  console.log(blogs);
   return (
     <section>
       <div className=" py-40 bg-customGray-500 ">
@@ -113,6 +114,9 @@ const HotelArticle = () => {
                   </div>
                 </div>
               </div>
+              {blogs.slice(0, 3).map((blog) => (
+                <ArticleCard key={blog.id} blog={blog} />
+              ))}
             </div>
           </div>
         </Container>
