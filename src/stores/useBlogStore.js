@@ -21,6 +21,7 @@ const useBlogStore = create((set) => ({
       image: "/public/assets/Infinity Lux image Assets/10. Blog Page (Infinity Lux )/Blog2.png",
       link: "/blog/hotel-bathroom",
       imgAlt: "blog2",
+
     },
     {
       id: 3,
