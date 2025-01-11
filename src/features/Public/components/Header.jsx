@@ -3,14 +3,14 @@ import Container from "../../../components/Container";
 
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 w-full  z-50">
+    <header className="absolute pt-3 xl:pt-5 top-0 left-0 w-full  z-50">
       <Container>
-        <nav className=" py-3">
+        <nav className="">
           <div className="flex flex-wrap justify-between items-center max-w-screen">
             <Link to="/" className=" hover:opacity-80">
               <img
                 src="/src/assets/Hotel Profile website/Lux 2.svg"
-                className="size-24 lg:size-28 2xl:size-36"
+                className=" h-[50px] lg:h-[60px] 2xl:h-[69px] "
                 alt="Lux 2 logo"
               />
              
@@ -19,7 +19,7 @@ const Header = () => {
               <>
                 <Link
                   to={"/login"}
-                  className=" text-sm lg:text-lg xl:text-lg 2xl:text-2xl text-white dark:text-white hover:bg-customPurple focus:ring-4 focus:ring-gray-300 font-medium  px-4 lg:px-6 2xl:px-10 py-2 lg:py-3 2xl:py-5  bg-customPurple dark:hover:bg-customPurple focus:outline-none dark:focus:ring-gray-800"
+                  className=" text-sm lg:text-lg xl:text-xl  2xl:text-2xl text-white dark:text-white hover:bg-customPurple focus:ring-4 focus:ring-gray-300 font-medium  px-4 lg:px-6 2xl:px-10 py-2 lg:py-3 2xl:py-5  bg-customPurple dark:hover:bg-customPurple focus:outline-none dark:focus:ring-gray-800"
                 >
                   RESERVATION
                 </Link>
