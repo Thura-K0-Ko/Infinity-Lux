@@ -1,14 +1,12 @@
 import React from "react";
 import useCustomerReviewStore from "../../../stores/useCustomerReviewStore";
 import Container from "../../../components/Container";
-import { HiArrowLeft, HiArrowRight } from "react-icons/hi";
 import Rating from "../../../components/Rating";
 import { Link } from "react-router-dom";
 import { HiArrowSmallLeft, HiArrowSmallRight } from "react-icons/hi2";
 
 const CustomerReview = () => {
   const { customerReview } = useCustomerReviewStore();
-  console.log(customerReview);
   return (
     <Container>
       <div className=" bg-white grid grid-cols-3 items-center justify-center py-40">
