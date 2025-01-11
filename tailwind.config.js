@@ -16,8 +16,12 @@ export default {
         customPurple: "#6A669D", // Add my custom color
         roomBG: "#EFF2F7",
         eventBg: "#EFF2F7",
-        eventDisplay: "#6A669D",
-        eventTitle: "#141414",
+        display: "#6A669D",
+        title: "#141414",
+        customWhite: "#E5E7EB",
+        customBlue: {
+          950: "#172554",
+        },
         customGray: {
           100: "#E6E5F2", // Lightest shade
           200: "#CFCDE5",
