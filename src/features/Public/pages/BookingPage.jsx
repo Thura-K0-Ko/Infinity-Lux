@@ -8,7 +8,8 @@ import VoucherCard from "../components/VoucherCard";
 const Booking = () => {
   const styles = {
     deluxeRoomBg: {
-      backgroundImage: "url('/src/assets/Hotel Profile website/image-6.png')",
+      backgroundImage:
+        "url('/public/assets/Hotel Profile website/image-6.png')",
     },
     boxShadow: {
       boxShadow: "0 2px 1px 2px #888",
@@ -16,11 +17,16 @@ const Booking = () => {
   };
   return (
     <>
-    <HeroSection heroImg={"/src/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_2 (3).png"} titles={["Booking"]}/>
+      <HeroSection
+        heroImg={
+          "/public/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_2 (3).png"
+        }
+        titles={["Booking"]}
+      />
       {/* <div className="relative min-h-screen flex flex-col items-center justify-center">
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_2 (3).png"
+            src="/public/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_2 (3).png"
             alt="Luxury hotel room"
             className="w-full h-full object-cover"
           />
@@ -133,7 +139,7 @@ const Booking = () => {
                 <input type="radio" id="arrival" name="payment" />
                 <img
                   className="h-[72px]"
-                  src="/src/assets/Hotel Profile website/ic-payments-payment_on_delivery-xs 1.png"
+                  src="/public/assets/Hotel Profile website/ic-payments-payment_on_delivery-xs 1.png"
                   alt="payment on delivery"
                 />
                 <span className="text-xl">Payment On Arrival</span>
@@ -145,7 +151,7 @@ const Booking = () => {
                 <input type="radio" id="paypal" name="payment" />
                 <img
                   className="h-[72px]"
-                  src="/src/assets/Hotel Profile website/paypal-light-mode 1.png"
+                  src="/public/assets/Hotel Profile website/paypal-light-mode 1.png"
                   alt="payment on delivery"
                 />
                 <span className="text-xl">Pay With PayPal</span>
@@ -157,7 +163,7 @@ const Booking = () => {
                 <input type="radio" id="credit" name="payment" />
                 <img
                   className="h-[72px]"
-                  src="/src/assets/Hotel Profile website/mastercard 1.png"
+                  src="/public/assets/Hotel Profile website/mastercard 1.png"
                   alt="payment on delivery"
                 />
                 <span className="text-xl">Credit Or Debit Card</span>
@@ -184,35 +190,35 @@ const Booking = () => {
               <div className="flex flex-col gap-4 p-7 mb-20">
                 <p className="flex items-center gap-1">
                   <img
-                    src="/src/assets/Hotel Profile website/calendar-days.svg"
+                    src="/public/assets/Hotel Profile website/calendar-days.svg"
                     alt="calendar"
                   />{" "}
                   <span className="">Check-in : 28 Dec 2024, Saturday</span>
                 </p>
                 <p className="flex items-center gap-1">
                   <img
-                    src="/src/assets/Hotel Profile website/calendar-days.svg"
+                    src="/public/assets/Hotel Profile website/calendar-days.svg"
                     alt="calendar"
                   />{" "}
                   <span className="">Check-out : 30 Dec 2024, Monday</span>
                 </p>
                 <p className="flex items-center gap-1">
                   <img
-                    src="/src/assets/Hotel Profile website/bed-double.svg"
+                    src="/public/assets/Hotel Profile website/bed-double.svg"
                     alt="bed-double"
                   />{" "}
                   <span className="">Room : 1 x Deluxe Room</span>
                 </p>
                 <p className="flex items-center gap-1">
                   <img
-                    src="/src/assets/Hotel Profile website/users.svg"
+                    src="/public/assets/Hotel Profile website/users.svg"
                     alt="bed-double"
                   />{" "}
                   <span className="">Guests : 2 People</span>
                 </p>
                 <p className="flex items-center gap-1">
                   <img
-                    src="/src/assets/Hotel Profile website/calendar-check.svg"
+                    src="/public/assets/Hotel Profile website/calendar-check.svg"
                     alt="bed-double"
                   />{" "}
                   <span className="">Nights : 2 Nights</span>
@@ -253,23 +259,25 @@ const Booking = () => {
       </Container>
     </>
   );
-   return (
-      <>
-         <HeroSection
-            heroImg={"/src/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_2 (3).png"}
-            titles={[""]}
-         />
-         <Container>
-            <div className="grid grid-cols-3 gap-5 my-[174px]">
-               <BillingForm />
-               <div className="">
-                  <ReservationCard />
-                  <VoucherCard />
-               </div>
-            </div>
-         </Container>
-      </>
-   );
+  return (
+    <>
+      <HeroSection
+        heroImg={
+          "/public/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_2 (3).png"
+        }
+        titles={[""]}
+      />
+      <Container>
+        <div className="grid grid-cols-3 gap-5 my-[174px]">
+          <BillingForm />
+          <div className="">
+            <ReservationCard />
+            <VoucherCard />
+          </div>
+        </div>
+      </Container>
+    </>
+  );
 };
 
 export default Booking;
