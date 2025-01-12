@@ -3,7 +3,7 @@ import React from "react";
 const BillingForm = () => {
   return (
     <div className="col-span-2">
-      <h3 className="text-title font-heading text-[40px] font-normal mb-9">
+      <h3 className="text-customGray-500 font-heading text-[40px] font-normal mb-9">
         Billing Details
       </h3>
       <form className="grid grid-cols-2 gap-x-5 gap-y-8 mb-[60px]">
@@ -168,7 +168,7 @@ const BillingForm = () => {
         </label>
       </div>
       <div>
-        <button className="bg-customPurple text-white text-2xl font-semibold w-1/2 px-10 py-5">
+        <button className="bg-customPurple-500 text-white text-2xl font-semibold w-1/2 px-10 py-5">
           Check Out
         </button>
       </div>

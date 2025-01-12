@@ -11,6 +11,7 @@ const HomePage = () => {
         subtitle={"Curated For You"}
         titles={["Enjoy The Best", "Movements Of Life"]}
         btnText={"Rooms & Suites"}
+        path={"/rooms"}
       />
 
       <HomeCart />

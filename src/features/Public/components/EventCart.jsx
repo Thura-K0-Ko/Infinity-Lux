@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../../../components/Container";
+import { Link } from "react-router-dom";
 
 const EventCart = () => {
   return (
@@ -22,7 +23,7 @@ const EventCart = () => {
                   className="w-full"
                   alt=""
                 />
-                <button className="absolute bottom-0 translate-y-1/2 p-8 bg-customPurple-500 flex flex-col gap-3  justify-center items-center">
+                <Link to={"/events/meeting"} className="absolute bottom-0 translate-y-1/2 p-8 bg-customPurple-500 flex flex-col gap-3  justify-center items-center">
                   <h3 className="text-center text-white text-4xl font-heading font-normal ">
                     {" "}
                     Meeting Events
@@ -30,7 +31,7 @@ const EventCart = () => {
                   <p className="text-gray-300 text-xl font-medium">
                     Elevate your meetings with our sophisticated venues
                   </p>
-                </button>
+                </Link>
               </div>
             </div>
             <div className="col-span-1">
@@ -40,15 +41,15 @@ const EventCart = () => {
                   className="w-full"
                   alt=""
                 />
-                <button className="absolute bottom-0 translate-y-1/2 p-8 bg-customPurple-500 flex flex-col gap-3  justify-center items-center">
+                <Link to={"events/wedding"} className="absolute bottom-0 translate-y-1/2 p-8 bg-customPurple-500 flex flex-col gap-3  justify-center items-center">
                   <h3 className="text-center text-white text-4xl font-heading font-normal ">
                     {" "}
-                    Meeting Events
+                    Wedding Events
                   </h3>
                   <p className="text-gray-300 text-xl font-medium">
-                    Elevate your meetings with our sophisticated venues
+                  Celebrate your love story with our enchanting venues
                   </p>
-                </button>
+                </Link>
               </div>
             </div>
           </div>

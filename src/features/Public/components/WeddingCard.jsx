@@ -6,10 +6,10 @@ const WeddingCard = () => {
     <>
       <div className="py-40">
         <Container>
-          <h4 className="text-center text-customPurple text-2xl font-medium mb-6">
+          <h4 className="text-center text-customPurple-500 text-2xl font-medium mb-6">
             Add A New Dimension To Your Events
           </h4>
-          <h2 className="text-center text-title font-heading text-5xl font-normal mb-[60px]">
+          <h2 className="text-center text-customGray-500 font-heading text-5xl font-normal mb-[60px]">
             Wedding Event
           </h2>
           <p className="text-gray-500 text-xl font-light tracking-[0.1px] mb-[60px]">
@@ -27,11 +27,11 @@ const WeddingCard = () => {
           </p>
         </Container>
       </div>
-      <div className="bg-roomBG py-40">
+      <div className="bg-customSlate-500 py-40">
         <Container>
           <div className="flex justify-between gap-32">
             <ul className="flex flex-col gap-8">
-              <h3 className="text-title font-heading text-[40px] font-normal mb-9">
+              <h3 className="text-customGray-500 font-heading text-[40px] font-normal mb-9">
                 Package Include
               </h3>
               <li className="flex items-center gap-5">
@@ -132,10 +132,10 @@ const WeddingCard = () => {
       </div>
       <div className="py-40">
         <Container>
-          <h4 className="text-center text-customPurple text-2xl font-medium mb-6">
+          <h4 className="text-center text-customPurple-500 text-2xl font-medium mb-6">
             Add A New Dimension To Your Events
           </h4>
-          <h2 className="text-center text-title font-heading text-5xl font-normal mb-[60px]">
+          <h2 className="text-center text-customGray-500 font-heading text-5xl font-normal mb-[60px]">
             Wedding Event
           </h2>
           <div className="grid grid-cols-3 gap-x-5 gap-y-[26px]">
@@ -184,7 +184,7 @@ const WeddingCard = () => {
           </div>
         </Container>
       </div>
-      <div className="bg-customPurple py-[75px] mb-[200px]">
+      <div className="bg-customPurple-500 py-[75px] mb-[200px]">
         <Container>
           <h3 className="text-gray-50 font-heading text-4xl font-normal tracking-[0.18px] mb-6">
             Contact Us

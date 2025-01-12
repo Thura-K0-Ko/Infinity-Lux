@@ -13,8 +13,8 @@ const RoomCard = ({ room }) => {
           room.id % 2 !== 0 && "right-0"
         } flex flex-col gap-6 w-[650px] text-gray-500 bg-white p-8`}
       >
-        <p className="text-customPurple text-2xl font-medium">{room.price}</p>
-        <h3 className="text-title font-heading text-5xl font-normal">
+        <p className="text-customPurple-500 text-2xl font-medium">{room.price}</p>
+        <h3 className="text-customGray-500 font-heading text-5xl font-normal">
           {room.category}
         </h3>
         <p className="text-xl font-medium">{room.description}</p>
@@ -88,7 +88,7 @@ const RoomCard = ({ room }) => {
             Room Details <HiArrowRight className="size-8" />
           </Link>
           <Link
-            to={"/booking"}
+            to={`/booking/${room.id}`}
             className="bg-customPurple-500 text-2xl font-semibold text-white px-10 py-5"
           >
             Book Now

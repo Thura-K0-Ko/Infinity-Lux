@@ -9,12 +9,12 @@ import ContactCard from "../components/ContactCard";
 const RoomsPage = () => {
   const { rooms } = useRoomStore();
   return (
-    <section className="bg-roomBG">
+    <section className="bg-customSlate-500">
       <HeroSection
         heroImg={
           "/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_0 (1).png"
         }
-        titles={["Rooms & Suites"]}
+        titles={[""]}
       />
       <Container>
         <div className="py-40 flex flex-col gap-40">

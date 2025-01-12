@@ -11,7 +11,7 @@ const BlogPage = () => {
         heroImg={
           "/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_2 (2).png"
         }
-        titles={["Blog"]}
+        titles={[""]}
       />
       <BlogCard />
     </section>

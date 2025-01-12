@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 import Container from "../../../components/Container";
 import Header from "./Header";
 
-const HeroSection = ({ heroImg, subtitle, titles, btnText }) => {
+const HeroSection = ({ heroImg, subtitle, titles, btnText, path }) => {
   return (
     <div className="relative lg:min-h-[580px] xl:min-h-[754px] flex flex-col items-center justify-center">
       {/* Background Image */}
@@ -34,9 +35,9 @@ const HeroSection = ({ heroImg, subtitle, titles, btnText }) => {
           </div>
 
           {btnText && (
-            <button className=" lg:px-8   2xl:px-10  lg:py-4  2xl:py-5 border-2  border-white text-white text-2xl font-semibold hover:bg-white hover:text-black transition-colors rounded">
+            <Link to={path} className=" lg:px-8   2xl:px-10  lg:py-4  2xl:py-5 border-2  border-white text-white text-2xl font-semibold hover:bg-white hover:text-black transition-colors rounded">
               {btnText}
-            </button>
+            </Link>
           )}
         </div>
       </Container>

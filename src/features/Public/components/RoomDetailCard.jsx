@@ -84,7 +84,7 @@ const RoomDetailCard = () => {
       </div>
       <div>
         <Link
-          to={"/booking"}
+          to={`/booking/${roomDetail.id}`}
           className="bg-customPurple-500 text-white text-2xl font-semibold px-10 py-5"
         >
           Book This Room

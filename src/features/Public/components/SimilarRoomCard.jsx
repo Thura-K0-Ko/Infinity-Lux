@@ -26,7 +26,7 @@ const SimilarRoomCard = () => {
             <div className="flex flex-col justify-between h-full">
               <div className="flex justify-end">
                 <Link
-                  to={"/booking"}
+                  to={`/booking/${room.id}`}
                   className="origin-[109px_37px] -rotate-90 text-white text-2xl font-semibold border border-white px-10 py-5 m-5"
                 >
                   BOOK
