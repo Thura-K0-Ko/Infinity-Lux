@@ -5,20 +5,23 @@ const LeadersOfHotel = () => {
     {
       id: 1,
       name: "Milly Alcock",
-      image: "/public/assets/Infinity Lux image Assets/8. About Us ( Infinity Lux )/Leader_Image1.png",
+      image:
+        "/assets/Infinity Lux image Assets/8. About Us ( Infinity Lux )/Leader_Image1.png",
       position: "Chief Executive Officer",
     },
     {
       id: 2,
       name: "Frank Grillo",
-      image: "/public/assets/Infinity Lux image Assets/8. About Us ( Infinity Lux )/Leader_Image2.png",
+      image:
+        "/assets/Infinity Lux image Assets/8. About Us ( Infinity Lux )/Leader_Image2.png",
 
-      position: "CEO, Co Founder",  
+      position: "CEO, Co Founder",
     },
     {
       id: 3,
       name: "Sara Sampaio",
-      image: "/public/assets/Infinity Lux image Assets/8. About Us ( Infinity Lux )/Leader_Image3.png",
+      image:
+        "/assets/Infinity Lux image Assets/8. About Us ( Infinity Lux )/Leader_Image3.png",
       position: "Chief Operating Officer",
     },
   ];
@@ -35,13 +38,9 @@ const LeadersOfHotel = () => {
           </p>
         </div>
         <div className="flex justify-center items-center gap-[21px]">
-          {leaders.map(({id, name,image, position }) => (
+          {leaders.map(({ id, name, image, position }) => (
             <div key={id} className="flex w-[413px] flex-col bg-[#FFF]">
-              <img
-                src={image}
-                alt=""
-                className="h-[467px]"
-              />
+              <img src={image} alt="" className="h-[467px]" />
               <div className="flex flex-col items-center p-8">
                 <p className="text-[#141414] text-center font-heading text-[32px] font-[400] capitalize">
                   {name}
