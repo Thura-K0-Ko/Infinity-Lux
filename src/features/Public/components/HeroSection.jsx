@@ -3,7 +3,7 @@ import Header from "./Header";
 
 const HeroSection = ({ heroImg, subtitle, titles, btnText }) => {
   return (
-    <div className="relative lg:min-h-[580px] xl:min-h-[680px] 2xl:min-h-[754px] flex flex-col items-center justify-center">
+    <div className="relative lg:min-h-[580px] xl:min-h-[754px] flex flex-col items-center justify-center">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
@@ -26,7 +26,7 @@ const HeroSection = ({ heroImg, subtitle, titles, btnText }) => {
               titles.map((title) => (
                 <h1
                   key={title}
-                  className="text-white lg:text-6xl xl:text-7xl 2xl:text-8xl  font-heading font-normal"
+                  className="text-white lg:text-6xl xl:text-8xl  font-heading font-normal"
                 >
                   {title}
                 </h1>
