@@ -21,7 +21,7 @@ const AboutInfinityLuxAndReservation = () => {
           </p>
           <Link to={"reservation"} className="flex items-center gap-6">
             <img
-              src="/public/assets/Infinity Lux image Assets/8. About Us ( Infinity Lux )/phone-call.svg"
+              src="/assets/Infinity Lux image Assets/8. About Us ( Infinity Lux )/phone-call.svg"
               alt=""
               className="w-[56px] h-[56px]"
             />
@@ -39,14 +39,14 @@ const AboutInfinityLuxAndReservation = () => {
           <div className=" flex gap-6 h-full">
             <div className="mt-auto">
               <img
-                src="/public/assets/Infinity Lux image Assets/8. About Us ( Infinity Lux )/About us_1.png"
+                src="/assets/Infinity Lux image Assets/8. About Us ( Infinity Lux )/About us_1.png"
                 alt=""
                 className="w-[305px] items-end"
               />
             </div>
             <div>
               <img
-                src="/public/assets/Infinity Lux image Assets/8. About Us ( Infinity Lux )/About us_2.png"
+                src="/assets/Infinity Lux image Assets/8. About Us ( Infinity Lux )/About us_2.png"
                 alt=""
                 className="w-[305px]"
               />
@@ -60,14 +60,14 @@ const AboutInfinityLuxAndReservation = () => {
           <div className=" flex gap-6 h-full">
             <div className="mt-auto">
               <img
-                src="/public/assets/Infinity Lux image Assets/8. About Us ( Infinity Lux )/About_Us_Story_image.png"
+                src="/assets/Infinity Lux image Assets/8. About Us ( Infinity Lux )/About_Us_Story_image.png"
                 alt=""
                 className="w-[305px] items-end"
               />
             </div>
             <div>
               <img
-                src="/public/assets/Infinity Lux image Assets/8. About Us ( Infinity Lux )/About_Us_Story_image1.png"
+                src="/assets/Infinity Lux image Assets/8. About Us ( Infinity Lux )/About_Us_Story_image1.png"
                 alt=""
                 className="w-[305px]"
               />

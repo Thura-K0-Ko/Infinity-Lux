@@ -10,7 +10,7 @@ const EventPage = () => {
     <section>
       <HeroSection
         heroImg={"/assets/Hotel Profile website/event-hero.png"}
-        titles={[""]}
+        titles={["Events"]}
       />
       <div className="bg-customSlate-500">
         <Container>

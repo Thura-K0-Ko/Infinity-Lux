@@ -9,7 +9,7 @@ const MeetingPage = () => {
         heroImg={
           "/assets/Infinity Lux image Assets/Meeting Event/Meeting_Event_Hero_Image.png"
         }
-        titles={[""]}
+        titles={["Meetings"]}
       />
       <MeetingCard />
     </section>

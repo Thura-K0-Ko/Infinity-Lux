@@ -13,7 +13,7 @@ const Booking = () => {
         heroImg={
           "/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_2 (3).png"
         }
-        titles={[""]}
+        titles={["Booking"]}
       />
       <Container>
         <div className="grid grid-cols-3 gap-5 my-[174px]">
