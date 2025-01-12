@@ -18,14 +18,12 @@ const CustomerReview = () => {
             </h1>
             <div className=" flex items-center justify-start gap-3">
               <Link
-                to={"about-us"}
                 className="bg-[#ada1d6]  text-white p-2 rounded-full  hover:bg-[#4A4164] transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "
               >
                 <HiArrowSmallLeft className=" size-7" />
               </Link>
 
               <Link
-                to={"about-us"}
                 className="bg-[#655B87]  text-white p-2 rounded-full  hover:bg-[#4A4164] transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "
               >
                 <HiArrowSmallRight className=" size-7" />
