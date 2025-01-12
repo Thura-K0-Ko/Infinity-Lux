@@ -8,7 +8,7 @@ const AboutUsPage = () => {
         heroImg={
           "/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_3 (2).png"
         }
-        titles={["About Us"]}
+        titles={[""]}
       />
 
       <Breadcrumb />

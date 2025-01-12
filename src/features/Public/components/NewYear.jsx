@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../../../components/Container";
+import { Link } from "react-router-dom";
 
 const NewYear = () => {
   return (
@@ -41,12 +42,12 @@ const NewYear = () => {
                   </p>
 
                   {/* CTA Button */}
-                  <button
-                    to={"about-us"}
+                  <Link
+                    to={"rooms"}
                     className="bg-customPurple-500 text-2xl font-semibold text-white px-10 py-5   hover:bg-[#4A4164] transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "
                   >
                     View Rooms
-                  </button>
+                  </Link>
                 </div>
               </div>
 

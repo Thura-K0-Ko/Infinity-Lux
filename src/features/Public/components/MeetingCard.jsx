@@ -7,10 +7,10 @@ const MeetingCard = () => {
     <>
       <Container>
         <div className="py-40">
-          <h4 className="text-center text-customPurple text-2xl font-medium mb-6">
+          <h4 className="text-center text-customPurple-500 text-2xl font-medium mb-6">
             Prestige Corporate Roundtable
           </h4>
-          <h2 className="text-center text-title font-heading text-5xl font-normal mb-[60px]">
+          <h2 className="text-center text-customGray-500 font-heading text-5xl font-normal mb-[60px]">
             Meeting Event
           </h2>
           <p className="text-gray-500 text-xl font-light tracking-[0.1px] mb-[60px]">
@@ -33,7 +33,7 @@ const MeetingCard = () => {
                 src="/assets/Infinity Lux image Assets/Meeting Event/Ballroom.png"
                 alt=""
               />
-              <h3 className="text-title font-heading text-4xl font-normal tracking-[0.1px] mb-6">
+              <h3 className="text-customGray-500 font-heading text-4xl font-normal tracking-[0.1px] mb-6">
                 Ballroom
               </h3>
               <div className="flex flex-col gap-3 mb-6">
@@ -51,10 +51,10 @@ const MeetingCard = () => {
                 </p>
               </div>
               <div className="flex justify-between items-center">
-                <h3 className="text-title text-[32px] font-normal tracking-[0.16px]">
+                <h3 className="text-customGray-500 text-[32px] font-normal tracking-[0.16px]">
                   $435/Meeting
                 </h3>
-                <Link className="bg-customPurple text-white text-2xl font-semibold px-10 py-5">
+                <Link className="bg-customPurple-500 text-white text-2xl font-semibold px-10 py-5">
                   RESERVATION
                 </Link>
               </div>
@@ -65,7 +65,7 @@ const MeetingCard = () => {
                 src="/assets/Infinity Lux image Assets/Meeting Event/Crystal_Ballroom.png"
                 alt=""
               />
-              <h3 className="text-title font-heading text-4xl font-normal tracking-[0.1px] mb-6">
+              <h3 className="text-customGray-500 font-heading text-4xl font-normal tracking-[0.1px] mb-6">
                 Crystal Ballroom
               </h3>
               <div className="flex flex-col gap-3 mb-6">
@@ -83,10 +83,10 @@ const MeetingCard = () => {
                 </p>
               </div>
               <div className="flex justify-between items-center">
-                <h3 className="text-title text-[32px] font-normal tracking-[0.16px]">
+                <h3 className="text-customGray-500 text-[32px] font-normal tracking-[0.16px]">
                   $550/Meeting
                 </h3>
-                <Link className="bg-customPurple text-white text-2xl font-semibold px-10 py-5">
+                <Link className="bg-customPurple-500 text-white text-2xl font-semibold px-10 py-5">
                   RESERVATION
                 </Link>
               </div>
@@ -94,10 +94,10 @@ const MeetingCard = () => {
           </div>
         </div>
         <div className="py-40">
-          <h4 className="text-center text-customPurple text-2xl font-medium mb-6">
+          <h4 className="text-center text-customPurple-500 text-2xl font-medium mb-6">
             Refined Learning in Style
           </h4>
-          <h2 className="text-center text-title font-heading text-5xl font-normal mb-[60px]">
+          <h2 className="text-center text-customGray-500 font-heading text-5xl font-normal mb-[60px]">
             Meeting Event
           </h2>
           <div className="grid grid-cols-3 gap-x-5 gap-y-[26px]">
@@ -146,7 +146,7 @@ const MeetingCard = () => {
           </div>
         </div>
       </Container>
-      <div className="bg-customPurple py-[76px] mb-[194px]">
+      <div className="bg-customPurple-500 py-[76px] mb-[194px]">
         <Container>
           <h3 className="text-gray-50 font-heading text-4xl font-normal tracking-[0.18px] mb-6">
             Contact Us

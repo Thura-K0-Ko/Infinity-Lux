@@ -1,7 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+import useRoomStore from "../stores/useRoomStore";
 
 const BookingForm = () => {
+  const { rooms } = useRoomStore();
+  const params = useParams();
+
+  const roomDetail = rooms.filter((room) => room.id == params.id)[0];
+
   const tomorrow = new Date();
   tomorrow.setDate(tomorrow.getDate() + 1);
   const checkIn = tomorrow.toISOString().split("T")[0];
@@ -73,7 +79,7 @@ const BookingForm = () => {
         />
       </div>
       <Link
-        to={"/booking"}
+        to={`/booking/${roomDetail.id}`}
         className="w-full bg-customPurple-500 text-white text-center text-2xl font-semibold px-10 py-5"
       >
         Book This Room

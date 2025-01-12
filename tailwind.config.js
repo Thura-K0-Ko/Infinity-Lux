@@ -13,11 +13,6 @@ export default {
     },
     extend: {
       colors: {
-        // customPurple: "#6A669D",
-        roomBG: "#EFF2F7",
-        eventBg: "#EFF2F7",
-        display: "#6A669D",
-        title: "#141414",
         customWhite: "#E5E7EB",
         customBlue: {
           950: "#172554",
@@ -80,11 +75,6 @@ export default {
   plugins: [require("flowbite/plugin")],
 };
 
-// customPurple: "#6A669D",
-//         roomBG: "#EFF2F7",
-//         eventBg: "#EFF2F7",
-//         display: "#6A669D",
-//         title: "#141414",
 //         customGray: {
 //           100: "#E6E5F2",
 //           200: "#CFCDE5",
