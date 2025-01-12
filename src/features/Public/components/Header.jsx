@@ -10,7 +10,7 @@ const Header = () => {
             <Link to="/" className=" hover:opacity-80">
               <img
                 src="/assets/Hotel Profile website/Lux 2.svg"
-                className=" h-[50px] lg:h-[60px] 2xl:h-[69px] "
+                className=" h-[50px] lg:h-[60px] xl:h-[69px] "
                 alt="Lux 2 logo"
               />
             </Link>
@@ -18,7 +18,7 @@ const Header = () => {
               <>
                 <Link
                   to={"/login"}
-                  className=" text-sm lg:text-lg xl:text-xl  2xl:text-2xl text-white dark:text-white hover:bg-customPurple-500 focus:ring-4 focus:ring-gray-300 font-medium  px-4 lg:px-6 2xl:px-10 py-2 lg:py-3 2xl:py-5  bg-customPurple-500 dark:hover:bg-customPurple-500 focus:outline-none dark:focus:ring-gray-800"
+                  className=" text-sm lg:text-lg  xl:text-2xl text-white dark:text-white hover:bg-customPurple-500 focus:ring-4 focus:ring-gray-300 font-medium  px-4 lg:px-6 xl:px-10 py-2 lg:py-3 xl:py-5  bg-customPurple-500 dark:hover:bg-customPurple-500 focus:outline-none dark:focus:ring-gray-800"
                 >
                   RESERVATION
                 </Link>
@@ -78,7 +78,7 @@ const Header = () => {
                         ? "/"
                         : `/${item.toLowerCase().replace(" ", "-")}`
                     }`}
-                    className="text-sm lg:text-lg xl:text-lg 2xl:text-2xl block py-2 pr-4 pl-3 text-gray-300 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-white lg:p-0 dark:text-gray-400  dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                    className="text-sm lg:text-lg xl:text-2xl block py-2 pr-4 pl-3 text-gray-300 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-white lg:p-0 dark:text-gray-400  dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                   >
                     {item}
                   </Link>
