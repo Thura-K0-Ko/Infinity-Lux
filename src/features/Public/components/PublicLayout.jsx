@@ -5,7 +5,7 @@ import { Suspense } from "react";
 
 const PublicLayout = () => {
   return (
-    <main className=" flex flex-col min-h-screen xl:max-w-[1512px] mx-auto overflow-hidden">
+    <main className=" flex flex-col min-h-dvh xl:max-w-[1512px] mx-auto">
       <Suspense fallback={<PageLoading />}>
         <Outlet />{" "}
       </Suspense>
