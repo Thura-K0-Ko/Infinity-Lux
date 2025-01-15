@@ -1,9 +1,18 @@
 import { Link } from "react-router-dom";
 import Container from "../../../components/Container";
+import useNavBarStore from "../../../stores/useNavBarStore";
+import { useState } from "react";
 
-const Header = () => {
+const Header = ({ className }) => {
+  const { navBars, setActive } = useNavBarStore();
+  const handleActive = (id) => {
+    setActive(id);
+  };
+
   return (
-    <header className="absolute pt-3 xl:pt-5 top-0 left-0 w-full  z-50">
+    <header
+      className={`${className} absolute pt-3 xl:py-5 top-0 left-0 w-full  z-50`}
+    >
       <Container>
         <nav className="">
           <div className="flex flex-wrap justify-between items-center max-w-screen">
@@ -59,28 +68,24 @@ const Header = () => {
               </button>
             </div>
             <div
-              className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
+              className={`hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1`}
               id="mobile-menu-2"
             >
               <div className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-                {[
-                  "Home",
-                  "Rooms",
-                  "Events",
-                  "About Us",
-                  "Contact Us",
-                  "Blog",
-                ].map((item) => (
+                {navBars.map(({ id, name, isActive }) => (
                   <Link
-                    key={item}
+                    key={id}
                     to={`${
-                      item === "Home"
+                      name === "Home"
                         ? "/"
-                        : `/${item.toLowerCase().replace(" ", "-")}`
+                        : `/${name.toLowerCase().replace(" ", "-")}`
                     }`}
-                    className="text-sm lg:text-lg xl:text-2xl block py-2 pr-4 pl-3 text-gray-300 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-white lg:p-0 dark:text-gray-400  dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                    onClick={() => handleActive(id)}
+                    className={`text-sm lg:text-lg xl:text-2xl block py-2 pr-4 pl-3 text-gray-300 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-white lg:p-0 dark:text-gray-400  dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ${
+                      isActive ? "text-white underline" : ""
+                    }`}
                   >
-                    {item}
+                    {name}
                   </Link>
                 ))}
               </div>

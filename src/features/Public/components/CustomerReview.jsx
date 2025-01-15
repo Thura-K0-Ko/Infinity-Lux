@@ -9,7 +9,7 @@ const CustomerReview = () => {
   const { customerReview } = useCustomerReviewStore();
   return (
     <Container>
-      <div className=" bg-white grid grid-cols-3 items-center justify-center py-40">
+      <div className=" bg-white grid grid-cols-3 items-center justify-center py-44">
         <div className=" col-span-1">
           <div className=" flex flex-col gap-12">
             <h1 className="text-[#010101] text-6xl font-normal  font-heading">
