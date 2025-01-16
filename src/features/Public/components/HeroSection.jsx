@@ -21,7 +21,7 @@ const HeroSection = ({ heroImg, subtitle, titles, btnText, path }) => {
 
       <Container>
         <div className=" flex flex-col items-center text-white relative z-10 mt-20">
-          <p className="text-gray-200 md:text-base xl:text-2xl font-medium mb-6">
+          <p className="text-gray-200 text-2xl md:text-base xl:text-2xl font-medium mb-6">
             {subtitle}
           </p>
           <div className="mb-[60px] flex flex-col items-center">
@@ -29,7 +29,7 @@ const HeroSection = ({ heroImg, subtitle, titles, btnText, path }) => {
               titles.map((title) => (
                 <h1
                   key={title}
-                  className="text-white md:text-5xl xl:text-8xl  font-heading font-normal"
+                  className="text-white text-[40px] md:text-5xl xl:text-8xl  font-heading font-normal"
                 >
                   {title}
                 </h1>
