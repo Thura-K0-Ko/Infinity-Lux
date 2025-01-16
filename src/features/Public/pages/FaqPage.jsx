@@ -3,6 +3,7 @@ import HeroSection from "../components/HeroSection";
 
 import Container from "../../../components/Container";
 import FaqCard from "../components/FaqCard";
+import ContactCard from "../components/ContactCard";
 
 const FaqPage = () => {
   return (
@@ -18,6 +19,7 @@ const FaqPage = () => {
           <FaqCard />
         </div>
       </Container>
+      <ContactCard />
     </section>
   );
 };
