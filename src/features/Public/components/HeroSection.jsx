@@ -4,7 +4,7 @@ import Header from "./Header";
 
 const HeroSection = ({ heroImg, subtitle, titles, btnText, path }) => {
   return (
-    <div className="relative lg:min-h-[580px] xl:min-h-[754px] flex flex-col items-center justify-center">
+    <div className="relative md:min-h-[424px] xl:min-h-[754px] flex flex-col items-center justify-center">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
@@ -21,13 +21,15 @@ const HeroSection = ({ heroImg, subtitle, titles, btnText, path }) => {
 
       <Container>
         <div className=" flex flex-col items-center text-white relative z-10 mt-20">
-          <p className="text-gray-200 text-2xl font-medium mb-6">{subtitle}</p>
+          <p className="text-gray-200 md:text-base xl:text-2xl font-medium mb-6">
+            {subtitle}
+          </p>
           <div className="mb-[60px] flex flex-col items-center">
             {titles &&
               titles.map((title) => (
                 <h1
                   key={title}
-                  className="text-white lg:text-6xl xl:text-8xl  font-heading font-normal"
+                  className="text-white md:text-5xl xl:text-8xl  font-heading font-normal"
                 >
                   {title}
                 </h1>
@@ -35,7 +37,10 @@ const HeroSection = ({ heroImg, subtitle, titles, btnText, path }) => {
           </div>
 
           {btnText && (
-            <Link to={path} className=" lg:px-8   2xl:px-10  lg:py-4  2xl:py-5 border-2  border-white text-white text-2xl font-semibold hover:bg-white hover:text-black transition-colors rounded">
+            <Link
+              to={path}
+              className=" md:px-5 md:py-2.5 xl:px-10 xl:py-5 border  border-white text-white md:text-base xl:text-2xl font-semibold hover:bg-white hover:text-black transition-colors rounded"
+            >
               {btnText}
             </Link>
           )}
