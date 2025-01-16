@@ -18,7 +18,7 @@ const Header = () => {
               <>
                 <Link
                   to={"/login"}
-                  className=" hidden xl:inline-block  text-sm lg:text-lg  xl:text-2xl text-white dark:text-white hover:bg-customPurple-500 focus:ring-4 focus:ring-gray-300 font-medium  px-4 lg:px-6 xl:px-10 py-2 lg:py-3 xl:py-5  bg-customPurple-500 dark:hover:bg-customPurple-500 focus:outline-none dark:focus:ring-gray-800"
+                  className=" hidden lg:inline-block  text-sm lg:text-lg  xl:text-2xl text-white dark:text-white hover:bg-customPurple-500 focus:ring-4 focus:ring-gray-300 font-medium  px-4 lg:px-6 xl:px-10 py-2 lg:py-3 xl:py-5  bg-customPurple-500 dark:hover:bg-customPurple-500 focus:outline-none dark:focus:ring-gray-800"
                 >
                   RESERVATION
                 </Link>
