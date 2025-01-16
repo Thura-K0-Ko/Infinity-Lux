@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../../../components/Container";
 import { Link } from "react-router-dom";
 
-const EventCart = () => {
+const MeetingAndEventCart = () => {
   return (
     <section>
       <Container>
@@ -67,4 +67,4 @@ const EventCart = () => {
   );
 };
 
-export default EventCart;
+export default MeetingAndEventCart;

@@ -1,8 +1,8 @@
 import AboutInfinityLux from "../components/AboutInfinityLux";
 import CustomerReview from "../components/CustomerReview";
-import EventCart from "../components/EventCart";
 import HeroSection from "../components/HeroSection";
 import HotelArticle from "../components/HotelArticle";
+import MeetingAndEventCart from "../components/MeetingAndEventCart";
 import NewYear from "../components/NewYear";
 import RoomAndSuite from "../components/RoomAndSuite";
 import SubscribeBox from "../components/SubscribeBox";
@@ -30,7 +30,7 @@ const HomePage = () => {
         secondImg={"/assets/Hotel Profile website/image-30.png"}
       />
       <RoomAndSuite />
-      <EventCart />
+      <MeetingAndEventCart />
       <NewYear />
       <CustomerReview />
       <HotelArticle />
