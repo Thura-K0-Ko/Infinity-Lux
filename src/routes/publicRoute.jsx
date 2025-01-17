@@ -1,6 +1,8 @@
 import { lazy } from "react";
-import BlogDetailPage from "../features/Public/pages/BlogDetailPage";
 import FaqPage from "../features/Public/pages/FaqPage";
+const BlogDetailPage = lazy(() =>
+  import("../features/Public/pages/BlogDetailPage")
+);
 const PrivacyPolicy = lazy(() =>
   import("../features/Public/pages/PrivacyPolicy")
 );

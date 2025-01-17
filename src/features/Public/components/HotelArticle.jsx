@@ -4,6 +4,7 @@ import useBlogStore from "../../../stores/useBlogStore";
 
 const HotelArticle = () => {
   const { blogs } = useBlogStore();
+  console.log(blogs)
   return (
     <section>
       <div className=" py-40 bg-customGray-500 ">
