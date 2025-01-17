@@ -9,12 +9,7 @@ const RoomAndSuite = () => {
         <Container>
 
           <div className="flex flex-col gap-10  xl:relative">
-            <div className="bg-white xl:p-8 xl:absolute xl:right-0 xl:top-8 xl:w-[630px]">
-              <img
-                src="/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Room and Suit image.png"
-                className=" h-[530px]"
-                alt=""
-              />
+            <div className="bg-white xl:p-8 xl:absolute xl:right-0 xl:top-[53px] xl:w-[630px]">
               <div className=" flex flex-col gap-6">
                 <p className="text-[#6A669D] md:text-base xl:text-2xl font-medium ">
                   Stay With Us
@@ -23,7 +18,7 @@ const RoomAndSuite = () => {
                   <h1 className="font-heading text-[#141414] md:text-[40px] xl:text-5xl font-normal dark:text-neutral-900 ">
                     Rooms & Suites
                   </h1>
-                  <p className="md:text-base xl:text-xl text-gray-500 font-medium dark:text-gray-500 leading-relaxed xl:w-[542px]">
+                  <p className="md:text-base xl:text-xl text-gray-500 font-medium dark:text-gray-500 leading-relaxed xl:w-[542px] tracking-tight">
                     Inspired by the playful synergy of the world’s natural
                     elements, each of our 237 rooms and suites have been
                     designed with comfort and style in mind, encouraging you to

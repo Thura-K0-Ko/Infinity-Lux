@@ -1,7 +1,10 @@
 import { lazy } from "react";
+const FaqPage = lazy(() =>
+  import("../features/Public/pages/FaqPage")
+);
 const TermsAndConditions = lazy(() =>
   import("../features/Public/pages/TermsAndConditions")
-import FaqPage from "../features/Public/pages/FaqPage";
+);
 const BlogDetailPage = lazy(() =>
   import("../features/Public/pages/BlogDetailPage")
 );
