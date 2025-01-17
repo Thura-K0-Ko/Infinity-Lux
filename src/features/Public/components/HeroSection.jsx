@@ -20,9 +20,13 @@ const HeroSection = ({ heroImg, subtitle, titles, btnText, path }) => {
       {/* Hero Content */}
 
       <Container>
-        <div className=" flex flex-col items-center text-white relative z-10 mt-20">
-          <p className="text-gray-200 text-2xl font-medium mb-6">{subtitle}</p>
-          <div className="mb-[60px] flex flex-col items-center">
+        <div className=" flex flex-col items-center text-white relative z-10">
+          {subtitle && (
+            <p className="text-gray-200 text-2xl font-medium mb-6">
+              {subtitle}
+            </p>
+          )}
+          <div className=" flex flex-col items-center gap-5 py-5">
             {titles &&
               titles.map((title) => (
                 <h1
@@ -35,7 +39,10 @@ const HeroSection = ({ heroImg, subtitle, titles, btnText, path }) => {
           </div>
 
           {btnText && (
-            <Link to={path} className=" lg:px-8   2xl:px-10  lg:py-4  2xl:py-5 border-2  border-white text-white text-2xl font-semibold hover:bg-white hover:text-black transition-colors rounded">
+            <Link
+              to={path}
+              className=" lg:px-8 mt-14  2xl:px-10  lg:py-4  2xl:py-5 border-2  border-white text-white text-2xl font-semibold hover:bg-white hover:text-black transition-colors rounded"
+            >
               {btnText}
             </Link>
           )}
