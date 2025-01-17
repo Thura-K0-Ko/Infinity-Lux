@@ -11,12 +11,12 @@ const Header = ({ className }) => {
 
   return (
     <header
-      className={`${className} absolute pt-3 xl:py-5 top-0 left-0 w-full  z-50`}
+      className={`${className} absolute py-3 xl:py-5 top-0 left-0 w-full  z-50`}
     >
       <Container>
         <nav className="">
           <div className="flex flex-wrap justify-between items-center max-w-screen">
-            <Link to="/" className=" hover:opacity-80">
+            <Link to="/" className=" hover:opacity-80 px-[54px]">
               <img
                 src="/assets/Hotel Profile website/Lux 2.svg"
                 className=" h-[50px] lg:h-[60px] xl:h-[69px] "
