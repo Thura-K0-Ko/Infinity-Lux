@@ -15,7 +15,7 @@ const AboutInfinityLux = ({
       <Container>
         <div className="">
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-10 xl:gap-[108px]">
-            <div className="  col-span-1 items-start">
+            <div className="  col-span-1 items-start py-2">
               <div className=" flex flex-col gap-8">
                 <p className="text-customPurple-500 md:text-base xl:text-2xl font-medium ">
                   About Infinity Lux

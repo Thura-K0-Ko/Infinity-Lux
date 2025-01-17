@@ -9,7 +9,7 @@ const RoomCard = ({ room }) => {
         <img className="h-[530px] w-auto" src={room.img} alt={room.category} />
       </div>
       <div
-        className={`absolute top-9 ${
+        className={`absolute top-[43px] ${
           room.id % 2 !== 0 && "right-0"
         } flex flex-col gap-6 w-[650px] text-gray-500 bg-white p-8`}
       >
