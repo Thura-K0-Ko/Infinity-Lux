@@ -7,8 +7,14 @@ const RoomAndSuite = () => {
     <section>
       <div className=" xl:py-40 xl:bg-customSlate-500">
         <Container>
+
           <div className="flex flex-col gap-10  xl:relative">
             <div className="bg-white xl:p-8 xl:absolute xl:right-0 xl:top-8 xl:w-[630px]">
+              <img
+                src="/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Room and Suit image.png"
+                className=" h-[530px]"
+                alt=""
+              />
               <div className=" flex flex-col gap-6">
                 <p className="text-[#6A669D] md:text-base xl:text-2xl font-medium ">
                   Stay With Us
