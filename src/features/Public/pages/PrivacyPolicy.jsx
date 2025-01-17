@@ -7,7 +7,7 @@ const PrivacyPolicy = () => {
     <section>
       <Container>
         <div className="pb-40">
-          <Header />
+          <Header className="bg-customPurple-400" />
           <div className="pt-20 flex flex-col gap-3 h-96">
             <h1 className="text-center text-blue-950 text-6xl font-normal font-heading mt-auto">
               Infinity Lux.com Privacy Policy

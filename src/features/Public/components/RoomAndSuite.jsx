@@ -15,7 +15,7 @@ const RoomAndSuite = () => {
                 alt=""
               />
             </div>
-            <div className="bg-white p-8 absolute right-0 top-8 w-[630px]">
+            <div className="bg-white p-8 absolute right-0 top-11 w-[630px]">
               <div className=" flex flex-col gap-6">
                 <p className="text-[#6A669D] text-2xl font-medium ">
                   Stay With Us
@@ -24,7 +24,7 @@ const RoomAndSuite = () => {
                   <h1 className="font-heading text-[#141414] text-5xl font-normal dark:text-neutral-900 ">
                     Rooms & Suites
                   </h1>
-                  <p className="text-xl text-gray-500 font-medium dark:text-gray-500 leading-relaxed w-[542px]">
+                  <p className="text-xl text-gray-500 font-medium dark:text-gray-500 leading-relaxed w-[542px] tracking-tight">
                     Inspired by the playful synergy of the world’s natural
                     elements, each of our 237 rooms and suites have been
                     designed with comfort and style in mind, encouraging you to
