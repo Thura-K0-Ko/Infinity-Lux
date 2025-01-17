@@ -85,7 +85,7 @@ const RoomDetailCard = () => {
       <div>
         <Link
           to={`/booking/${roomDetail.id}`}
-          className="bg-customPurple-500 text-white text-2xl font-semibold px-10 py-5"
+          className=" bg-customPurple-500 text-white text-center font-semibold md:text-base xl:text-2xl md:px-5 md:py-2.5 xl:px-10 xl:py-5 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 hover:bg-customPurple-800 focus:ring-4 focus:ring-customPurple-300 dark:bg-customPurple-600 dark:hover:bg-customPurple-700 focus:outline-none dark:focus:ring-customPurple-800"
         >
           Book This Room
         </Link>

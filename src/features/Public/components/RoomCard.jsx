@@ -13,7 +13,9 @@ const RoomCard = ({ room }) => {
           room.id % 2 !== 0 && "right-0"
         } flex flex-col gap-6 w-[650px] text-gray-500 bg-white p-8`}
       >
-        <p className="text-customPurple-500 text-2xl font-medium">{room.price}</p>
+        <p className="text-customPurple-500 text-2xl font-medium">
+          {room.price}
+        </p>
         <h3 className="text-customGray-500 font-heading text-5xl font-normal">
           {room.category}
         </h3>
@@ -83,13 +85,13 @@ const RoomCard = ({ room }) => {
         <div className="flex justify-between items-center">
           <Link
             to={`/rooms/room-detail/${room.id}`}
-            className="text-2xl font-semibold flex gap-3"
+            className="text-2xl font-semibold  to-gray-500 flex gap-3 transition-all duration-300 hover:shadow-sm transform hover:-translate-y-0.5"
           >
             Room Details <HiArrowRight className="size-8" />
           </Link>
           <Link
             to={`/booking/${room.id}`}
-            className="bg-customPurple-500 text-2xl font-semibold text-white px-10 py-5"
+            className="bg-customPurple-500 md:text-base xl:text-2xl font-semibold text-white md:px-5 md:py-2.5 xl:px-10 xl:py-5 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 hover:bg-customPurple-800 focus:ring-4 focus:ring-customPurple-300 dark:bg-customPurple-600 dark:hover:bg-customPurple-700 focus:outline-none dark:focus:ring-customPurple-800"
           >
             Book Now
           </Link>
