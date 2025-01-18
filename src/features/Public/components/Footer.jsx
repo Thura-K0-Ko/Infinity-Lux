@@ -7,12 +7,15 @@ const Footer = () => {
     <footer className=" bg-customPurple-500 mt-auto">
       <Container>
         <div className=" grid grid-cols-4 pt-5">
-          <div className="col-span-2">
+          <div className="col-span-2 flex flex-col gap-5">
+            <Link to="/" className=" hover:opacity-80">
+              <img
+                src="/assets/Hotel Profile website/Lux 2.svg"
+                className=" h-[50px] lg:h-[60px] xl:h-[69px] "
+                alt="Lux 2 logo"
+              />
+            </Link>
             <div className="flex flex-col gap-5">
-              <h4 className="text-white text-2xl font-normal font-heading">
-                {" "}
-                Infinity Lux
-              </h4>
               <div className=" flex flex-col gap-3 text-gray-300 text-xl font-light ">
                 <p className="">
                   {" "}
@@ -32,12 +35,42 @@ const Footer = () => {
                 Corporate Sites
               </h4>
               <div className=" flex flex-col gap-3 text-gray-300 text-xl font-light ">
-                <Link to={"/about-us"} className=" hover:text-white hover:underline" >About Us</Link>
-                <Link to={"/contact-us"} className=" hover:text-white hover:underline" >Contact Us</Link>
-                <Link to={"/faqs"} className=" hover:text-white hover:underline" >Faqs</Link>
-                <Link to={"/blog"} className=" hover:text-white hover:underline" >Blog</Link>
-                <Link to={"/terms-and-conditions"} className=" hover:text-white hover:underline" >Terms & condition</Link>
-                <Link to={"/privacy-policy"} className=" hover:text-white hover:underline" >Privacy policy</Link>
+                <Link
+                  to={"/about-us"}
+                  className=" hover:text-white hover:underline"
+                >
+                  About Us
+                </Link>
+                <Link
+                  to={"/contact-us"}
+                  className=" hover:text-white hover:underline"
+                >
+                  Contact Us
+                </Link>
+                <Link
+                  to={"/faqs"}
+                  className=" hover:text-white hover:underline"
+                >
+                  Faqs
+                </Link>
+                <Link
+                  to={"/blog"}
+                  className=" hover:text-white hover:underline"
+                >
+                  Blog
+                </Link>
+                <Link
+                  to={"/terms-and-conditions"}
+                  className=" hover:text-white hover:underline"
+                >
+                  Terms & condition
+                </Link>
+                <Link
+                  to={"/privacy-policy"}
+                  className=" hover:text-white hover:underline"
+                >
+                  Privacy policy
+                </Link>
               </div>
             </div>
           </div>

@@ -10,6 +10,13 @@ const MeetingPage = () => {
           "/assets/Infinity Lux image Assets/Meeting Event/Meeting_Event_Hero_Image.png"
         }
         titles={["Meetings"]}
+        breadcrumbs={[
+          {
+            currentPageTitle: "Meetings",
+            path: "/events",
+            name: "Events",
+          },
+        ]}
       />
       <MeetingCard />
     </section>

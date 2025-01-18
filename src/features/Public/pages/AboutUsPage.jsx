@@ -1,5 +1,4 @@
 import HeroSection from "../components/HeroSection";
-import Breadcrumb from "../../../components/Breadcrumb";
 import AboutInfinityLuxAndReservation from "../components/AboutInfinityLuxAndReservation";
 import LeadersOfHotel from "../components/LeadersOfHotel";
 import OurServices from "../components/OurServices";
@@ -14,7 +13,6 @@ const AboutUsPage = () => {
         }
         titles={["About Us"]}
       />
-      <Breadcrumb currentPageTitle="About Us" />
       <AboutInfinityLuxAndReservation/>
       <LeadersOfHotel/>
       <OurServices/>

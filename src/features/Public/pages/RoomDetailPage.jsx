@@ -13,6 +13,13 @@ const RoomDetailPage = () => {
           "/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_3 (1).png"
         }
         titles={["Rooms Details"]}
+        breadcrumbs={[
+          {
+            currentPageTitle: "Room Detail",
+            path: "/rooms",
+            name: "Rooms",
+          },
+        ]}
       />
       <Container>
         <div className="grid grid-cols-3 gap-[21px] mt-[239px] mb-[180px]">

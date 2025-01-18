@@ -1,8 +1,16 @@
 import { Link } from "react-router-dom";
 import Container from "../../../components/Container";
 import Header from "./Header";
+import Breadcrumb from "../../../components/Breadcrumb";
 
-const HeroSection = ({ heroImg, subtitle, titles, btnText, path }) => {
+const HeroSection = ({
+  heroImg,
+  subtitle,
+  titles,
+  btnText,
+  path,
+  breadcrumbs,
+}) => {
   return (
     <div className="relative md:min-h-[424px] xl:min-h-[754px] flex flex-col items-center justify-center">
       {/* Background Image */}
@@ -36,6 +44,19 @@ const HeroSection = ({ heroImg, subtitle, titles, btnText, path }) => {
               ))}
           </div>
 
+          {breadcrumbs &&
+            breadcrumbs.map((breadcrumb, index) => (
+              <Breadcrumb
+                key={index}
+                currentPageTitle={breadcrumb.currentPageTitle}
+                links={[
+                  {
+                    path: breadcrumb.path,
+                    name: breadcrumb.name,
+                  },
+                ]}
+              />
+            ))}
           {btnText && (
             <Link
               to={path}

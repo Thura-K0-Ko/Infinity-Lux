@@ -15,6 +15,13 @@ const BlogDetailPage = () => {
           "/assets/Infinity Lux image Assets/11. Blog Details Page ( Infinity Lux )/Blog_Details_Hero_Image.png"
         }
         titles={["What are The", "Benefits Of The Spa?"]}
+        breadcrumbs={[
+          {
+            currentPageTitle: "Blog Details",
+            path: "/blogs",
+            name: "Blogs",
+          },
+        ]}
       />
       <Container>
         <BlogDetailCard />

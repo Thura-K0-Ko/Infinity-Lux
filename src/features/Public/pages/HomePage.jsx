@@ -28,6 +28,7 @@ const HomePage = () => {
         btnText={"Explore More"}
         firstImg={"/assets/Hotel Profile website/image-31.png"}
         secondImg={"/assets/Hotel Profile website/image-30.png"}
+        className={"py-2"}
       />
       <RoomAndSuite />
       <MeetingAndEventCart />
