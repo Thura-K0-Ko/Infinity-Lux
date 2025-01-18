@@ -9,13 +9,15 @@ const AboutInfinityLux = ({
   btnText,
   firstImg,
   secondImg,
+  reservationText,
+  className,
 }) => {
   return (
     <section className="md:py-[90px] xl:py-40">
       <Container>
         <div className="">
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-10 xl:gap-[108px]">
-            <div className="  col-span-1 items-start py-2">
+            <div className={className}>
               <div className=" flex flex-col gap-8">
                 <p className="text-customPurple-500 md:text-base xl:text-2xl font-medium ">
                   About Infinity Lux
@@ -28,6 +30,26 @@ const AboutInfinityLux = ({
                   <p className=" md:text-base xl:text-xl text-gray-500 font-medium dark:text-gray-500 leading-relaxed xl:w-[542px]">
                     {content}
                   </p>
+                  {reservationText && (
+                    <Link
+                      to={"/login"}
+                      className="flex items-center gap-6"
+                    >
+                      <img
+                        src="/assets/Infinity Lux image Assets/8. About Us ( Infinity Lux )/phone-call.svg"
+                        alt=""
+                        className="w-[56px] h-[56px]"
+                      />
+                      <p className="flex flex-col">
+                        <span className="font-heading text-2xl font-[400]">
+                          {reservationText}
+                        </span>
+                        <span className=" text-customPurple-500 text-2xl font-[400]">
+                          +959756895143{" "}
+                        </span>
+                      </p>
+                    </Link>
+                  )}
                   {btnText && (
                     <Link
                       to={"about-us"}

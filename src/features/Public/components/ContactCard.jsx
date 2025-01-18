@@ -5,7 +5,9 @@ const ContactCard = () => {
   return (
     <div className="bg-white py-40">
       <div
-        style={{background: "url('/assets/Hotel Profile website/image-9.png')"}}
+        style={{
+          background: "url('/assets/Hotel Profile website/image-9.png')",
+        }}
         className="flex flex-col justify-center items-center w-[1512px] h-[518px]"
       >
         <h2 className="font-heading text-center text-white text-[64px] font-normal mb-32">
@@ -14,7 +16,7 @@ const ContactCard = () => {
         <div className="flex justify-center items-center">
           <Link
             to={"/contact-us"}
-            className="bg-customPurple-500 text-white text-2xl font-semibold px-10 py-5 "
+            className="bg-customPurple-500 md:text-base xl:text-2xl font-semibold text-white md:px-5 md:py-2.5 xl:px-10 xl:py-5 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 hover:bg-customPurple-800 focus:ring-4 focus:ring-customPurple-300 dark:bg-customPurple-600 dark:hover:bg-customPurple-700 focus:outline-none dark:focus:ring-customPurple-800"
           >
             Contact Us
           </Link>
