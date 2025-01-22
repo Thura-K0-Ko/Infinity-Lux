@@ -10,9 +10,12 @@ const HeroSection = ({
   btnText,
   path,
   breadcrumbs,
+  className,
 }) => {
   return (
-    <div className="relative md:min-h-[424px] xl:min-h-[754px] flex flex-col items-center justify-center">
+    <div
+      className={`relative md:min-h-[424px] xl:min-h-[754px] flex flex-col items-center justify-center ${className}`}
+    >
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
