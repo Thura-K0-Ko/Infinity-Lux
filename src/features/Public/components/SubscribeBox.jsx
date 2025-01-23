@@ -25,7 +25,7 @@ const SubscribeBox = () => {
             </div>
 
             <form className=" ">
-              <div className="relative w-[500px] border rounded-lg border-gray-200">
+              <div className="relative w-[320px] xl:w-[500px] border rounded-lg border-gray-200">
                 <input
                   type="email"
                   id="search-dropdown"

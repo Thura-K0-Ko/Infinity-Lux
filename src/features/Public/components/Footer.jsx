@@ -6,35 +6,34 @@ const Footer = () => {
   return (
     <footer className=" bg-customPurple-500 mt-auto">
       <Container>
-        <div className=" grid grid-cols-4 pt-5">
-          <div className="col-span-2 flex flex-col gap-5">
+        <div className=" grid grid-cols-8 xl:grid-cols-4 pt-8 xl:pt-5">
+          <div className="col-span-3 xl:col-span-2 flex flex-col gap-5">
             <Link to="/" className=" hover:opacity-80">
               <img
                 src="/assets/Hotel Profile website/Lux 2.svg"
-                className=" h-[50px] lg:h-[60px] xl:h-[69px] "
+                className=" h-[50px] xl:h-[69px] "
                 alt="Lux 2 logo"
               />
             </Link>
-            <div className="flex flex-col gap-5">
-              <div className=" flex flex-col gap-3 text-gray-300 text-xl font-light ">
-                <p className="">
-                  {" "}
-                  Address : No 101, Kan Street, Hlaing, Township, Yangon, <br />
-                  Myanmar, 11051
-                </p>
-                <p className="">Email : infinitylux@gmail.com</p>
-                <p>Phone : +959756895143</p>
-                <p>Phone : +959756895143</p>
-              </div>
+
+            <div className=" flex flex-col gap-3 xl:gap-5 text-gray-300 text-base  xl:text-xl font-light ">
+              <p className="">
+                {" "}
+                Address : No 101, Kan Street, Hlaing, Township, Yangon, 
+                Myanmar, 11051
+              </p>
+              <p className="">Email : infinitylux@gmail.com</p>
+              <p>Phone : +959756895143</p>
+              <p>Phone : +959756895143</p>
             </div>
           </div>
-          <div className="col-span-1">
+          <div className=" col-span-2 xl:col-span-1">
             <div className="flex flex-col gap-5">
-              <h4 className="text-white text-2xl font-normal font-heading">
+              <h4 className="text-white text-2xl font-normal font-heading text-nowrap">
                 {" "}
                 Corporate Sites
               </h4>
-              <div className=" flex flex-col gap-3 text-gray-300 text-xl font-light ">
+              <div className=" flex flex-col gap-3 text-gray-300 text-base xl:text-xl font-light ">
                 <Link
                   to={"/about-us"}
                   className=" hover:text-white hover:underline"
@@ -74,7 +73,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-span-1">
+          <div className=" col-span-3 xl:col-span-1">
             <div className=" flex flex-col gap-9">
               <div className="flex flex-col gap-5">
                 <h4 className="text-white text-2xl font-normal font-heading">
@@ -90,7 +89,7 @@ const Footer = () => {
                     >
                       <img
                         src="/assets/Infinity Lux image Assets/Footer Logo/google-play.svg.svg"
-                        className=" h-10"
+                        className=" h-[30px] xl:h-10"
                         alt=""
                       />
                     </Link>
@@ -101,7 +100,7 @@ const Footer = () => {
                     >
                       <img
                         src="/assets/Infinity Lux image Assets/Footer Logo/app-store.svg.svg"
-                        className=" h-10"
+                        className=" h-[30px] xl:h-10"
                         alt=""
                       />
                     </Link>
@@ -168,11 +167,11 @@ const Footer = () => {
       </Container>
       <div className="mt-10 border-t-2 border-white ">
         <Container>
-          <div className="flex items-center justify-between py-5">
-            <p className="text-gray-300 text-xl font-light">
+          <div className="flex items-center justify-between py-8 xl:py-5">
+            <p className="text-gray-300 text-base xl:text-xl font-light">
               Copyrights ©2024 Hotel Name
             </p>
-            <p className="text-gray-300 text-xl font-light">Manage Cookies</p>
+            <p className="text-gray-300 text-base xl:text-xl font-light">Manage Cookies</p>
           </div>
         </Container>
       </div>
