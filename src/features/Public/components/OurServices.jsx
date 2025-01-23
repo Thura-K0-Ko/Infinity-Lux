@@ -1,4 +1,5 @@
 import React from "react";
+import Container from "../../../components/Container";
 
 const OurServices = () => {
   const services = [
@@ -52,40 +53,38 @@ const OurServices = () => {
     },
   ];
   return (
-    <div className="flex flex-col justify-center items-center py-40 px-[116px]">
-      <div className="flex flex-col justify-center items-center gap-[60px]">
-        <div className="flex flex-col justify-center items-center gap-6">
-          <p className="font-body text-customPurple-500 font-[500] text-2xl">
-            Our Services
-          </p>
-          <p className="font-heading text-[#141414] text-5xl font-[400] capitalize">
-            Hotel Facilities
-          </p>
-        </div>
-        <div className="inline-flex flex-col items-start gap-8 w-[1279px]">
-          <div className="grid grid-cols-3 gap-8">
-            {services.map(({ id, image, title, description }) => (
-              <div
-                key={id}
-                className="inline-flex w-[413px] p-8 flex-col items-start gap-[10px] bg-[#F2F0ED]"
-              >
-                <div className="flex flex-col items-start gap-4">
-                  <img src={image} alt="" />
-                  <div className="flex flex-col gap-4">
-                    <p className="text-[#141414] font-heading text-2xl font-[400] capitalize">
-                      {title}
-                    </p>
-                    <p className="text-[#6B7280] font-body text-xl font-[400]">
-                      {description}
-                    </p>
-                  </div>
+    <section>
+      <Container>
+        <div className="flex flex-col justify-center items-center py-[90px] xl:py-40">
+          <div className="flex flex-col justify-center items-center gap-[60px]">
+            <div className="flex flex-col justify-center items-center gap-6">
+              <p className=" text-customPurple-500 text-base xl:text-2xl">
+                Our Services
+              </p>
+              <p className="font-heading text-customGray-500 text-[40px] xl:text-5xl font-[400]">
+                Hotel Facilities
+              </p>
+            </div>
+            {/* <div className="inline-flex flex-col items-start gap-8 w-[1279px]"> */}
+            <div className="grid grid-cols-2 xl:grid-cols-3 gap-5 xl:gap-8">
+              {services.map(({ id, image, title, description }) => (
+                <div
+                  key={id}
+                  className="flex  flex-col p-[28.98px] xl:p-8 items-start gap-[14.49px] xl:gap-4 bg-[#F2F0ED]"
+                >
+                  <img src={image} className="h-[36.22px]" alt="" />
+
+                  <p className="text-customGray-500 font-heading text-xl xl:text-2xl">
+                    {title}
+                  </p>
+                  <p className="text-[#6B7280] text-base  xl:text-xl">{description}</p>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+      </Container>
+    </section>
   );
 };
 
