@@ -48,7 +48,7 @@ const useBlogStore = create((set) => ({
     },
     {
       id: 5,
-      title: "Retro Lighting Design in Hotel",
+      title: "Retro Lighting Design in Hotel..",
       description:
         "This unique feature takes you back to the golden age of hospitality with warm ...",
       date: "7 Dec 2024",
