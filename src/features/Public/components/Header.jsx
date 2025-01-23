@@ -5,8 +5,11 @@ import { useState } from "react";
 
 const Header = ({ className }) => {
   const { navBars, setActive } = useNavBarStore();
-  const handleActive = (id) => {
-    setActive(id);
+
+  const [open, setOpen] = useState(false);
+
+  const handleOpen = () => {
+    setOpen(!open);
   };
 
   return (
@@ -15,7 +18,7 @@ const Header = ({ className }) => {
     >
       <Container>
         <nav className="">
-          <div className="flex flex-wrap justify-between items-center max-w-screen">
+          <div className="flex flex-wrap justify-between lg:items-center max-w-screen">
             <Link to="/" className=" hover:opacity-80 px-[54px]">
               <img
                 src="/assets/Hotel Profile website/Lux 2.svg"
@@ -34,6 +37,7 @@ const Header = ({ className }) => {
               </>
 
               <button
+                onClick={handleOpen}
                 data-collapse-toggle="mobile-menu-2"
                 type="button"
                 className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -68,10 +72,14 @@ const Header = ({ className }) => {
               </button>
             </div>
             <div
-              className={`hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1`}
+              className={`${
+                open ? " flex w-full" : "hidden"
+              } justify-end items-center   xl:flex xl:w-auto xl:order-1`}
               id="mobile-menu-2"
             >
-              <div className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+              <div
+                className={` bg-customPurple-600 lg:bg-transparent w-40 text-center lg:w-auto rounded-t-lg lg:rounded-none  flex flex-col mt-2 font-medium lg:flex-row lg:space-x-8 lg:mt-0`}
+              >
                 {navBars.map(({ id, name }) => (
                   <Link
                     key={id}
@@ -80,7 +88,7 @@ const Header = ({ className }) => {
                         ? "/"
                         : `/${name.toLowerCase().replace(" ", "-")}`
                     }`}
-                    className={`text-sm lg:text-lg xl:text-2xl block py-2 pr-4 pl-3 text-gray-300 border-b border-gray-100 hover:text-white hover:underline hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-white lg:p-0 dark:text-gray-400  dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700`}
+                    className={` text-sm lg:text-lg xl:text-2xl block py-2 pr-4 pl-3 text-gray-300 border-b border-gray-100 hover:text-white hover:underline hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-white lg:p-0 dark:text-gray-400  dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700`}
                   >
                     {name}
                   </Link>
