@@ -1,39 +1,32 @@
 import React from "react";
 import Container from "../../../components/Container";
 import { Link } from "react-router-dom";
+import EventParagraph from "./EventParagraph";
 
 const MeetingCard = () => {
   return (
     <>
       <Container>
-        <div className="py-40">
-          <h4 className="text-center text-customPurple-500 text-2xl font-medium mb-6">
-            Prestige Corporate Roundtable
-          </h4>
-          <h2 className="text-center text-customGray-500 font-heading text-5xl font-normal mb-[60px]">
-            Meeting Event
-          </h2>
-          <p className="text-gray-500 text-xl font-light tracking-[0.1px] mb-[60px]">
-            Host your events in residential-style venues with daylight filled
-            spaces, access to a show kitchen, Garden Terrace and a ballroom.
-            Enjoy personalized culinary menus, prime location, and cutting-edge
-            technology perfect for board meetings, dinners and conferences.
-          </p>
-          <p className="text-gray-500 text-xl font-light tracking-[0.1px] mb-[60px]">
-            A touch of The Elysian Grand is all you need to ensure your next
-            event is outstanding. With an expert team whose knowledge,
-            professionalism and attention to detail are second to none,
-            whichever of our unique and stylish venue option you choose, we make
-            sure it’s unforgettable. 
-          </p>
-          <div className="grid grid-cols-2 gap-5">
-            <div className="p-8">
+        <div className=" pt-24 xl:pt-40 xl:pb-20">
+          <EventParagraph
+            subTitle={"Prestige Corporate Roundtable"}
+            title={"Meeting Event"}
+            para1={
+              " Host your events in residential-style venues with daylight filled spaces, access to a show kitchen, Garden Terrace and a ballroom. Enjoy personalized culinary menus, prime location, and cutting-edge technology perfect for board meetings, dinners and conferences."
+            }
+            para2={
+              " A touch of The Elysian Grand is all you need to ensure your next event is outstanding. With an expert team whose knowledge, professionalism and attention to detail are second to none, whichever of our unique and stylish venue option you choose, we make sure it’s unforgettable "
+            }
+          />
+
+          <div className="grid grid-cols-1 xl:grid-cols-2 gap-[90px] xl:gap-5 xl:mt-10 py-[90px] xl:py-0">
+            <div className="p-8 border border-blue-200 rounded">
               <img
-                className="w-full mb-5"
+                className="h-[335px] w-full object-cover mb-5"
                 src="/assets/Infinity Lux image Assets/Meeting Event/Ballroom.png"
                 alt=""
               />
-              <h3 className="text-customGray-500 font-heading text-4xl font-normal tracking-[0.1px] mb-6">
+              <h3 className="text-customGray-500 font-heading text-[40px] xl:text-4xl font-normal tracking-[0.1px] mb-6">
                 Ballroom
               </h3>
               <div className="flex flex-col gap-3 mb-6">
@@ -51,17 +44,17 @@ const MeetingCard = () => {
                 </p>
               </div>
               <div className="flex justify-between items-center">
-                <h3 className="text-customGray-500 text-[32px] font-normal tracking-[0.16px]">
+                <h3 className="text-customGray-500 text-2xl xl:text-[32px] font-normal tracking-[0.16px]">
                   $435/Meeting
                 </h3>
-                <Link className="bg-customPurple-500 text-white text-2xl font-semibold px-10 py-5">
+                <Link className="bg-customPurple-500 md:text-base xl:text-2xl font-semibold text-white md:px-5 md:py-2.5 xl:px-10 xl:py-5 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 hover:bg-customPurple-800 focus:ring-4 focus:ring-customPurple-300 dark:bg-customPurple-600 dark:hover:bg-customPurple-700 focus:outline-none dark:focus:ring-customPurple-800">
                   RESERVATION
                 </Link>
               </div>
             </div>
-            <div className="p-8">
+            <div className="p-8 border border-blue-200 rounded">
               <img
-                className="w-full mb-5"
+                className="h-[335px] w-full object-cover mb-5"
                 src="/assets/Infinity Lux image Assets/Meeting Event/Crystal_Ballroom.png"
                 alt=""
               />
@@ -86,59 +79,60 @@ const MeetingCard = () => {
                 <h3 className="text-customGray-500 text-[32px] font-normal tracking-[0.16px]">
                   $550/Meeting
                 </h3>
-                <Link className="bg-customPurple-500 text-white text-2xl font-semibold px-10 py-5">
+                <Link className="bg-customPurple-500 md:text-base xl:text-2xl font-semibold text-white md:px-5 md:py-2.5 xl:px-10 xl:py-5 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 hover:bg-customPurple-800 focus:ring-4 focus:ring-customPurple-300 dark:bg-customPurple-600 dark:hover:bg-customPurple-700 focus:outline-none dark:focus:ring-customPurple-800">
                   RESERVATION
                 </Link>
               </div>
             </div>
           </div>
         </div>
-        <div className="py-40">
+
+        <div className="py-[90px] xl:py-40">
           <h4 className="text-center text-customPurple-500 text-2xl font-medium mb-6">
             Refined Learning in Style
           </h4>
-          <h2 className="text-center text-customGray-500 font-heading text-5xl font-normal mb-[60px]">
+          <h2 className="text-center text-customGray-500 font-heading text-5xl font-normal mb-10 xl:mb-[60px]">
             Meeting Event
           </h2>
-          <div className="grid grid-cols-3 gap-x-5 gap-y-[26px]">
-            <div className="w-[413px] h-[493px]">
+          <div className="grid grid-cols-2 xl:grid-cols-3 gap-5">
+            <div>
               <img
-                className="w-full"
+                className="h-[446.45px] xl:h-[493px] object-cover"
                 src="/assets/Infinity Lux image Assets/Meeting Event/gallery-1.png"
                 alt=""
               />
             </div>
-            <div className="w-[413px] h-[493px]">
+            <div>
               <img
-                className="w-full"
+                className="h-[446.45px] xl:h-[493px] object-cover"
                 src="/assets/Infinity Lux image Assets/Meeting Event/gallery-2.png"
                 alt=""
               />
             </div>
-            <div className="w-[413px] h-[493px]">
+            <div>
               <img
-                className="w-full"
+                className="h-[446.45px] xl:h-[493px] object-cover"
                 src="/assets/Infinity Lux image Assets/Meeting Event/gallery-3.png"
                 alt=""
               />
             </div>
-            <div className="w-[413px] h-[493px]">
+            <div>
               <img
-                className="w-full"
+                className="h-[446.45px] xl:h-[493px] object-cover"
                 src="/assets/Infinity Lux image Assets/Meeting Event/gallery-4.png"
                 alt=""
               />
             </div>
-            <div className="w-[413px] h-[493px]">
+            <div>
               <img
-                className="w-full"
+                className="h-[446.45px] xl:h-[493px] object-cover"
                 src="/assets/Infinity Lux image Assets/Meeting Event/gallery-5.png"
                 alt=""
               />
             </div>
-            <div className="w-[413px] h-[493px]">
+            <div>
               <img
-                className="w-full"
+                className="h-[446.45px] xl:h-[493px] object-cover"
                 src="/assets/Infinity Lux image Assets/Meeting Event/gallery-6.png"
                 alt=""
               />
@@ -146,7 +140,7 @@ const MeetingCard = () => {
           </div>
         </div>
       </Container>
-      <div className="bg-customPurple-500 py-[76px] mb-[194px]">
+      <div className="bg-customPurple-500 py-[30px] xl:py-[76px] mb-[100px] xl:mb-[200px]">
         <Container>
           <h3 className="text-gray-50 font-heading text-4xl font-normal tracking-[0.18px] mb-6">
             Contact Us
