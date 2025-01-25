@@ -37,7 +37,7 @@ const RoomAndSuite = () => {
             <div className="">
               <img
                 src="/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Room and Suit image.png"
-                className="md:h-[480px] xl:h-[530px]"
+                className="h-[214px]md:h-[480px] xl:h-[530px]"
                 alt=""
               />
             </div>
