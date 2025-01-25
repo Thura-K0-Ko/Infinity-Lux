@@ -19,13 +19,13 @@ const SocialMedia = () => {
           <img
             src="/assets/Infinity Lux image Assets/8. About Us ( Infinity Lux )/phone-call.svg"
             alt=""
-            className="w-[56px] h-[56px]"
+            className=" h-[25px] xl:h-[56px]"
           />
           <p className="flex flex-col">
-            <span className="font-heading text-2xl text-customGray-500">
+            <span className="font-heading text-base xl:text-2xl text-customGray-500">
               Reservation
             </span>
-            <span className=" text-customPurple-500 text-2xl ">
+            <span className=" text-customPurple-500 text-base xl:text-2xl ">
               +959756895143{" "}
             </span>
           </p>
@@ -37,12 +37,12 @@ const SocialMedia = () => {
           to={"/login"}
           className="flex items-center gap-6 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 focus:ring-4 focus:ring-customPurple-300  focus:outline-none dark:focus:ring-customPurple-800 rounded-lg"
         >
-          <HiOutlineMail className="size-14 stroke-customPurple-500" />
+          <HiOutlineMail className=" w-[25px] xl:size-14 stroke-customPurple-500" />
           <p className="flex flex-col">
-            <span className="font-heading text-2xl to-customGray-500 ">
+            <span className="font-heading text-base xl:text-2xl to-customGray-500 ">
               Email Us
             </span>
-            <span className=" text-customPurple-500 text-2xl ">
+            <span className=" text-customPurple-500 text-base xl:text-2xl">
               infinitlux@gmail.com
             </span>
           </p>
@@ -53,12 +53,12 @@ const SocialMedia = () => {
           to={"/login"}
           className="flex items-center gap-6 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 focus:ring-4 focus:ring-customPurple-300  focus:outline-none dark:focus:ring-customPurple-800 rounded-lg"
         >
-          <HiOutlineLocationMarker className="size-14 stroke-customPurple-500" />
+          <HiOutlineLocationMarker className="w-[25px] xl:size-14 stroke-customPurple-500" />
           <p className="flex flex-col">
-            <span className="font-heading text-2xl to-customGray-500 ">
+            <span className="font-heading text-base xl:text-2xl to-customGray-500 ">
               Address
             </span>
-            <span className=" text-customPurple-500 text-2xl ">
+            <span className=" text-customPurple-500 text-base xl:text-2xl ">
               No 101, Kan Street, Hlaing, Township, <br /> Yangon, Myanmar,
               11051
             </span>
@@ -66,7 +66,7 @@ const SocialMedia = () => {
         </Link>
       </div>
       <div className="flex flex-col gap-6">
-        <h3 className="text-black text-[32px] font-heading">
+        <h3 className="text-black text-xl xl:text-[32px] font-heading">
           Follow Our Social Media
         </h3>
         <div className="flex gap-7">
@@ -76,7 +76,7 @@ const SocialMedia = () => {
           >
             <img
               src="/assets/Infinity Lux image Assets/9. Contact Us ( Infinity Lux )/facebook.png"
-              className="size-14"
+              className=" size-8 xl:size-14"
               alt=""
             />
           </Link>
@@ -86,7 +86,7 @@ const SocialMedia = () => {
           >
             <img
               src="/assets/Infinity Lux image Assets/9. Contact Us ( Infinity Lux )/instagram1.png"
-              className="size-14"
+              className=" size-8 xl:size-14"
               alt=""
             />
           </Link>
@@ -96,7 +96,7 @@ const SocialMedia = () => {
           >
             <img
               src="/assets/Infinity Lux image Assets/9. Contact Us ( Infinity Lux )/twitter1.png"
-              className="size-14"
+              className=" size-8 xl:size-14"
               alt=""
             />
           </Link>
@@ -106,7 +106,7 @@ const SocialMedia = () => {
           >
             <img
               src="/assets/Infinity Lux image Assets/9. Contact Us ( Infinity Lux )/linkedin3.png"
-              className="size-14"
+              className=" size-8 xl:size-14"
               alt=""
             />
           </Link>
