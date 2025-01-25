@@ -10,12 +10,12 @@ const FaqPage = () => {
     <section>
       <HeroSection
         heroImg={
-          "/public/assets/Infinity Lux image Assets/2. Home Page ( Infinity Lux )/Home_Hero_image.png"
+          "/assets/Infinity Lux image Assets/hero_home_faq.jpg"
         }
         titles={["Faqs"]}
       />
       <Container>
-        <div className="py-40">
+        <div className="py-[90px] xl:py-40">
           <FaqCard />
         </div>
       </Container>

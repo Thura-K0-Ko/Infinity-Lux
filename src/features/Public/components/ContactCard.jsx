@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 const ContactCard = () => {
   return (
-    <div className="bg-white py-40">
+    <div className="bg-white pb-[90px] xl:pb-40">
       <div
         style={{
           background: "url('/assets/Hotel Profile website/image-9.png')",
         }}
-        className="flex flex-col justify-center items-center w-[1512px] h-[518px]"
+        className="flex flex-col justify-center items-center h-[285px] xl:h-[518px]"
       >
-        <h2 className="font-heading text-center text-white text-[64px] font-normal mb-32">
+        <h2 className="font-heading text-center text-white text-4xl xl:text-[64px] font-normal mb-[70px] xl:mb-32">
           Can’t Find What Are You looking For?
         </h2>
         <div className="flex justify-center items-center">
