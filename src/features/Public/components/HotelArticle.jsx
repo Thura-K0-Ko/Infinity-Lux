@@ -7,10 +7,10 @@ const HotelArticle = () => {
   console.log(blogs);
   return (
     <section>
-      <div className=" py-[90px] xl:py-40 bg-customGray-500 ">
+      <div className=" py-[44px] md:py-[90px] xl:py-40 bg-customGray-500 ">
         <Container>
-          <div className="flex flex-col items-center gap-16">
-            <div className=" flex flex-col items-center gap-6">
+          <div className="flex flex-col items-center gap-10 md:gap-16">
+            <div className=" flex flex-col items-center gap-4 md:gap-6">
               <p className=" text-customPurple-500 text-base xl:text-2xl font-medium">
                 Latests News
               </p>
@@ -23,8 +23,13 @@ const HotelArticle = () => {
                 <ArticleCard key={blog.id} blog={blog} />
               ))}
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:hidden gap-5">
+            <div className="hidden md:grid md:grid-cols-2 xl:hidden gap-5">
               {blogs.slice(0, 2).map((blog) => (
+                <ArticleCard key={blog.id} blog={blog} />
+              ))}
+            </div>
+            <div className="md:hidden gap-5">
+              {blogs.slice(0, 1).map((blog) => (
                 <ArticleCard key={blog.id} blog={blog} />
               ))}
             </div>

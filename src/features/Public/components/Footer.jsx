@@ -6,12 +6,12 @@ const Footer = () => {
   return (
     <footer className=" bg-customPurple-500 mt-auto">
       <Container>
-        <div className=" grid grid-cols-8 xl:grid-cols-4 pt-8 xl:pt-5">
+        <div className=" grid grid-cols-1 md:grid-cols-8 xl:grid-cols-4 gap-10 md:gap-0 pt-10 md:pt-8 xl:pt-5">
           <div className="col-span-3 xl:col-span-2 flex flex-col gap-5">
             <Link to="/" className=" hover:opacity-80">
               <img
                 src="/assets/Hotel Profile website/Lux 2.svg"
-                className=" h-[50px] xl:h-[69px] "
+                className=" h-[40px] md:h-[50px] xl:h-[69px] "
                 alt="Lux 2 logo"
               />
             </Link>
@@ -81,7 +81,7 @@ const Footer = () => {
                   App available on
                 </h4>
                 <div className=" flex flex-col gap-3 text-gray-300 text-xl font-light ">
-                  <div className="flex justify-between items-center">
+                  <div className="flex justify-start  md:justify-between gap-16 md:gap-0 items-center ps-2">
                     <Link
                       to={"https://www.google.com/"}
                       target="_blank"

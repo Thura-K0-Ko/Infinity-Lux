@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const RoomAndSuite = () => {
   return (
     <section>
-      <div className=" xl:py-40 xl:bg-customSlate-500">
+      <div className="pb-[80px] md:pb-0 xl:py-40 xl:bg-customSlate-500">
         <Container>
 
           <div className="flex flex-col gap-10  xl:relative">
