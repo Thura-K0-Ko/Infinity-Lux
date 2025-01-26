@@ -18,11 +18,11 @@ const Header = ({ className }) => {
     >
       <Container>
         <nav className="">
-          <div className="flex flex-wrap justify-between lg:items-center max-w-screen">
-            <Link to="/" className=" hover:opacity-80 px-[54px]">
+          <div className="flex flex-wrap justify-between items-center max-w-screen">
+            <Link to="/" className=" hover:opacity-80 xl:px-[54px]">
               <img
                 src="/assets/Hotel Profile website/Lux 2.svg"
-                className=" h-[50px] lg:h-[60px] xl:h-[69px] "
+                className=" h-6 md:h-8 xl:h-[69px] "
                 alt="Lux 2 logo"
               />
             </Link>
@@ -40,13 +40,13 @@ const Header = ({ className }) => {
                 onClick={handleOpen}
                 data-collapse-toggle="mobile-menu-2"
                 type="button"
-                className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                className="inline-flex items-center p-2 ml-1 text-sm text-gray-600 rounded-lg lg:hidden hover:text-gray-200 hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-300 dark:text-gray-500 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                 aria-controls="mobile-menu-2"
                 aria-expanded="false"
               >
                 <span className="sr-only">Open main menu</span>
                 <svg
-                  className="w-6 h-6"
+                  className="w-6 h-6 md:w-8 md:h-8  text-customGray-100 hover:text-gray-500"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ const Header = ({ className }) => {
                   />
                 </svg>
                 <svg
-                  className="hidden w-6 h-6"
+                  className="hidden w-6 h-6 md:w-8 md:h-8 text-customGray-200 hover:text-gray-500"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -78,7 +78,7 @@ const Header = ({ className }) => {
               id="mobile-menu-2"
             >
               <div
-                className={` bg-customPurple-600 lg:bg-transparent w-40 text-center lg:w-auto rounded-t-lg lg:rounded-none  flex flex-col mt-2 font-medium lg:flex-row lg:space-x-8 lg:mt-0`}
+                className={` bg-customPurple-600 lg:bg-transparent w-28 md:w-40 text-center lg:w-auto rounded-t-lg lg:rounded-none  flex flex-col mt-2 font-medium lg:flex-row lg:space-x-8 lg:mt-0`}
               >
                 {navBars.map(({ id, name }) => (
                   <Link
@@ -88,7 +88,7 @@ const Header = ({ className }) => {
                         ? "/"
                         : `/${name.toLowerCase().replace(" ", "-")}`
                     }`}
-                    className={` text-sm lg:text-lg xl:text-2xl block py-2 pr-4 pl-3 text-gray-300 border-b border-gray-100 hover:text-white hover:underline hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-white lg:p-0 dark:text-gray-400  dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700`}
+                    className={` text-xs lg:text-lg xl:text-2xl block py-1 md:py-2 pr-4 pl-3 text-gray-300 border-b border-gray-100 hover:text-white hover:underline hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-white lg:p-0 dark:text-gray-400  dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700`}
                   >
                     {name}
                   </Link>
@@ -98,6 +98,8 @@ const Header = ({ className }) => {
           </div>
         </nav>
       </Container>
+    
+    
     </header>
   );
 };
