@@ -11,7 +11,7 @@ const RoomDetailCard = () => {
   const roomDetail = rooms.filter((room) => room.id == params.id)[0];
 
   return (
-    <div className="col-span-2 flex flex-col gap-[60px]">
+    <div className="col-span-2 flex flex-col gap-[60px] my-[90px]">
       <div className="grid grid-cols-2 gap-3">
         <div className="row-span-2">
           <img
@@ -55,14 +55,14 @@ const RoomDetailCard = () => {
         </h2>
         <div className="grid grid-cols-4 gap-x-5 gap-y-6">
           {features.map((ele, index) => (
-            <div key={index} className="flex items-center gap-x-5 gap-y-6">
+            <div key={index} className="flex items-center gap-x-5 gap-y-6 border p-5">
               <img src={ele.svg} />
               <span className="text-customGray-500 text-center text-xl font-light tracking-[0.1px]">
                 {ele.content}
               </span>
             </div>
           ))}
-          <div className="flex items-center gap-x-5 gap-y-6">
+          <div className="flex items-center gap-x-5 gap-y-6 border p-5">
             <img src="/assets/Hotel Profile website/axis-3d-detail.svg" />
             <span className="text-customGray-500 text-center text-xl font-light tracking-[0.1px]">
               {roomDetail.services.area}
