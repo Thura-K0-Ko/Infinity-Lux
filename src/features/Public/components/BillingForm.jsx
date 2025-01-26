@@ -2,7 +2,7 @@ import React from "react";
 
 const BillingForm = () => {
   return (
-    <div className="col-span-2">
+    <div className="col-span-2 my-[90px] xl:my-0">
       <h3 className="text-customGray-500 font-heading text-[40px] font-normal mb-9">
         Billing Details
       </h3>
