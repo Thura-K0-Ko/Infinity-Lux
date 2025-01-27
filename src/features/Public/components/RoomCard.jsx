@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 
 const RoomCard = ({ room }) => {
   return (
-    <div className="relative h-[530px]">
-      <div className={`${room.id % 2 === 0 ? "absolute right-0" : "relative"}`}>
+    <div className="relative xl:h-[530px]">
+      <div className={`${room.id % 2 === 0 ? "xl:absolute xl:right-0" : "xl:relative"}`}>
         <img className="h-[530px] w-auto" src={room.img} alt={room.category} />
       </div>
       <div
-        className={`absolute top-[43px] ${
-          room.id % 2 !== 0 && "right-0"
-        } flex flex-col gap-6 w-[650px] text-gray-500 bg-white p-8`}
+        className={`xl:absolute xl:top-[43px] ${
+          room.id % 2 !== 0 && "xl:right-0"
+        } flex flex-col gap-6 w-full xl:w-[650px] text-gray-500 bg-white p-8`}
       >
         <p className="text-customPurple-500 text-2xl font-medium">
           {room.price}

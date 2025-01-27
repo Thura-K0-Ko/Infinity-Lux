@@ -12,19 +12,19 @@ const RoomDetailPage = () => {
         heroImg={
           "/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_3 (1).png"
         }
-        titles={["Rooms Details"]}
-        breadcrumbs={[
-          {
-            currentPageTitle: "Room Detail",
-            path: "/rooms",
-            name: "Rooms",
-          },
-        ]}
+        // titles={["Rooms Details"]}
+        // breadcrumbs={[
+        //   {
+        //     currentPageTitle: "Room Detail",
+        //     path: "/rooms",
+        //     name: "Rooms",
+        //   },
+        // ]}
       />
       <Container>
-        <div className="grid grid-cols-3 gap-[21px] mt-[239px] mb-[180px]">
+        <div className="xl:grid grid-cols-3 gap-[21px]">
           <RoomDetailCard />
-          <div className="col-span-1">
+          <div className="col-span-1  my-[90px]">
             <div className="shadow-lg">
               <h3 className="bg-customPurple-500 text-white font-heading text-[32px] font-normal p-5">
                 Book Your Room

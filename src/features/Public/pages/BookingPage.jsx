@@ -23,7 +23,7 @@ const Booking = () => {
         ]}
       />
       <Container>
-        <div className="grid grid-cols-3 gap-5 my-[174px]">
+        <div className="xl:grid grid-cols-3 gap-5 my-[90px] xl:my-[174px]">
           <BillingForm />
           <div className="">
             <ReservationCard />

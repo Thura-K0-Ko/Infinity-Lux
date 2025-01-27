@@ -9,11 +9,13 @@ const OfferCard = () => {
          <Container>
             <h5 className="text-center text-customPurple-500 text-2xl font-medium mb-6">Comfort & Relax</h5>
             <h3 className="text-center text-customGray-500 font-heading text-5xl font-normal mb-[60px]">Exclusive Offers</h3>
-            <div className="grid grid-cols-3 gap-5">
+            <div className="w-full overflow-x-scroll hsb whitespace-nowrap">
                {offers.map((offer) => (
-                  <div key={offer.id} style={offer.background} className="w-[413px] h-[512px] bg-contain bg-no-repeat p-8 flex flex-col">
-                     {offer.discount && (<div className="w-max bg-white text-customPurple-500 text-2xl font-semibold p-5">{offer.discount}</div>)}
-                     {offer.event && (<div className="mt-auto font-heading text-white text-4xl font-normal">{offer.event}</div>)}
+                  <div key={offer.id} className="inline-block w-1/2 xl:w-1/3 h-[512px] p-8">
+                  <div style={offer.background} className="flex flex-col justify-between h-full bg-cover bg-no-repeat p-8">
+                     <div className={`${offer.discount && 'w-max bg-white text-customPurple-500 text-2xl font-semibold p-5'}`}>{offer.discount}</div>
+                     <div className={`${offer.event && 'font-heading text-white text-4xl font-normal'}`}>{offer.event}</div>
+                  </div>
                   </div>
                ))}
             </div>
