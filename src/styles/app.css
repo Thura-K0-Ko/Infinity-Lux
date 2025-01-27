@@ -6,6 +6,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hsb{
+   -ms-overflow-style: none; /* IE & Edge */
+   scrollbar-width: none; /* Firefox */
+}
+.hsb::-webkit-scrollbar{
+   display: none; /* Chrome, Safari & Opera */
+}
+
 .page-loading-progress {
   animation: progress 1s infinite linear;
 }
