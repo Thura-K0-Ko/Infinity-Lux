@@ -7,17 +7,17 @@ const GetInTouch = () => {
   return (
     <section>
       <Container>
-        <div className="p-[88px] shadow-lg rounded-lg transform -translate-y-48 bg-white">
-          <div className="flex flex-col gap-[60px]">
+        <div className="p-[88px] shadow-lg rounded-lg relative  transform -translate-y-48 bg-white">
+          <div className="flex flex-col gap-[60px] ">
             <div className=" flex flex-col items-center gap-3">
-              <h3 className="text-customGray-500 text-5xl font-normal font-heading">
+              <h3 className="text-customGray-500 text-4xl xl:text-5xl font-normal font-heading">
                 Get In Touch
               </h3>
-              <p className="text-gray-500 text-2xl">
+              <p className="text-gray-500 text-base xl:text-2xl">
                 We’re always happy to answer any questions via phone or email.
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-">
+            <div className="grid grid-cols-2 gap-">
               <div className="colspan-1">
                 <SocialMedia />
               </div>{" "}
