@@ -9,7 +9,7 @@ const FaqCard = () => {
   } = useFaqStore();
   return (
     <>
-      <div className="w-[1086px] mx-auto flex flex-col gap-9">
+      <div className="w-[768px] xl:w-[1086px] mx-auto flex flex-col gap-9">
         {/* -----------------------GeneralFaq---------------------------- */}
         <GeneralFaq />
 
