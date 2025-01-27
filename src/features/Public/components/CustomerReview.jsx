@@ -99,19 +99,19 @@ const CustomerReview = () => {
               </div>
             </div>
           </div>
-          <div className=" flex items-center justify-center xl:justify-start gap-3 xl:absolute xl:transform xl:-translate-y-40 mt-12 xl:mt-0 ">
+          <div className=" flex items-center justify-center xl:justify-start gap-2 md:gap-3 xl:absolute xl:transform xl:-translate-y-40 mt-12 xl:mt-0 ">
             <Link
               onClick={prevSlide}
               className="bg-customPurple-500  text-white p-2 rounded-full  hover:bg-customPurple-300 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "
             >
-              <HiArrowSmallLeft className=" size-7" />
+              <HiArrowSmallLeft className=" size-5 md:size-7" />
             </Link>
 
             <Link
               onClick={nextSlide}
               className="bg-customPurple-500 text-white p-2 rounded-full  hover:bg-customPurple-300 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "
             >
-              <HiArrowSmallRight className=" size-7" />
+              <HiArrowSmallRight className=" size-5 md:size-7" />
             </Link>
           </div>
         </div>
