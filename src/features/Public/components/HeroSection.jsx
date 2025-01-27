@@ -40,7 +40,7 @@ const HeroSection = ({
               titles.map((title) => (
                 <h1
                   key={title}
-                  className="text-white text-[39px] md:text-[40px] md:text-5xl xl:text-8xl  font-heading font-normal"
+                  className="text-white text-[39px] md:text-[40px] md:text-5xl xl:text-8xl text-center  font-heading font-normal"
                 >
                   {title}
                 </h1>
