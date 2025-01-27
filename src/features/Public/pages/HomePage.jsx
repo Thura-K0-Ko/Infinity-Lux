@@ -19,6 +19,7 @@ const HomePage = () => {
         btnText={"Rooms & Suites"}
         path={"/rooms"}
       />
+
       <AboutInfinityLux
         title1={"Experience The Ultimate"}
         title2={"Luxurious Getaway"}

@@ -6,14 +6,14 @@ const ArticleCard = ({
   blog: { id, title, description, date, image, imgAlt },
 }) => {
   return (
-    <div className="  rounded-lg">
+    <div className="  rounded-lg min-w-[341px] md:min-w-[373px] xl:min-w-[412px]">
       <img
         src={image}
         className=" h-[269.86px] xl:h-[298px] w-full object-cover rounded-t-lg"
         alt={imgAlt}
       />
       <div className="p-5 flex flex-col gap-4 md:gap-5 bg-customStone-500 rounded-b-lg">
-        <h2 className=" font-heading text-[#141414] text-[21.95px] md:text-2xl xl:text-3xl font-normal">
+        <h2 className=" font-heading text-[#141414] text-[22px] md:text-2xl xl:text-3xl font-normal">
           {title}
         </h2>
         <p className="text-gray-500 text-base xl:text-xl font-medium">
