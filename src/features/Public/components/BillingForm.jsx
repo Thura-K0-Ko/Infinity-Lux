@@ -1,6 +1,15 @@
 import React from "react";
+import Swal from "sweetalert2";
 
 const BillingForm = () => {
+  const handleCheckout = () => {
+    Swal.fire({
+      icon: "success",
+      title: "Payment Successful!",
+      text: "We will send your booking documents to your Email",
+      confirmButtonText: "Back"
+    })
+  }
   return (
     <div className="col-span-2 my-[90px] xl:my-0">
       <h3 className="text-customGray-500 font-heading text-[40px] font-normal mb-9">
@@ -168,7 +177,7 @@ const BillingForm = () => {
         </label>
       </div>
       <div>
-        <button className="bg-customPurple-500 text-white text-2xl font-semibold w-1/2  md:text-base xl:text-2xl  md:px-5 md:py-2.5 xl:px-10 xl:py-5 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 hover:bg-customPurple-800 focus:ring-4 focus:ring-customPurple-300 dark:bg-customPurple-600 dark:hover:bg-customPurple-700 focus:outline-none dark:focus:ring-customPurple-800">
+        <button onClick={handleCheckout} className="bg-customPurple-500 text-white text-2xl font-semibold w-1/2  md:text-base xl:text-2xl  md:px-5 md:py-2.5 xl:px-10 xl:py-5 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 hover:bg-customPurple-800 focus:ring-4 focus:ring-customPurple-300 dark:bg-customPurple-600 dark:hover:bg-customPurple-700 focus:outline-none dark:focus:ring-customPurple-800">
           Check Out
         </button>
       </div>
