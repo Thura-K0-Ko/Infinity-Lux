@@ -1,14 +1,18 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 
 const BillingForm = () => {
+  const navigate = useNavigate();
   const handleCheckout = () => {
     Swal.fire({
       icon: "success",
       title: "Payment Successful!",
       text: "We will send your booking documents to your Email",
       confirmButtonText: "Back"
-    })
+    }).then(
+      navigate("/")
+    )
   }
   return (
     <div className="col-span-2 my-[90px] xl:my-0">
