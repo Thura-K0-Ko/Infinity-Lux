@@ -8,7 +8,7 @@ const PrivacyPolicy = () => {
       <Container>
         <div className="pb-32 xl:pb-40">
           <Header className="bg-customPurple-400" />
-          <div className="pt-20 flex flex-col gap-3 h-72 xl:h-96">
+          <div className="pt-20 flex flex-col gap-3 h-64 md:h-96">
             <h1 className="text-center text-blue-950 text-4xl xl:text-6xl font-normal font-heading mt-auto">
               Infinity Lux.com Privacy Policy
             </h1>
@@ -16,7 +16,7 @@ const PrivacyPolicy = () => {
               Update on Dec 7 2024
             </p>
           </div>
-          <div className="pt-10 xl:pt-20 w-[83%] mx-auto tracking-normal flex flex-col gap-6 md:gap-9 xl:gap-11">
+          <div className="pt-10 xl:pt-20 md:w-[83%] mx-auto tracking-normal flex flex-col gap-6 md:gap-9 xl:gap-11">
             {/* --------------introduction--------------- */}
             <div className=" ">
               <h1 className="text-[#141414] text-xl md:text-2xl xl:text-[32px] font-normal font-heading py-1 md:py-2 xl:py-4">
