@@ -3,14 +3,14 @@ import React from "react";
 const BillingForm = () => {
   return (
     <div className="col-span-2 my-[90px] xl:my-0">
-      <h3 className="text-customGray-500 font-heading text-[40px] font-normal mb-9">
+      <h3 className="text-customGray-500 font-heading text-2xl md:text-[40px] font-normal mb-8 md:mb-9">
         Billing Details
       </h3>
-      <form className="grid grid-cols-2 gap-x-5 gap-y-8 mb-[60px]">
+      <form className="flex flex-col md:grid grid-cols-2 gap-x-5 gap-y-6 md:gap-y-4 mb-[60px]">
         <div className="flex flex-col gap-[9px]">
           <label
             htmlFor="fname"
-            className="text-customBlue-950 font-heading text-2xl font-normal tracking-[0.12px]"
+            className="text-customBlue-950 font-heading text-xl md:text-2xl font-normal tracking-[0.1px] md:tracking-[0.12px]"
           >
             First Name *
           </label>
@@ -24,7 +24,7 @@ const BillingForm = () => {
         <div className="flex flex-col gap-[9px]">
           <label
             htmlFor="lname"
-            className="text-customBlue-950 font-heading text-2xl font-normal tracking-[0.12px]"
+            className="text-customBlue-950 font-heading text-xl md:text-2xl font-normal tracking-[0.1px] md:tracking-[0.12px]"
           >
             Last Name *
           </label>
@@ -38,7 +38,7 @@ const BillingForm = () => {
         <div className="flex flex-col gap-[9px]">
           <label
             htmlFor="country"
-            className="text-customBlue-950 font-heading text-2xl font-normal tracking-[0.12px]"
+            className="text-customBlue-950 font-heading text-xl md:text-2xl font-normal tracking-[0.1px] md:tracking-[0.12px]"
           >
             Country *
           </label>
@@ -52,7 +52,7 @@ const BillingForm = () => {
         <div className="flex flex-col gap-[9px]">
           <label
             htmlFor="city"
-            className="text-customBlue-950 font-heading text-2xl font-normal tracking-[0.12px]"
+            className="text-customBlue-950 font-heading text-xl md:text-2xl font-normal tracking-[0.1px] md:tracking-[0.12px]"
           >
             Town/City *
           </label>
@@ -66,7 +66,7 @@ const BillingForm = () => {
         <div className="flex flex-col gap-[9px]">
           <label
             htmlFor="email"
-            className="text-customBlue-950 font-heading text-2xl font-normal tracking-[0.12px]"
+            className="text-customBlue-950 font-heading text-xl md:text-2xl font-normal tracking-[0.1px] md:tracking-[0.12px]"
           >
             Email *
           </label>
@@ -80,7 +80,7 @@ const BillingForm = () => {
         <div className="flex flex-col gap-[9px]">
           <label
             htmlFor="phone"
-            className="text-customBlue-950 font-heading text-2xl font-normal tracking-[0.12px]"
+            className="text-customBlue-950 font-heading text-xl md:text-2xl font-normal tracking-[0.1px] md:tracking-[0.12px]"
           >
             Phone *
           </label>
@@ -94,7 +94,7 @@ const BillingForm = () => {
         <div className="col-span-2 flex flex-col gap-[9px]">
           <label
             htmlFor="address"
-            className="text-customBlue-950 font-heading text-2xl font-normal tracking-[0.12px]"
+            className="text-customBlue-950 font-heading text-xl md:text-2xl font-normal tracking-[0.1px] md:tracking-[0.12px]"
           >
             Address *
           </label>
@@ -108,7 +108,7 @@ const BillingForm = () => {
         <div className="col-span-2 flex flex-col gap-[9px]">
           <label
             htmlFor="request"
-            className="text-customBlue-950 font-heading text-2xl font-normal tracking-[0.12px]"
+            className="text-customBlue-950 font-heading text-xl md:text-2xl font-normal tracking-[0.1px] md:tracking-[0.12px]"
           >
             Requests (Optional) *
           </label>
@@ -120,21 +120,21 @@ const BillingForm = () => {
           />
         </div>
       </form>
-      <h3 className="font-heading text-[40px] font-normal tracking-[0.2px] mb-9">
+      <h3 className="font-heading text-2xl md:text-[40px] font-normal tracking-[0.12px] md:tracking-[0.2px] mb-8 md:mb-9">
         Select Payment Methods
       </h3>
-      <div className="flex flex-col gap-8 mb-[60px]">
+      <div className="flex flex-col gap-7 md:gap-8 mb-10 md:mb-[60px]">
         <label
           htmlFor="arrival"
           className="flex items-center gap-3 border border-customWhite-500 rounded px-5 py-[10px]"
         >
           <input type="radio" id="arrival" name="payment" />
           <img
-            className="h-[72px]"
+            className="h-[65px] md:h-[72px]"
             src="/assets/Hotel Profile website/ic-payments-payment_on_delivery-xs 1.png"
-            alt="payment on delivery"
+            alt="payment on arrival"
           />
-          <span className="text-xl font-medium tracking-[0.1px]">
+          <span className="text-base md:text-xl font-medium tracking-[0.08px] md:tracking-[0.1px]">
             Payment On Arrival
           </span>
         </label>
@@ -144,11 +144,11 @@ const BillingForm = () => {
         >
           <input type="radio" id="paypal" name="payment" />
           <img
-            className="h-[72px]"
+            className="h-[65px] md:h-[72px]"
             src="/assets/Hotel Profile website/paypal-light-mode 1.png"
-            alt="payment on delivery"
+            alt="Pay With PayPal"
           />
-          <span className="text-xl font-medium tracking-[0.1px]">
+          <span className="text-base md:text-xl font-medium tracking-[0.08px] md:tracking-[0.1px]">
             Pay With PayPal
           </span>
         </label>
@@ -158,17 +158,17 @@ const BillingForm = () => {
         >
           <input type="radio" id="credit" name="payment" />
           <img
-            className="h-[72px]"
+            className="h-[65px] md:h-[72px]"
             src="/assets/Hotel Profile website/mastercard 1.png"
-            alt="payment on delivery"
+            alt="Credit Or Debit Card"
           />
-          <span className="text-xl font-medium tracking-[0.1px]">
+          <span className="text-base md:text-xl font-medium tracking-[0.08px] md:tracking-[0.1px]">
             Credit Or Debit Card
           </span>
         </label>
       </div>
       <div>
-        <button className="bg-customPurple-500 text-white text-2xl font-semibold w-1/2  md:text-base xl:text-2xl  md:px-5 md:py-2.5 xl:px-10 xl:py-5 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 hover:bg-customPurple-800 focus:ring-4 focus:ring-customPurple-300 dark:bg-customPurple-600 dark:hover:bg-customPurple-700 focus:outline-none dark:focus:ring-customPurple-800">
+        <button className="bg-customPurple-500 text-white font-semibold w-1/2  text-base xl:text-2xl px-5 py-2.5 xl:px-10 xl:py-5 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 hover:bg-customPurple-800 focus:ring-4 focus:ring-customPurple-300 dark:bg-customPurple-600 dark:hover:bg-customPurple-700 focus:outline-none dark:focus:ring-customPurple-800">
           Check Out
         </button>
       </div>

@@ -13,14 +13,14 @@ const Booking = () => {
         heroImg={
           "/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_2 (3).png"
         }
-        titles={["Booking"]}
-        breadcrumbs={[
-          {
-            currentPageTitle: "Booking",
-            path: "/rooms",
-            name: "Rooms",
-          },
-        ]}
+        // titles={["Booking"]}
+        // breadcrumbs={[
+        //   {
+        //     currentPageTitle: "Booking",
+        //     path: "/rooms",
+        //     name: "Rooms",
+        //   },
+        // ]}
       />
       <Container>
         <div className="xl:grid grid-cols-3 gap-5 my-[90px] xl:my-[174px]">
