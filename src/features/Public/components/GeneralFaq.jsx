@@ -5,9 +5,9 @@ const GeneralFaq = () => {
   const { generalFaqs, toggleGeneralFaq } = useFaqStore();
   return (
   
-      <div className="xl:w-[1086px] mx-auto flex flex-col gap-9">
+      <div className="flex flex-col gap-9">
           {/* -----------------------GeneralFaq---------------------------- */}
-        <h1 className=" text-customGray-500 text-xl xl:text-4xl font-normal font-heading">
+        <h1 className=" text-customGray-500 text-2xl md:text-4xl font-normal font-heading">
           General Faq
         </h1>
         <div className="">
@@ -21,7 +21,7 @@ const GeneralFaq = () => {
                   {faq.question}
                 </h3>
                 <HiChevronDown
-                  className={` size-7 text-customGray-300 cursor-pointer ${
+                  className={`size-5 md:size-7 text-customGray-300 cursor-pointer ${
                     faq.isOpen ? "rotate-180 duration-1000" : " duration-1000"
                   }`}
                 />
