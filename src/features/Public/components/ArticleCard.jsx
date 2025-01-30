@@ -13,7 +13,7 @@ const ArticleCard = ({
         alt={imgAlt}
       />
       <div className=" p-4 md:p-5 flex flex-col gap-4 md:gap-[18px] xl:gap-5 bg-customStone-500 rounded-b-lg">
-        <h2 className=" font-heading text-customGray-500 text-2xl xl:text-3xl font-normal">
+        <h2 className=" font-heading text-customGray-500 text-xl md:text-2xl xl:text-3xl font-normal">
           {title}
         </h2>
         <p className="text-gray-500 text-base xl:text-xl font-medium">
