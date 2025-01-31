@@ -55,7 +55,7 @@ const OurServices = () => {
   return (
     <section>
       <Container>
-        <div className="flex flex-col justify-center items-center py-[90px] xl:py-40">
+        <div className="flex flex-col justify-center items-center py-[50px] md:py-[90px] xl:py-40">
           <div className="flex flex-col justify-center items-center gap-[60px]">
             <div className="flex flex-col justify-center items-center gap-6">
               <p className=" text-customPurple-500 text-base xl:text-2xl">
@@ -66,7 +66,7 @@ const OurServices = () => {
               </p>
             </div>
             {/* <div className="inline-flex flex-col items-start gap-8 w-[1279px]"> */}
-            <div className="grid grid-cols-2 xl:grid-cols-3 gap-5 xl:gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 xl:gap-8">
               {services.map(({ id, image, title, description }) => (
                 <div
                   key={id}
