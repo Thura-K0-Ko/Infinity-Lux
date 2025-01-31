@@ -15,7 +15,7 @@ const FaqPage = () => {
         titles={["Faqs"]}
       />
       <Container>
-        <div className="py-[90px] xl:py-40">
+        <div className="py-[50px] md:py-[90px] xl:py-40">
           <FaqCard />
         </div>
       </Container>
