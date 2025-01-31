@@ -4,6 +4,7 @@ import useBlogStore from "../../../stores/useBlogStore";
 import { useRef } from "react";
 import { Link } from "react-router-dom";
 import { HiArrowSmallLeft, HiArrowSmallRight } from "react-icons/hi2";
+import { LuDot } from "react-icons/lu";
 
 const HotelArticle = () => {
   const { blogs } = useBlogStore();
@@ -40,27 +41,26 @@ const HotelArticle = () => {
             </div>
             <div
               ref={carouselRef}
-              className="flex gap-5 w-full h-[513px] xl:h-[560px]  overflow-scroll"
+              className="flex gap-5 w-full hsb  overflow-x-scroll"
             >
               {blogs.map((blog) => (
                 <ArticleCard key={blog.id} blog={blog} />
               ))}
             </div>
           </div>
-          <div className=" flex items-center justify-center gap-2  md:gap-3 mt-4 md:mt-12 ">
-            <Link
+          <div className=" flex xl:hidden items-center justify-center gap-2 md:gap-3 mt-4 md:mt-12  ">
+            <button
               onClick={prevSlide}
-              className="bg-customPurple-500  text-white p-2 rounded-full  hover:bg-customPurple-300 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "
-            >
-              <HiArrowSmallLeft className="size-5 md:size-7" />
-            </Link>
-
-            <Link
+              className=" cursor-pointer bg-customPurple-500 p-1 md:p-1.5 rounded-full transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "
+            ></button>
+            <button
+            
+              className=" bg-white   p-1 md:p-1.5 rounded-full transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "
+            ></button>
+            <button
               onClick={nextSlide}
-              className="bg-customPurple-500 text-white p-2 rounded-full  hover:bg-customPurple-300 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "
-            >
-              <HiArrowSmallRight className=" size-5 md:size-7" />
-            </Link>
+              className=" cursor-pointer bg-customPurple-500 p-1 md:p-1.5 rounded-full transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "
+            ></button>
           </div>
         </Container>
       </div>
