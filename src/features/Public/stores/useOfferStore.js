@@ -17,7 +17,7 @@ const useOfferStore = create((set) => ({
         backgroundImage:
           "url('/assets/Hotel Profile website/Frame 1000006323.png')",
       },
-      discount: "",
+      discount: "20% Off",
       event: "",
     },
     {
@@ -26,7 +26,7 @@ const useOfferStore = create((set) => ({
         backgroundImage:
           "url('/assets/Hotel Profile website/Frame 1000006324.png')",
       },
-      discount: "",
+      discount: "10% Off",
       event: "",
     },
   ],
