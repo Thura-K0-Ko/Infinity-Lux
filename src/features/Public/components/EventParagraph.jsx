@@ -9,10 +9,10 @@ const EventParagraph = ({ subTitle, title, para1, para2 }) => {
       <h2 className="text-center text-customGray-500 font-heading text-[32px] md:text-[40px] xl:text-5xl font-normal mb-10 xl:mb-[60px]">
         {title}
       </h2>
-      <p className="text-gray-500 text-base  xl:text-xl font-light mb-8 xl:mb-[52px]">
+      <p className="text-gray-500 text-base/[22px] xl:text-xl font-light tracking-[0.08px] mb-8 xl:mb-[52px]">
         {para1}
       </p>
-      <p className="text-gray-500 text-base  xl:text-xl font-light">
+      <p className="text-gray-500 text-base/[22px] xl:text-xl font-light tracking-[0.08px] mb-8 xl:mb-[52px]">
         {para2}
       </p>
     </div>
