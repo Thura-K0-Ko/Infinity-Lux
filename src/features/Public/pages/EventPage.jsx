@@ -6,7 +6,7 @@ const EventPage = () => {
     <section>
       <HeroSection
         heroImg={"/assets/Infinity Lux image Assets/6. Events Page ( Infinity Lux )/Events_Hero_image.png"}
-        titles={["Events"]}
+        // titles={["Events"]}
       />
 
       <EventCard />

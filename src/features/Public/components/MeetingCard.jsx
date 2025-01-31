@@ -1,9 +1,24 @@
-import React from "react";
+import React, { useRef } from "react";
 import Container from "../../../components/Container";
 import { Link } from "react-router-dom";
 import EventParagraph from "./EventParagraph";
 
 const MeetingCard = () => {
+  //  const carouselRef = useRef();
+  //  const nextSlide = () => {
+  //     if (carouselRef.current) {
+  //        const container = carouselRef.current;
+  //        const scrollAmount = container.clientWidth + 16; // Includes gap between slides
+  //        container.scrollBy({ left: scrollAmount, behavior: "smooth" });
+  //     }
+  //  };
+  //  const prevSlide = () => {
+  //     if (carouselRef.current) {
+  //        const container = carouselRef.current;
+  //        const scrollAmount = container.clientWidth + 16; // Includes gap between slides
+  //        container.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+  //     }
+  //  };
   return (
     <>
       <Container>
@@ -94,43 +109,50 @@ const MeetingCard = () => {
           <h2 className="text-center text-customGray-500 font-heading text-[32px] md:text-5xl font-normal mb-10 xl:mb-[60px]">
             Meeting Event
           </h2>
-          <div className="grid grid-rows-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
-            <div>
+          {/* <div ref={carouselRef} className="overflow-x-scroll hsb whitespace-nowrap xl:grid grid-cols-3 gap-5"> */}
+          <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-5">
+            {/* <div className="inline-block mx-3"> */}
+            <div className="">
               <img
                 className="h-[408px] md:h-[446.45px] xl:h-[493px] object-cover"
                 src="/assets/Infinity Lux image Assets/Meeting Event/gallery-1.png"
                 alt=""
               />
             </div>
-            <div>
+            {/* <div className="inline-block mx-3"> */}
+            <div className="">
               <img
                 className="h-[408px] md:h-[446.45px] xl:h-[493px] object-cover"
                 src="/assets/Infinity Lux image Assets/Meeting Event/gallery-2.png"
                 alt=""
               />
             </div>
-            <div>
+            {/* <div className="inline-block mx-3"> */}
+            <div className="">
               <img
                 className="h-[408px] md:h-[446.45px] xl:h-[493px] object-cover"
                 src="/assets/Infinity Lux image Assets/Meeting Event/gallery-3.png"
                 alt=""
               />
             </div>
-            <div>
+            {/* <div className="inline-block mx-3"> */}
+            <div className="">
               <img
                 className="h-[408px] md:h-[446.45px] xl:h-[493px] object-cover"
                 src="/assets/Infinity Lux image Assets/Meeting Event/gallery-4.png"
                 alt=""
               />
             </div>
-            <div>
+            {/* <div className="inline-block mx-3"> */}
+            <div className="">
               <img
                 className="h-[408px] md:h-[446.45px] xl:h-[493px] object-cover"
                 src="/assets/Infinity Lux image Assets/Meeting Event/gallery-5.png"
                 alt=""
               />
             </div>
-            <div>
+            {/* <div className="inline-block mx-3"> */}
+            <div className="">
               <img
                 className="h-[408px] md:h-[446.45px] xl:h-[493px] object-cover"
                 src="/assets/Infinity Lux image Assets/Meeting Event/gallery-6.png"
@@ -138,6 +160,11 @@ const MeetingCard = () => {
               />
             </div>
           </div>
+          {/* <div className=" flex xl:hidden items-center justify-center gap-2 md:gap-3 mt-4 md:mt-12  ">
+             <button onClick={prevSlide} className=" cursor-pointer bg-customPurple-500 p-1 md:p-1.5 rounded-full transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "></button>
+             <button className="bg-white p-1 md:p-1.5 rounded-full transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "></button>
+             <button onClick={nextSlide} className=" cursor-pointer bg-customPurple-500 p-1 md:p-1.5 rounded-full transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "></button>
+          </div> */}
         </div>
       </Container>
       <div className="bg-customPurple-500 py-[20px] md:py-[30px] xl:py-[75px] mb-[100px] xl:mb-[200px]">

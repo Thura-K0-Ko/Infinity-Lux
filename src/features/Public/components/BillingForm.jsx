@@ -181,7 +181,7 @@ const BillingForm = () => {
         </label>
       </div>
       <div>
-//         <button className="bg-customPurple-500 text-white font-semibold w-1/2 text-base xl:text-2xl px-5 py-2.5 xl:px-10 xl:py-5 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 hover:bg-customPurple-800 focus:ring-4 focus:ring-customPurple-300 dark:bg-customPurple-600 dark:hover:bg-customPurple-700 focus:outline-none dark:focus:ring-customPurple-800">
+        {/* <button className="bg-customPurple-500 text-white font-semibold w-1/2 text-base xl:text-2xl px-5 py-2.5 xl:px-10 xl:py-5 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 hover:bg-customPurple-800 focus:ring-4 focus:ring-customPurple-300 dark:bg-customPurple-600 dark:hover:bg-customPurple-700 focus:outline-none dark:focus:ring-customPurple-800"> */}
         <button onClick={handleCheckout} className="bg-customPurple-500 text-white text-2xl font-semibold w-1/2 text-base xl:text-2xl px-5 py-2.5 xl:px-10 xl:py-5 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 hover:bg-customPurple-800 focus:ring-4 focus:ring-customPurple-300 dark:bg-customPurple-600 dark:hover:bg-customPurple-700 focus:outline-none dark:focus:ring-customPurple-800">
           Check Out
         </button>

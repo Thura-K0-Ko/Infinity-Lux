@@ -39,7 +39,7 @@ const CustomerReview = () => {
             <div className=" xl:col-span-2 ">
               <div
                 ref={carouselRef}
-                className=" flex gap-4 h-[410px] xl:h-[450px]  overflow-x-scroll"
+                className=" flex gap-4 h-[410px] xl:h-[450px] hsb overflow-x-scroll"
               >
                 {customerReview.map((review) => (
                   <div
