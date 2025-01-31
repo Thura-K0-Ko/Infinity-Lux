@@ -10,16 +10,16 @@ const SimilarRoomCard = () => {
 
   return (
     <div className="my-[60px]">
-      <h6 className="text-customPurple-500 text-center text-2xl font-medium mb-6">
+      <h6 className="text-customPurple-500 text-center text-base md:text-2xl font-medium mb-4 md:mb-6">
         Comfort & Relax
       </h6>
-      <h3 className="text-customGray-500 text-center text-5xl font-normal font-heading mb-[60px]">
+      <h3 className="text-customGray-500 text-center text-[32px] md:text-5xl font-normal font-heading mb-[40px] md:mb-[60px]">
         Similar Rooms
       </h3>
-      <div className="w-full overflow-x-scroll hsb whitespace-nowrap">
+      <div className="overflow-x-scroll hsb whitespace-nowrap">
       <div className="">
         {similarRoom.map((room, index) => (
-          <div className="inline-block w-1/2 xl:w-1/3 h-[512px] p-5">
+          <div className="inline-block w-full md:w-1/2 xl:w-1/3 h-[512px] p-5">
           <div
             key={index}
             style={{ backgroundImage: `url('${room.img}')` }}

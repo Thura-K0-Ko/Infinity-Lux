@@ -17,7 +17,7 @@ const BookingForm = () => {
   const checkOut = afterTomorrow.toISOString().split("T")[0];
 
   return (
-    <form className="flex flex-col gap-8 p-5">
+    <form className="flex flex-col gap-6 md:gap-8 p-5">
       <div className="flex flex-col gap-3">
         <label
           htmlFor="checkIn"
@@ -80,7 +80,7 @@ const BookingForm = () => {
       </div>
       <Link
         to={`/booking/${roomDetail.id}`}
-        className="w-full bg-customPurple-500 text-white text-center text-2xl font-semibold md:text-base xl:text-2xl md:px-5 md:py-2.5 xl:px-10 xl:py-5 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 hover:bg-customPurple-800 focus:ring-4 focus:ring-customPurple-300 dark:bg-customPurple-600 dark:hover:bg-customPurple-700 focus:outline-none dark:focus:ring-customPurple-800"
+        className="w-full bg-customPurple-500 text-white text-center text-xl md:text-2xl font-semibold px-5 py-2.5 xl:px-10 xl:py-5 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 hover:bg-customPurple-800 focus:ring-4 focus:ring-customPurple-300 dark:bg-customPurple-600 dark:hover:bg-customPurple-700 focus:outline-none dark:focus:ring-customPurple-800"
       >
         Book This Room
       </Link>

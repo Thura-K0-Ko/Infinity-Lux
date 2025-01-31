@@ -26,7 +26,7 @@ const RoomDetailPage = () => {
           <RoomDetailCard />
           <div className="col-span-1  my-[90px]">
             <div className="shadow-lg">
-              <h3 className="bg-customPurple-500 text-white font-heading text-[32px] font-normal p-5">
+              <h3 className="bg-customPurple-500 text-white font-heading text-2xl md:text-[32px] font-normal p-5">
                 Book Your Room
               </h3>
               <BookingForm />
