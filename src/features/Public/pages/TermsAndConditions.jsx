@@ -6,23 +6,23 @@ const TermsAndConditions = () => {
   return (
     <section>
       <Container>
-        <div className="pb-40">
+        <div className="pb-32 xl:pb-40">
           <Header className="bg-customPurple-400" />
-          <div className="pt-20 flex flex-col gap-3 h-96">
-            <h1 className="text-center text-blue-950 text-6xl font-normal font-heading mt-auto ">
+          <div className="pt-20 flex flex-col gap-3 h-64 md:h-96">
+            <h1 className="text-center text-blue-950 text-2xl md:text-6xl font-normal font-heading mt-auto ">
               Infinity Lux.com Terms & Conditions
             </h1>
-            <p className="text-center text-gray-500 text-xl font-normal">
+            <p className="text-center text-gray-500 text-base md:text-xl font-normal">
               Update on Dec 7 2024
             </p>
           </div>
-          <div className="pt-20 w-[83%] flex flex-col gap-9">
+          <div className="pt-10 xl:pt-20 md:w-[83%] mx-auto flex flex-col gap-6 md:gap-9">
             {/* -------------- Acceptance of Terms--------------- */}
             <div className=" ">
-              <h1 className="text-[#141414] text-[32px] font-normal font-heading py-4">
+              <h1 className="text-customGray-500 text-2xl md:text-[32px] font-normal font-heading py-2 md:py-4">
                 Acceptance of Terms
               </h1>
-              <p className="text-gray-500 text-xl font-normal py-4">
+              <p className="text-gray-500 text-base md:text-xl font-normal py-2 md:py-4">
                 By accessing or using this website, you agree to be bound by
                 these Terms & Conditions. If you do not agree, please refrain
                 from using the site.
@@ -30,11 +30,11 @@ const TermsAndConditions = () => {
             </div>
             {/* -------------- Use of the Website--------------- */}
             <div>
-              <h1 className="text-[#141414] text-[32px] font-normal font-heading py-4">
+              <h1 className="text-customGray-500 text-2xl md:text-[32px] font-normal font-heading py-2 md:py-4">
                 Use of the Website
               </h1>
               <div>
-                <ul className="text-gray-500 text-xl font-normal py-4 pl-6 list-disc list-outside">
+                <ul className="text-gray-500 text-base md:text-xl font-normal py-2 md:py-4 pl-6 list-disc list-outside">
                   <li>
                     This website is intended for individuals seeking information
                     about TripNest and its services.
@@ -49,11 +49,11 @@ const TermsAndConditions = () => {
             </div>
             {/* -------------- Intellectual Property--------------- */}
             <div>
-              <h1 className="text-[#141414] text-[32px] font-normal font-heading py-4">
+              <h1 className="text-customGray-500 text-2xl md:text-[32px] font-normal font-heading py-2 md:py-4">
                 Intellectual Property
               </h1>
               <div>
-                <ul className="text-gray-500 text-xl font-normal py-4 pl-6 list-disc list-outside">
+                <ul className="text-gray-500 text-base md:text-xl font-normal py-2 md:py-4 pl-6 list-disc list-outside">
                   <li>
                     ll content, images, trademarks, and logos displayed on this
                     website are the property of TripNest or its licensors.
@@ -67,11 +67,11 @@ const TermsAndConditions = () => {
             </div>
             {/* --------------Booking Policies--------------- */}
             <div>
-              <h1 className="text-[#141414] text-[32px] font-normal font-heading py-4">
+              <h1 className="text-customGray-500 text-2xl md:text-[32px] font-normal font-heading py-2 md:py-4">
                 Booking Policies
               </h1>
               <div>
-                <ul className="text-gray-500 text-xl font-normal py-4 pl-6 list-disc list-outside">
+                <ul className="text-gray-500 text-base md:text-xl font-normal py-2 md:py-4 pl-6 list-disc list-outside">
                   <li>
                     Reservations made through this website are subject to the
                     hotel’s booking terms and conditions, including cancellation
@@ -88,11 +88,11 @@ const TermsAndConditions = () => {
 
             {/* --------------Payment and Pricing--------------- */}
             <div>
-              <h1 className="text-[#141414] text-[32px] font-normal font-heading py-4">
+              <h1 className="text-customGray-500 text-2xl md:text-[32px] font-normal font-heading py-2 md:py-4">
                 Payment and Pricing
               </h1>
               <div>
-                <ul className="text-gray-500 text-xl font-normal py-4 pl-6 list-disc list-outside">
+                <ul className="text-gray-500 text-base md:text-xl font-normal py-2 md:py-4 pl-6 list-disc list-outside">
                   <li>
                     Prices displayed on the website are subject to change
                     without notice.
@@ -107,11 +107,11 @@ const TermsAndConditions = () => {
 
             {/* --------------Cancellation and Refunds--------------- */}
             <div>
-              <h1 className="text-[#141414] text-[32px] font-normal font-heading py-4">
+              <h1 className="text-customGray-500 text-2xl md:text-[32px] font-normal font-heading py-2 md:py-4">
                 Cancellation and Refunds
               </h1>
               <div>
-                <ul className="text-gray-500 text-xl font-normal py-4 pl-6 list-disc list-outside">
+                <ul className="text-gray-500 text-base md:text-xl font-normal py-2 md:py-4 pl-6 list-disc list-outside">
                   <li>
                     The cancellation policy, including applicable fees and
                     refund timelines, is detailed in the booking confirmation.
@@ -126,11 +126,11 @@ const TermsAndConditions = () => {
 
             {/* --------------User Account--------------- */}
             <div>
-              <h1 className="text-[#141414] text-[32px] font-normal font-heading py-4">
+              <h1 className="text-customGray-500 text-2xl md:text-[32px] font-normal font-heading py-2 md:py-4">
                 User Account
               </h1>
               <div>
-                <ul className="text-gray-500 text-xl font-normal py-4 pl-6 list-disc list-outside">
+                <ul className="text-gray-500 text-base md:text-xl font-normal py-2 md:py-4 pl-6 list-disc list-outside">
                   <li>
                     Users may be required to create an account for booking or
                     accessing exclusive features.
@@ -146,11 +146,11 @@ const TermsAndConditions = () => {
 
             {/* --------------Privacy and Data Protection--------------- */}
             <div>
-              <h1 className="text-[#141414] text-[32px] font-normal font-heading py-4">
+              <h1 className="text-customGray-500 text-2xl md:text-[32px] font-normal font-heading py-2 md:py-4">
                 Privacy and Data Protection
               </h1>
               <div>
-                <ul className="text-gray-500 text-xl font-normal py-4 pl-6 list-disc list-outside">
+                <ul className="text-gray-500 text-base md:text-xl font-normal py-2 md:py-4 pl-6 list-disc list-outside">
                   <li>
                     Personal information collected on this website is governed
                     by our Privacy Policy.
@@ -165,11 +165,11 @@ const TermsAndConditions = () => {
 
             {/* --------------Third-Party Links--------------- */}
             <div>
-              <h1 className="text-[#141414] text-[32px] font-normal font-heading py-4">
+              <h1 className="text-customGray-500 text-2xl md:text-[32px] font-normal font-heading py-2 md:py-4">
                 Third-Party Links
               </h1>
               <div>
-                <ul className="text-gray-500 text-xl font-normal py-4 pl-6 list-disc list-outside">
+                <ul className="text-gray-500 text-base md:text-xl font-normal py-2 md:py-4 pl-6 list-disc list-outside">
                   <li>
                     This website may contain links to third-party websites.
                   </li>
@@ -183,11 +183,11 @@ const TermsAndConditions = () => {
             </div>
             {/* --------------Liability Disclaimer--------------- */}
             <div>
-              <h1 className="text-[#141414] text-[32px] font-normal font-heading py-4">
+              <h1 className="text-customGray-500 text-2xl md:text-[32px] font-normal font-heading py-2 md:py-4">
                 Liability Disclaimer
               </h1>
               <div>
-                <ul className="text-gray-500 text-xl font-normal py-4 pl-6 list-disc list-outside">
+                <ul className="text-gray-500 text-base md:text-xl font-normal py-2 md:py-4 pl-6 list-disc list-outside">
                   <li>
                     TripNest does not guarantee the accuracy or completeness of
                     information on this website.
@@ -202,11 +202,11 @@ const TermsAndConditions = () => {
 
             {/* --------------Modifications to Terms--------------- */}
             <div>
-              <h1 className="text-[#141414] text-[32px] font-normal font-heading py-4">
+              <h1 className="text-customGray-500 text-2xl md:text-[32px] font-normal font-heading py-2 md:py-4">
                 Modifications to Terms
               </h1>
               <div>
-                <ul className="text-gray-500 text-xl font-normal py-4 pl-6 list-disc list-outside">
+                <ul className="text-gray-500 text-base md:text-xl font-normal py-2 md:py-4 pl-6 list-disc list-outside">
                   <li>
                     TripNest reserves the right to modify these terms and
                     conditions at any time without prior notice.
@@ -219,11 +219,11 @@ const TermsAndConditions = () => {
             </div>
             {/* --------------Contact Information--------------- */}
             <div>
-              <h1 className="text-[#141414] text-[32px] font-normal font-heading py-4">
+              <h1 className="text-customGray-500 text-2xl md:text-[32px] font-normal font-heading py-2 md:py-4">
                 Contact Information
               </h1>
               <div>
-                <ul className="text-gray-500 text-xl font-normal py-4 pl-6 list-disc list-outside">
+                <ul className="text-gray-500 text-base md:text-xl font-normal py-2 md:py-4 pl-6 list-disc list-outside">
                   <li>
                     For questions or concerns regarding these terms, please
                     contact us:
