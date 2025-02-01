@@ -4,7 +4,7 @@ import Container from "../../../components/Container";
 
 const EventCard = () => {
   return (
-    <div className=" bg-customSlate-500 mb-[90px] xl:mb-40">
+    <div className=" bg-customSlate-500 mb-0">
       <Container>
         {/* --------------Meeting Event------------ */}
         <div className="py-[50px] md:py-[90px] xl:py-40">
@@ -44,7 +44,7 @@ const EventCard = () => {
           </div>
         </div>
         {/* -------------Weeding Event------------ */}
-        <div className="pb-[50px] md:pb-[90px] xl:py-40 ">
+        <div className="pb-[50px] md:pb-[90px] xl:pb-40 ">
           <div className="flex flex-col-reverse xl:gap-10 xl:relative">
             <div
               className={`xl:absolute z-10 top-14  left-0

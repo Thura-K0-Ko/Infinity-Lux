@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const RoomCard = ({ room }) => {
   return (
-    <div className="relative md:h-[530px]">
+    <div className="relative xl:h-[530px]">
       <div className={`${room.id % 2 === 0 ? "xl:absolute xl:right-0" : "xl:relative"}`}>
         <img className="md:h-[530px] w-auto" src={room.img} alt={room.category} />
       </div>

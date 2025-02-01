@@ -135,43 +135,50 @@ const WeddingCard = () => {
           <h2 className="text-center text-customGray-500 font-heading text-[32px] md:text-[40px] xl:text-5xl font-normal mb-10 xl:mb-[60px]">
             Wedding Gallery
           </h2>
-          <div className="w-full overflow-x-scroll hsb whitespace-nowrap md:grid grid-cols-2 xl:grid-cols-3 gap-5">
-            <div className="inline-block w-full h[408px] md:h-[446.45px] xl:h-[493px]">
+          {/* <div className="w-full overflow-x-scroll hsb whitespace-nowrap md:grid grid-cols-2 xl:grid-cols-3 gap-5"> */}
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+            {/* <div className="inline-block w-full h[408px] md:h-[446.45px] xl:h-[493px]"> */}
+            <div className="">
               <img
                 className=" object-cover"
                 src="/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Gallery_1.png"
                 alt=""
               />
             </div>
-            <div className="inline-block w-full h[408px] md:h-[446.45px] xl:h-[493px] mx-3">
+            {/* <div className="inline-block w-full h[408px] md:h-[446.45px] xl:h-[493px] mx-3"> */}
+            <div className="">
               <img
                 className=" object-cover"
                 src="/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Gallery_2.png"
                 alt=""
               />
             </div>
-            <div className="inline-block w-full h[408px] md:h-[446.45px] xl:h-[493px] mx-3">
+            {/* <div className="inline-block w-full h[408px] md:h-[446.45px] xl:h-[493px] mx-3"> */}
+            <div className="">
               <img
                 className=" object-cover"
                 src="/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Gallery_3.png"
                 alt=""
               />
             </div>
-            <div className="inline-block w-full h[408px] md:h-[446.45px] xl:h-[493px] mx-3">
+            {/* <div className="inline-block w-full h[408px] md:h-[446.45px] xl:h-[493px] mx-3"> */}
+            <div className="">
               <img
                 className=" object-cover"
                 src="/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Gallery_4.png"
                 alt=""
               />
             </div>
-            <div className="inline-block w-full h[408px] md:h-[446.45px] xl:h-[493px] mx-3">
+            {/* <div className="inline-block w-full h[408px] md:h-[446.45px] xl:h-[493px] mx-3"> */}
+            <div className="">
               <img
                 className=" object-cover"
                 src="/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Gallery_5.png"
                 alt=""
               />
             </div>
-            <div className="inline-block w-full h[408px] md:h-[446.45px] xl:h-[493px] mx-3">
+            {/* <div className="inline-block w-full h[408px] md:h-[446.45px] xl:h-[493px] mx-3"> */}
+            <div className="">
               <img
                 className=" object-cover"
                 src="/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Gallery_6.png"

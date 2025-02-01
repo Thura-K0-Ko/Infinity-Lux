@@ -7,7 +7,7 @@ import RelatedArticle from "../components/RelatedArticle";
 
 const BlogDetailPage = () => {
   const id = useParams();
-  console.log(id);
+  // console.log(id);
   return (
     <section>
       <HeroSection

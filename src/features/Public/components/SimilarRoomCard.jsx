@@ -1,12 +1,26 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Link, useParams } from "react-router-dom";
 import useRoomStore from "../stores/useRoomStore";
 
 const SimilarRoomCard = () => {
   const { rooms } = useRoomStore();
   const params = useParams();
-
   const similarRoom = rooms.filter((room) => room.id != params.id).slice(0, 3);
+     const carouselRef = useRef();
+     const nextSlide = () => {
+        if (carouselRef.current) {
+           const container = carouselRef.current;
+           const scrollAmount = container.clientWidth + 16; // Includes gap between slides
+           container.scrollBy({ left: scrollAmount, behavior: "smooth" });
+        }
+     };
+     const prevSlide = () => {
+        if (carouselRef.current) {
+           const container = carouselRef.current;
+           const scrollAmount = container.clientWidth + 16; // Includes gap between slides
+           container.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+        }
+     };
 
   return (
     <div className="my-[60px]">
@@ -16,12 +30,11 @@ const SimilarRoomCard = () => {
       <h3 className="text-customGray-500 text-center text-[32px] md:text-5xl font-normal font-heading mb-[40px] md:mb-[60px]">
         Similar Rooms
       </h3>
-      <div className="overflow-x-scroll hsb whitespace-nowrap">
+      <div ref={carouselRef} className="overflow-x-scroll hsb whitespace-nowrap">
       <div className="">
         {similarRoom.map((room, index) => (
-          <div className="inline-block w-full md:w-1/2 xl:w-1/3 h-[512px] p-5">
+          <div key={index} className="inline-block w-full md:w-1/2 xl:w-1/3 h-[512px] p-5">
           <div
-            key={index}
             style={{ backgroundImage: `url('${room.img}')` }}
             className="h-full bg-center bg-no-repeat"
           >
@@ -43,6 +56,11 @@ const SimilarRoomCard = () => {
           </div>
         ))}
       </div>
+      </div>
+      <div className=" flex xl:hidden items-center justify-center gap-2 md:gap-3 mt-4 md:mt-12  ">
+        <button onClick={prevSlide} className=" cursor-pointer bg-customPurple-500 p-1 md:p-1.5 rounded-full transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "></button>
+        <button className="bg-white p-1 md:p-1.5 rounded-full transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "></button>
+        <button onClick={nextSlide} className=" cursor-pointer bg-customPurple-500 p-1 md:p-1.5 rounded-full transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 "></button>
       </div>
     </div>
   );

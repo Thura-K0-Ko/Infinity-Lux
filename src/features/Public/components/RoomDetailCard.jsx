@@ -55,14 +55,14 @@ const RoomDetailCard = () => {
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-x-5 gap-y-6">
           {features.map((ele, index) => (
-            <div key={index} className="flex items-center gap-x-5 gap-y-6 border p-4 md:p-5">
+            <div key={index} className="flex items-center gap-x-3 gap-y-6 border p-4 md:p-5">
               <img src={ele.svg} className="size-[26px] md:size-8" />
               <span className="text-customGray-500 text-center text-base md:text-xl font-light tracking-[0.08px] md:tracking-[0.1px]">
                 {ele.content}
               </span>
             </div>
           ))}
-          <div className="flex items-center gap-x-5 gap-y-6 border p-4 md:p-5">
+          <div className="flex items-center gap-x-3 gap-y-6 border p-4 md:p-5">
             <img src="/assets/Hotel Profile website/axis-3d-detail.svg" className="size-[26px] md:size-8" />
             <span className="text-customGray-500 text-center text-base md:text-xl font-light tracking-[0.08px] md:tracking-[0.1px]">
               {roomDetail.services.area}
