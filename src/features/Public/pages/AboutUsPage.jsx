@@ -9,7 +9,7 @@ const AboutUsPage = () => {
     <section>
       <HeroSection
         heroImg={
-          "/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_3 (2).png"
+          "/assets/Infinity Lux image Assets/8. About Us ( Infinity Lux )/About_Us_Hero_Image.png"
         }
         // titles={["About Us"]}
       />

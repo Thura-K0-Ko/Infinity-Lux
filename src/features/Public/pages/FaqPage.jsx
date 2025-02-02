@@ -12,7 +12,7 @@ const FaqPage = () => {
         heroImg={
           "/assets/Infinity Lux image Assets/hero_home_faq.jpg"
         }
-        titles={["Faqs"]}
+        // titles={["Faqs"]}
       />
       <Container>
         <div className="py-[50px] md:py-[90px] xl:py-40">

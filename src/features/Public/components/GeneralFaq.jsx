@@ -7,7 +7,7 @@ const GeneralFaq = () => {
   
       <div className="flex flex-col gap-9">
           {/* -----------------------GeneralFaq---------------------------- */}
-        <h1 className=" text-customGray-500 text-2xl md:text-4xl font-normal font-heading">
+        <h1 className=" text-customGray-500 text-xl md:text-4xl font-normal font-heading">
           General Faq
         </h1>
         <div className="">

@@ -9,7 +9,7 @@ const ContactUsPage = () => {
     <section>
       <HeroSection
         heroImg={
-          "/assets/Infinity Lux image Assets/9. Contact Us ( Infinity Lux )/Contact_Us_Hero_image.png"
+          "/assets/Infinity Lux image Assets/9. Contact Us ( Infinity Lux )/Contact_Us_Hero_image_1.png"
         }
         // titles={["Contact Us"]}
         // className={
