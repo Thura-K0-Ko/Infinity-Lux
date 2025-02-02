@@ -7,7 +7,7 @@ const ContactUsForm = () => {
         <div className="">
           <label
             htmlFor="name"
-            className={`block mb-2  text-base xl:text-2xl  text-blue-950 dark:text-white`}
+            className={`block mb-2 font-heading text-base xl:text-2xl font-normal tracking-[0.08px] text-blue-950 dark:text-white`}
           >
             Name <span className=" text-customGray-500">*</span>
           </label>
@@ -21,7 +21,7 @@ const ContactUsForm = () => {
         <div className="">
           <label
             htmlFor="email"
-            className={`block mb-2  text-base xl:text-2xl  text-blue-950 dark:text-white`}
+            className={`block mb-2 font-heading text-base xl:text-2xl font-normal tracking-[0.08px] text-blue-950 dark:text-white`}
           >
             Email <span className=" text-customGray-500">*</span>
           </label>
@@ -35,7 +35,7 @@ const ContactUsForm = () => {
         <div className="">
           <label
             htmlFor="phone"
-            className={`block mb-2  text-base xl:text-2xl  text-blue-950 dark:text-white`}
+            className={`block mb-2 font-heading text-base xl:text-2xl font-normal tracking-[0.08px] text-blue-950 dark:text-white`}
           >
             Phone <span className=" text-customGray-500">*</span>
           </label>
@@ -49,7 +49,7 @@ const ContactUsForm = () => {
         <div className="">
           <label
             htmlFor="message"
-            className={`block mb-2  text-base xl:text-2xl  text-blue-950 dark:text-white`}
+            className={`block mb-2 font-heading text-base xl:text-2xl font-normal tracking-[0.08px] text-blue-950 dark:text-white`}
           >
             Message <span className=" text-customGray-500">*</span>
           </label>
@@ -69,10 +69,10 @@ const ContactUsForm = () => {
           I agree to the privacy policy
         </label>
       </div>
-      <div className="flex justify-end mt-12">
+      <div className="flex justify-center md:justify-end mt-12">
         <button
           type="submit"
-          className="  bg-customPurple-500 md:text-base xl:text-2xl font-semibold text-white px-10 py-2.5 xl:px-14 xl:py-5 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 hover:bg-customPurple-800 focus:ring-4 focus:ring-customPurple-300 dark:bg-customPurple-600 dark:hover:bg-customPurple-700 focus:outline-none dark:focus:ring-customPurple-800"
+          className="  bg-customPurple-500 rounded-lg text-base xl:text-2xl font-semibold text-white px-10 py-2.5 xl:px-14 xl:py-5 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 hover:bg-customPurple-800 focus:ring-4 focus:ring-customPurple-300 dark:bg-customPurple-600 dark:hover:bg-customPurple-700 focus:outline-none dark:focus:ring-customPurple-800"
         >
           Submit
         </button>

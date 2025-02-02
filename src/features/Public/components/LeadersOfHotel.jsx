@@ -48,7 +48,7 @@ const LeadersOfHotel = () => {
       const container = carouselRef.current;
       const scrollAmount = container.clientWidth + 16; // Includes gap between slides
       container.scrollBy({ left: scrollAmount, behavior: "smooth" });
-      console.log(carouselRef.current);
+      // console.log(carouselRef.current);
     }
   };
 
