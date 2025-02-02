@@ -11,7 +11,7 @@ const AboutUsPage = () => {
         heroImg={
           "/assets/Infinity Lux image Assets/8. About Us ( Infinity Lux )/About_Us_Hero_Image.png"
         }
-        // titles={["About Us"]}
+        titles={["About Us"]}
       />
       <AboutInfinityLuxAndReservation/>
       <LeadersOfHotel/>

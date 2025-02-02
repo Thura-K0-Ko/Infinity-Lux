@@ -4,7 +4,6 @@ import HeroSection from "../components/HeroSection";
 import BillingForm from "../components/BillingForm";
 import ReservationCard from "../components/ReservationCard";
 import VoucherCard from "../components/VoucherCard";
-import { Link } from "react-router-dom";
 
 const Booking = () => {
   return (
@@ -13,7 +12,7 @@ const Booking = () => {
         heroImg={
           "/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_2 (3).png"
         }
-        // titles={["Booking"]}
+        titles={["Booking"]}
         // breadcrumbs={[
         //   {
         //     currentPageTitle: "Booking",
