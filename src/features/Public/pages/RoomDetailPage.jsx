@@ -12,7 +12,7 @@ const RoomDetailPage = () => {
         heroImg={
           "/assets/Hotel Profile website/Leonardo_Kino_XL_light_purple_hotel_room_3 (1).png"
         }
-        // titles={["Rooms Details"]}
+        titles={["Rooms Details"]}
         // breadcrumbs={[
         //   {
         //     currentPageTitle: "Room Detail",

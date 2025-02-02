@@ -9,7 +9,7 @@ const WeddingPage = () => {
         heroImg={
           "/assets/Infinity Lux image Assets/7. Wedding Event ( Infinity Lux )/Wedding_Event_Hero_Image.png"
         }
-        // titles={["Weddings"]}
+        titles={["Weddings"]}
         // breadcrumbs={[
         //   {
         //     currentPageTitle: "Weddings",
