@@ -14,15 +14,15 @@ const Header = ({ className }) => {
 
   return (
     <header
-      className={`${className} absolute py-3 xl:py-5 top-0 left-0 w-full  z-50`}
+      className={`${className} fixed bg-customPurple-500 py-3 xl:py-4 top-0 left-0 w-full  z-50`}
     >
       <Container>
         <nav className="">
           <div className="flex flex-wrap justify-between items-center max-w-screen">
-            <Link to="/" className=" hover:opacity-80 xl:px-[54px]">
+            <Link to="/" className=" hover:opacity-80">
               <img
                 src="/assets/Hotel Profile website/Lux 2.svg"
-                className=" h-6 md:h-8 xl:h-[69px] "
+                className=" h-6 md:h-8 xl:h-16 "
                 alt="Lux 2 logo"
               />
             </Link>
@@ -30,7 +30,7 @@ const Header = ({ className }) => {
               <>
                 <Link
                   to={"/login"}
-                  className=" hidden lg:inline-block  text-sm lg:text-lg  xl:text-2xl text-white dark:text-white hover:bg-customPurple-500 focus:ring-4 focus:ring-gray-300 font-medium  px-4 lg:px-6 xl:px-10 py-2 lg:py-3 xl:py-5  bg-customPurple-500 dark:hover:bg-customPurple-500 focus:outline-none dark:focus:ring-gray-800"
+                  className=" hidden lg:inline-block  text-sm lg:text-lg  xl:text-2xl text-white dark:text-white hover:bg-customPurple-500 focus:ring-4 focus:ring-gray-300 font-medium  px-4 lg:px-6 py-2 lg:py-3  bg-customPurple-400 dark:hover:bg-customPurple-500 focus:outline-none dark:focus:ring-gray-800"
                 >
                   RESERVATION
                 </Link>
